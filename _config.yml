@@ -10,3 +10,4 @@ github_username:  mgba-emu
 # Build settings
 markdown: kramdown
 permalink: pretty
+excerpt_separator: "<!--more-->"
