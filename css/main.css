@@ -304,6 +304,14 @@ a:visited { color: #6d58a2; }
   margin-left: 0 !important; /* grumble */
 }
 
+.hero {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
 #donate {
   font-size: 13px;
   margin-top: 18px;
