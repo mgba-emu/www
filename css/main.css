@@ -92,7 +92,7 @@ a:visited { color: #6d58a2; }
 /* Site footer */
 
 #site-footer {
-  padding: 20px 0 0 0;
+  padding: 10px 0;
   background-color: #222;
   color: white;
   min-height: 60px;
@@ -103,6 +103,7 @@ a:visited { color: #6d58a2; }
 #site-footer ul { list-style: none; }
 
 #site-footer p {
+  margin: 10px;
   letter-spacing: -.3px;
   color: #828282;
   font-size: 12px;
@@ -117,8 +118,7 @@ a:visited { color: #6d58a2; }
   text-align: center;
 }
 
-.github-icon-svg,
-.twitter-icon-svg {
+.icon-svg {
   display: inline-block;
   width: 16px;
   height: 16px;
