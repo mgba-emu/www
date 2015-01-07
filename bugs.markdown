@@ -2,6 +2,7 @@
 layout: page
 title: Bug Tracker
 permalink: /bugs.html
+nav: yes
 ---
 Bugs are tracked by a [Bugzilla instance](https://endrift.com/mgba/bugs/). To use this bug tracker, an account is required.
 

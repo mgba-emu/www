@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about.html
+nav: yes
 ---
 mGBA is a new Game Boy Advance emulator written in C.
 

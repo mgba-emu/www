@@ -2,6 +2,7 @@
 layout: page
 title: Downloads
 permalink: /downloads.html
+nav: yes
 ---
 
 Current downloads (0.1.0)
