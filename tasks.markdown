@@ -6,21 +6,21 @@ permalink: tasks.html
 Code changes
 ------------
 
-1. Finish fixing up GDB stub ({% bug 149 %})
-    1. Give error when a connection can't listen
-	1. Make sure hanging up a connection doesn't kill the port
-1. Merge idle loop detector and use a switch for it (unfiled)
-1. Game override configuration ({% bug 165 %})
-1. Refactor config system to not need encapsulation violations (unfiled)
-1. Rename GPIO and sensors to gba-hardware (unfiled)
-1. Fix debugger overflow (unfiled)
+1. Refactor core and supervisor into separate folders (unfiled)
+1. Pandora port (unfiled)
 1. Make libretro core ({% bug 86 %})
+1. Make OpenEmu core (unfiled)
+1. Fix debugger overflow (unfiled)
+1. Modularize RR to support reading alternative formats (unfiled)
+1. Make overrides in Qt view clearable (unfiled)
 1. Make Qt audio driver selectable at runtime (unfiled)
+1. Make IO register identifiers be addresses, not values (unfiled)
 1. Implement SIO ({% bug 1 %})
     1. Implement lockstep driver
-	1. Implement mesh driver
+    1. Implement mesh driver
     1. Implement JOY bus ({% bug 73 %})
-1. Refactor core and supervisor into separate folders (unfiled)
+    1. Implement serial driver for Teensy bus
+1. Add Lua support ({% bug 62 %})
 
 Articles
 --------
