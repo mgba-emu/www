@@ -10,6 +10,9 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
 		<article class="post-content">{{ post.excerpt}}</article>
+		{% if post.content contains '<!--more-->' %}
+        <a class="readmore" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+		{% endif %}
       </li>
     {% endfor %}
   </ul>
