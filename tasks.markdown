@@ -6,21 +6,19 @@ permalink: tasks.html
 Code changes
 ------------
 
-1. Refactor core and supervisor into separate folders (unfiled)
-1. Pandora port (unfiled)
+1. Add cheat code support ({% bug 58 %})
+1. Make Qt audio driver selectable at runtime (unfiled)
+1. Implement SIO ({% bug 1 %})
+    1. Implement lockstep driver
+    1. Implement JOY bus ({% bug 73 %})
+    1. Implement mesh driver
+    1. Implement serial driver for Teensy bus
 1. Make libretro core ({% bug 86 %})
 1. Make OpenEmu core (unfiled)
+1. Pandora port (unfiled)
 1. Fix debugger overflow (unfiled)
 1. Modularize RR to support reading alternative formats (unfiled)
 1. Make overrides in Qt view clearable (unfiled)
-1. Make Qt audio driver selectable at runtime (unfiled)
-1. Make IO register identifiers be addresses, not values (unfiled)
-1. Implement SIO ({% bug 1 %})
-    1. Implement lockstep driver
-    1. Implement mesh driver
-    1. Implement JOY bus ({% bug 73 %})
-    1. Implement serial driver for Teensy bus
-1. Add Lua support ({% bug 62 %})
 
 Articles
 --------
