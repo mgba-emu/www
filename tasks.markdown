@@ -6,29 +6,21 @@ permalink: tasks.html
 Code changes
 ------------
 
-1. Add BizHawk integration API (unfiled) - *ETA Unknown - external factors*
-1. Make OpenEmu core (unfiled) - *ETA March 14*
-1. Controller profiles (unfiled) - *ETA March 16*
-1. Pandora port (unfiled) - *ETA March 16*
-1. Implement SIO part 2 ({% bug 1 %}) - *ETA March 21*
-    1. Finish lockstep driver
+1. Allow configuring arbitrary attached gamepads ({% bug 204 %}) - *ETA March 21*
+1. Add opposing D-Pad direction lockout (unfiled) - *ETA March 21*
+1. Warn if unimplemented BIOS function is hit ({% bug 177 %}) - *ETA March 22*
+1. Feedback for gamepad hats ({% bug 144 %}) - *ETA March 22*
+1. Make OpenEmu core (unfiled) - *ETA March 26*
+1. Pro Action Replay v3 - *ETA March 28*
+1. Allow multiple-choice menu items to be mapped to gamepad (unfiled) &dagger;
+1. Audio channel reset flags are not implemented ({% bug 142 %}) &dagger;
+1. Savestates do not store if CPU is halted ({% bug 119 %}) &dagger;
+1. Finish PowerPC support ({% bug 32 %}) &dagger;
+1. Video resampling adds faded border ({% bug 158 %}) &dagger;
+1. Implement SIO part 2 ({% bug 1 %})
     1. Finish JOY bus ({% bug 73 %}) *ETA Unknown - external factors* &dagger;
     1. Implement frame transfer SIO driver (unfiled) &dagger;
-1. Cleanup - *ETA March 30*
-    1. Savestates should take EEPROM and Flash state machines into account ({% bug 109 %}) &dagger;
-    1. Savestates do not store if CPU is halted ({% bug 119 %})
-    1. Audio channel reset flags are not implemented ({% bug 142 %}) &dagger;
-    1. Feedback for gamepad hats ({% bug 144 %})
-    1. [SDL] Option to maintain aspect ratio ({% bug 148 %})
-    1. Video resampling adds faded border ({% bug 158 %}) &dagger;
-    1. Support libswresample ({% bug 123 %}) &dagger;
-    1. Make overrides in Qt view clearable (unfiled)
-    1. Sync light sensor slider with current value (unfiled)
-    1. Windows RC file for version metadata (unfiled)
-    1. Fix debugger overflow (unfiled) &dagger;
-    1. Pro Action Replay v3 &dagger;
-    1. Finish PowerPC support ({% bug 32 %}) &dagger;
-    1. Warn if unimplemented BIOS function is hit ({% bug 177 %})
+1. Add BizHawk integration API (unfiled) - *ETA Unknown - external factors* &dagger;
 1. **Release 0.2.0** - *ETA April 3*
 1. Implement SIO part 3
     1. Implement mesh driver
@@ -71,6 +63,9 @@ Code changes
 1. Video streaming ({% bug 104 %})
 1. Hardware renderer ({% bug 137 %})
 1. Dynamic recompiler (unfiled)
+1. Deferred cleanup
+    1. Support libswresample ({% bug 123 %})
+    1. Fix debugger overflow (unfiled)
 
 **&dagger;**: At risk of being delayed until next release.
 
