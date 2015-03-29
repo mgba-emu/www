@@ -6,33 +6,30 @@ permalink: tasks.html
 Code changes
 ------------
 
-1. Allow configuring arbitrary attached gamepads ({% bug 204 %}) - *ETA March 21*
-1. Add opposing D-Pad direction lockout (unfiled) - *ETA March 21*
-1. Warn if unimplemented BIOS function is hit ({% bug 177 %}) - *ETA March 22*
-1. Feedback for gamepad hats ({% bug 144 %}) - *ETA March 22*
-1. Make OpenEmu core (unfiled) - *ETA March 26*
-1. Pro Action Replay v3 - *ETA March 28*
+1. Feedback for gamepad hats ({% bug 144 %}) - *ETA March 31*
+1. Make OpenEmu core (unfiled) &dagger;
 1. Allow multiple-choice menu items to be mapped to gamepad (unfiled) &dagger;
-1. Audio channel reset flags are not implemented ({% bug 142 %}) &dagger;
 1. Savestates do not store if CPU is halted ({% bug 119 %}) &dagger;
-1. Finish PowerPC support ({% bug 32 %}) &dagger;
 1. Video resampling adds faded border ({% bug 158 %}) &dagger;
 1. Implement SIO part 2 ({% bug 1 %})
     1. Finish JOY bus ({% bug 73 %}) *ETA Unknown - external factors* &dagger;
-    1. Implement frame transfer SIO driver (unfiled) &dagger;
 1. Add BizHawk integration API (unfiled) - *ETA Unknown - external factors* &dagger;
 1. **Release 0.2.0** - *ETA April 3*
-1. Implement SIO part 3
-    1. Implement mesh driver
-    1. Implement Game Boy Player features ({% bug 60 %})
-    1. Get Multi Boot working in lockstep driver
-    1. Implement serial driver for Teensy bus
 1. Cheat code support part 3 ({% bug 58 %})
     1. Split out cheat device files?
     1. Auto-loading cheats
     1. Rearranging
 1. Import/Export of GameShark and Action Replay save files ({% bug 170 %})
+1. "Turbo" button repeat ({% bug 172 %})
+1. Customize shortcuts per controller profile ({% bug 202 %})
+1. Figure out how to implement Stop ({% bug 199 %})
 1. Master volume control ({% bug 200 %})
+1. Implement SIO part 3
+    1. Implement frame transfer SIO driver (unfiled)
+    1. Implement mesh driver
+    1. Implement Game Boy Player features ({% bug 60 %})
+    1. Get Multi Boot working in lockstep driver
+    1. Implement serial driver for Teensy bus
 1. Debug suite ({% bug 132 %})
     1. Ability to toggle visible layers ({% bug 187 %})
     1. Ability to toggle playing channels ({% bug 188 %})
@@ -48,7 +45,15 @@ Code changes
     1. Timing tests
     1. Video tests
     1. Audio tests
+1. Use results of video tests to fix outstanding graphical issues ({% bug 5 %} {% bug 9 %})
 1. Implement game pak prefetch ({% bug 195 %})
+1. Deferred cleanup
+    1. Support libswresample ({% bug 123 %})
+    1. Fix debugger overflow (unfiled)
+    1. Audio channel reset flags are not implemented ({% bug 142 %})
+    1. Finish PowerPC support ({% bug 32 %})
+    1. Finish implementing RegisterRamReset ({% bug 141 %})
+1. **Potential 0.3.0 cutoff**
 1. Plugin system ({% bug 111 %})
 1. Programmable HUD (unfiled)
 1. Lua bindings ({% bug 62 %})
@@ -61,11 +66,14 @@ Code changes
     1. Hook up GPIO devices to RR subsystem ({% bug 164 %})
     1. Ability to prune dead branches in movies ({% bug 108 %})
 1. Video streaming ({% bug 104 %})
+1. Video filter support ({% bug 192 %})
 1. Hardware renderer ({% bug 137 %})
-1. Dynamic recompiler (unfiled)
-1. Deferred cleanup
-    1. Support libswresample ({% bug 123 %})
-    1. Fix debugger overflow (unfiled)
+1. Dynamic recompiler for ARM (unfiled)
+1. NSIS installer for Windows ({% bug 138 %})
+1. **Definite 0.3.0 cutoff**
+1. Library view ({% bug 186 %})
+1. Support i18n ({% bug 63 %})
+1. e-Reader support ({% bug 171 %})
 
 **&dagger;**: At risk of being delayed until next release.
 
