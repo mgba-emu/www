@@ -17,7 +17,7 @@ Development downloads
 
 Nightly builds are available for Windows, OS X, and Ubuntu. The nightlies are updated every day at midnight UTC, and contain a CHANGES file that lists all of the visible changes since the previous release.
 
-* [Windows](https://endrift.com/mgba/nightlies/mGBA-nightly-latest-win32.tar.gz)
+* [Windows](https://endrift.com/mgba/nightlies/mGBA-nightly-latest-win32.7z)
 * [OS X](https://endrift.com/mgba/nightlies/mGBA-nightly-latest-osx.tar.gz)
 * [Ubuntu (64-bit, 14.04)](https://endrift.com/mgba/nightlies/mGBA-nightly-latest-ubuntu.tar.gz)
 
