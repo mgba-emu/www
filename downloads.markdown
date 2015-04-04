@@ -5,12 +5,13 @@ permalink: /downloads.html
 nav: yes
 ---
 
-Current downloads (0.1.1)
+Current downloads (0.2.0)
 -------------------------
 
-* [Windows](https://endrift.com/files/mgba/mGBA-0.1.1-win32.7z)
-* [OS X](https://endrift.com/files/mgba/mGBA-0.1.1-osx.zip)
-* [Source](https://github.com/mgba-emu/mgba/archive/0.1.1.tar.gz)
+* [Windows](https://endrift.com/files/mgba/mGBA-0.2.0-win32.7z)
+* [OS X](https://endrift.com/files/mgba/mGBA-0.2.0-osx.zip)
+* [Ubuntu (64-bit, 14.04)](https://endrift.com/files/mgba/mGBA-0.2.0-ubuntu64-trusty.tar.gz)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.2.0.tar.gz)
 
 Development downloads
 ---------------------
