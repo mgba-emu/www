@@ -344,6 +344,22 @@ a:visited { color: #6d58a2; }
   padding: 0 4px 0 6px;
 }
 
+table.downloads {
+  display: block;
+  width: 100%;
+  border-spacing: 0;
+}
+
+table.downloads .download-name {
+  font-weight: bolder;
+  padding-right: 16px;
+}
+
+table.downloads td {
+  padding: 3px 10px;
+  border-bottom: 1px solid #bbb9c5;
+}
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 

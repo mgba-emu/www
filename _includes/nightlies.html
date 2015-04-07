@@ -1,0 +1,18 @@
+<table class="downloads">
+    <tbody>
+    {% for nightly in site.data.nightlies %}
+        <tr>
+            <td class="download-name">
+            {{ nightly.nightly }}
+            </td>
+            {% for platform in site.data.platforms %}
+            <td class="download-platform">
+            {% if nightly.platforms[platform.name] %}
+            <a href="https://s3.amazonaws.com/mgba/{{ nightly.platforms[platform.name].name }}">{{ platform.readable }}</a> ({{ nightly.platforms[platform.name].size | divided_by: 100000 | divided_by: 10.0 }} MB)
+            {% endif %}
+            </td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

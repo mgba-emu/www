@@ -1,0 +1,6 @@
+- name: win32
+  readable: "Windows"
+- name: ubuntu64-trusty
+  readable: "Ubuntu (14.04, 64-bit)"
+- name: osx
+  readable: "OS X"
