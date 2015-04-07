@@ -27,14 +27,11 @@ Code changes
     1. Get Multi Boot working in lockstep driver
     1. Implement serial driver for Teensy bus
 1. Debug suite ({% bug 132 %})
-    1. Ability to toggle visible layers ({% bug 187 %})
-    1. Ability to toggle playing channels ({% bug 188 %})
     1. Software callbacks (unfiled)
-    1. Palette viewer
+    1. Memory viewer
     1. Tile viewer
     1. BG viewer
     1. OBJ viewer
-    1. Memory viewer
     1. I/O viewer
     1. Instruction-level debugger
 1. Test suite ({% bug 182 %})
