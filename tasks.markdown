@@ -6,9 +6,7 @@ permalink: tasks.html
 Code changes
 ------------
 
-1. Add BizHawk integration API (unfiled) - *ETA Unknown - external factors* &dagger;
 1. Cheat code support part 3 ({% bug 58 %})
-    1. Split out cheat device files?
     1. Auto-loading cheats
     1. Rearranging
 1. Import/Export of GameShark and Action Replay save files ({% bug 170 %})
@@ -17,10 +15,9 @@ Code changes
 1. Customize shortcuts per controller profile ({% bug 202 %})
 1. Allow multiple-choice menu items to be mapped to gamepad (unfiled)
 1. Figure out how to implement Stop ({% bug 199 %})
-1. Master volume control ({% bug 200 %})
 1. Make OpenEmu core (unfiled)
 1. Implement SIO part 3
-    1. Finish JOY bus ({% bug 73 %}) *ETA Unknown - external factors* &dagger;
+    1. Finish JOY bus ({% bug 73 %}) *ETA Unknown - external factors*
     1. Implement frame transfer SIO driver (unfiled)
     1. Implement mesh driver
     1. Implement Game Boy Player features ({% bug 60 %})
@@ -48,6 +45,7 @@ Code changes
     1. Finish PowerPC support ({% bug 32 %})
     1. Finish implementing RegisterRamReset ({% bug 141 %})
     1. Savestates do not store if CPU is halted ({% bug 119 %})
+1. Add BizHawk integration API (unfiled) - *ETA Unknown - external factors*
 1. **Potential 0.3.0 cutoff**
 1. Plugin system ({% bug 111 %})
 1. Programmable HUD (unfiled)
@@ -67,12 +65,9 @@ Code changes
 1. NSIS installer for Windows ({% bug 138 %})
 1. **Definite 0.3.0 cutoff**
 1. Library view ({% bug 186 %})
-1. Allow multiple-choice menu items to be mapped to gamepad (unfiled) &dagger;
 1. Dynamic recompiler for MIPS (unfiled)
 1. Support i18n ({% bug 63 %})
 1. e-Reader support ({% bug 171 %})
-
-**&dagger;**: At risk of being delayed until next release.
 
 Articles
 --------
