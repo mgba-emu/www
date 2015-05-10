@@ -21,6 +21,7 @@ Nightly builds are available for Windows, OS X, and Ubuntu. The nightlies are up
 * [Windows](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-win32.7z)
 * [OS X](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-osx.tar.xz)
 * [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-vivid.tar.xz)
 
 Older nightly builds are [also available]({{ site.baseurl }}/nightlies.html).
 
