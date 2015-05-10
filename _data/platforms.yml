@@ -2,5 +2,7 @@
   readable: "Windows"
 - name: ubuntu64-trusty
   readable: "Ubuntu (14.04, 64-bit)"
+- name: ubuntu64-vivid
+  readable: "Ubuntu (15.04, 64-bit)"
 - name: osx
   readable: "OS X"
