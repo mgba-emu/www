@@ -5,13 +5,14 @@ permalink: /downloads.html
 nav: yes
 ---
 
-Current downloads (0.2.0)
+Current downloads (0.2.1)
 -------------------------
 
-* [Windows](https://s3.amazonaws.com/mgba/mGBA-0.2.0-win32.7z)
-* [OS X](https://s3.amazonaws.com/mgba/mGBA-0.2.0-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-0.2.0-ubuntu64-trusty.tar.gz)
-* [Source](https://github.com/mgba-emu/mgba/archive/0.2.0.tar.gz)
+* [Windows](https://s3.amazonaws.com/mgba/mGBA-0.2.1-win32.7z)
+* [OS X](https://s3.amazonaws.com/mgba/mGBA-0.2.1-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-0.2.1-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.04)](https://s3.amazonaws.com/mgba/mGBA-0.2.1-ubuntu64-vivid.tar.xz)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.2.1.tar.gz)
 
 Development downloads
 ---------------------
