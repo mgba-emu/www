@@ -29,3 +29,7 @@ Older nightly builds are [also available]({{ site.baseurl }}/nightlies.html).
 Get the source code by cloning the official git repository:
 
     git clone https://github.com/mgba-emu/mgba.git
+
+You can also visit the [GitHub](https://github.com/mgba-emu/mgba/) page to browse the source online, or to fork the project.
+
+The source code for the third-party libraries against which the nightlies have been built is [available here](http://s3.amazonaws.com/mgba/third-party-sources-2015-05-28-win32.tar.xz) for most of the libraries, and the Qt source is [on the official site](http://download.qt.io/official_releases/qt/5.4/5.4.1/single/qt-everywhere-opensource-src-5.4.1.tar.gz).
