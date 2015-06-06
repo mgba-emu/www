@@ -4,7 +4,7 @@ title: Bug Tracker
 permalink: /bugs.html
 nav: yes
 ---
-Bugs are being tracked on the [GitHub Issues](https://mgba.io/i/) associated with the main repository. There is also an older [Bugzilla instance](https://endrift.com/mgba/bugs/), but filing bugs there is not recommended.
+Bugs are being tracked on the [GitHub Issues](https://github.com/mgba-emu/mgba/issues) associated with the main repository. There is also an older [Bugzilla instance](https://endrift.com/mgba/bugs/), but filing bugs there is not recommended.
 
 Reporting
 ---------
