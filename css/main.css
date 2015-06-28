@@ -311,6 +311,7 @@ a:visited { color: #6d58a2; }
   margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
+  max-width: 90%;
 }
 
 #donate {
