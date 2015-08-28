@@ -356,6 +356,11 @@ table.downloads .download-name {
   padding-right: 16px;
 }
 
+table.downloads .download-size {
+  display: block;
+  font-size: 0.8em;
+}
+
 table.downloads td {
   padding: 3px 10px;
   border-bottom: 1px solid #bbb9c5;

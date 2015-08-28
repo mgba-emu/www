@@ -6,3 +6,7 @@
   readable: "Ubuntu (15.04, 64-bit)"
 - name: osx
   readable: "OS X"
+- name: 3ds
+  readable: "3DS"
+- name: wii
+  readable: "Wii"
