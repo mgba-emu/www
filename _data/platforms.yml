@@ -10,3 +10,5 @@
   readable: "3DS"
 - name: wii
   readable: "Wii"
+- name: vita
+  readable: "PS Vita"

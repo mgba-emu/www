@@ -26,9 +26,9 @@ Nightly builds are available for Windows, OS X, Ubuntu, and as homebrew for the 
 * [Ubuntu (64-bit, 15.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-vivid.tar.xz)
 
 ### Homebrew
-* [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-3ds.tar.xz)
-* [Wii](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-wii.tar.xz)
-* PlayStation Vita (*Coming Soon*)
+* [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-3ds.7z)
+* [Wii](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-wii.7z)
+* [PlayStation Vita](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-vita.7z)
 
 Older nightly builds are [also available]({{ site.baseurl }}/nightlies.html).
 
