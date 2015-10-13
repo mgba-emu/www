@@ -282,6 +282,54 @@ a:visited { color: #6d58a2; }
   padding-left: 0;
 }
 
+.timeline {
+	margin-left: 7em;
+}
+
+.timeline .tl-date {
+	position: relative;
+	left: -9.5em;
+	display: block;
+	width: 8em;
+	height: 0;
+	text-align: right;
+}
+
+.timeline dd {
+	border-left: 1px solid black;
+	padding: 2px 10px 10px 14px;
+}
+
+.timeline dt {
+	border-left: 6px solid black;
+	font-weight: 700;
+	padding: 1px 10px 2px 9px;
+}
+
+.timeline .tl-prehistory {
+	border-left-color: rgba(0, 0, 0, 0.08);
+}
+
+.timeline .tl-old {
+	border-left-color: rgba(0, 0, 0, 0.16);
+}
+
+.timeline .tl-future {
+	border-left-color: rgba(200, 0, 0, 0.5);
+}
+
+.timeline p:not(:first-child) {
+	margin-top: 0.8em;
+}
+
+.timeline dd.tl-prehistory, .timeline dd.tl-old {
+	border-left-style: dashed;
+}
+
+.timeline dd.tl-future {
+	border-left-style: dotted;
+}
+
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
