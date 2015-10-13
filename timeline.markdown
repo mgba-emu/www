@@ -133,7 +133,6 @@ While mGBA has only been out for a relatively short time, it has a long history.
 		<li>Online multiplayer support</li>
 		<li>Library view</li>
 		<li>More debug features</li>
-		<li>Wireless adapter support</li>
 		<li>Basic TASing features</li>
 		<li>Dynamic recompiler for ARM</li>
 	</ul>
