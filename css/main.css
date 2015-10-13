@@ -439,8 +439,25 @@ table.downloads td {
   flex: 1 100%;
   margin-right: 0;
 }
+
 #sub-nav li {
   display: inline-block;
+}
+
+#site-logo {
+  margin: 2px -8px 2px 4px;
+}
+
+}
+
+@media print {
+
+#site-header, #footer-links {
+	display: none;
+}
+
+html, body {
+  background-color: white;
 }
 
 }
