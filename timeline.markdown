@@ -102,14 +102,14 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 	<p>Many bugs are fixed as well, including all of the bugs that were fixed for the never-released 0.2.2.</p>
 </dd>
-<dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA 17 October 2015</aside>
+<dt>
+	<aside class="tl-date">24 October 2015</aside>
 	mGBA 0.3.1
 </dt>
-<dd class="tl-future">
-	<p>Tentative release date of mGBA 0.3.1, which will contain bugfixes.</p>
+<dd>
+	<p>mGBA 0.3.1 is released, containing several important bugfixes.</p>
 </dd>
-<dt class="tl-future">
+<dt id="IN+THE+FUTURE" class="tl-future">
 	<aside class="tl-date">ETA 30 October 2015</aside>
 	mGBA betas for Nintendo 3DS, Wii and PlayStation Vita
 </dt>

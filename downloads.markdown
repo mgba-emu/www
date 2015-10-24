@@ -5,14 +5,15 @@ permalink: /downloads.html
 nav: yes
 ---
 
-Current downloads (0.3.0)
+Current downloads (0.3.1)
 -------------------------
 
-* [Windows](https://s3.amazonaws.com/mgba/mGBA-0.3.0-win32.7z)
-* [OS X](https://s3.amazonaws.com/mgba/mGBA-0.3.0-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-0.3.0-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.04)](https://s3.amazonaws.com/mgba/mGBA-0.3.0-ubuntu64-vivid.tar.xz)
-* [Source](https://github.com/mgba-emu/mgba/archive/0.3.0.tar.gz)
+* [Windows](https://s3.amazonaws.com/mgba/mGBA-0.3.1-win32.7z)
+* [OS X](https://s3.amazonaws.com/mgba/mGBA-0.3.1-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-0.3.1-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.04)](https://s3.amazonaws.com/mgba/mGBA-0.3.1-ubuntu64-vivid.tar.xz)
+* [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/mGBA-0.3.1-ubuntu64-wily.tar.xz)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.3.1.tar.gz)
 
 Development downloads
 ---------------------
@@ -24,6 +25,7 @@ Nightly builds are available for Windows, OS X, Ubuntu, and as homebrew for the 
 * [OS X](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-osx.tar.xz)
 * [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-trusty.tar.xz)
 * [Ubuntu (64-bit, 15.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-vivid.tar.xz)
+* [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-wily.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-3ds.7z)
