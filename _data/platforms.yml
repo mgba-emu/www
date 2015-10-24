@@ -4,6 +4,8 @@
   readable: "Ubuntu (14.04, 64-bit)"
 - name: ubuntu64-vivid
   readable: "Ubuntu (15.04, 64-bit)"
+- name: ubuntu64-wily
+  readable: "Ubuntu (15.10, 64-bit)"
 - name: osx
   readable: "OS X"
 - name: 3ds

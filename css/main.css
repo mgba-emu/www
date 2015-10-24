@@ -393,25 +393,33 @@ a:visited { color: #6d58a2; }
   padding: 0 4px 0 6px;
 }
 
-table.downloads {
+.downloads {
   display: block;
   width: 100%;
   border-spacing: 0;
+  list-style-type: none;
+  margin-left: 0;
 }
 
-table.downloads .download-name {
+.downloads .download-name {
   font-weight: bolder;
   padding-right: 16px;
+  display: block;
 }
 
-table.downloads .download-size {
-  display: block;
+.downloads .download-size {
   font-size: 0.8em;
 }
 
-table.downloads td {
+.downloads > li {
   padding: 3px 10px;
   border-bottom: 1px solid #bbb9c5;
+}
+
+.downloads ul {
+  -webkit-columns: 12em;
+  -moz-columns: 12em;
+  columns: 12em;
 }
 
 /* Syntax highlighting styles */
