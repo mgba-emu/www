@@ -8,11 +8,11 @@ nav: yes
 Current downloads (0.3.1)
 -------------------------
 
-* [Windows](https://s3.amazonaws.com/mgba/mGBA-0.3.1-win32.7z)
-* [OS X](https://s3.amazonaws.com/mgba/mGBA-0.3.1-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-0.3.1-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.04)](https://s3.amazonaws.com/mgba/mGBA-0.3.1-ubuntu64-vivid.tar.xz)
-* [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/mGBA-0.3.1-ubuntu64-wily.tar.xz)
+* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-win32.7z)
+* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.04)](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-ubuntu64-vivid.tar.xz)
+* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-ubuntu64-wily.tar.xz)
 * [Source](https://github.com/mgba-emu/mgba/archive/0.3.1.tar.gz)
 
 Development downloads
