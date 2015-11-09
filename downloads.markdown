@@ -15,6 +15,8 @@ Current downloads (0.3.1)
 * [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-ubuntu64-wily.tar.xz)
 * [Source](https://github.com/mgba-emu/mgba/archive/0.3.1.tar.gz)
 
+Older releases are [also available]({{ site.baseurl }}/old.html).
+
 Development downloads
 ---------------------
 
