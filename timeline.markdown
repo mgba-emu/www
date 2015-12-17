@@ -109,22 +109,15 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.3.1 is released, containing several important bugfixes.</p>
 </dd>
-<dt id="IN+THE+FUTURE" class="tl-future">
-	<aside class="tl-date">ETA 30 October 2015</aside>
-	mGBA betas for Nintendo 3DS, Wii and PlayStation Vita
-</dt>
-<dd class="tl-future">
-	<p>Tentative release date of mGBA betas for homebrew consoles. Final versions will be released along with 0.4.0.</p>
-</dd>
-<dt class="tl-future">
-	<aside class="tl-date">ETA mid-November 2015</aside>
+<dt>
+	<aside class="tl-date">16 December 2015</aside>
 	mGBA 0.3.2
 </dt>
-<dd class="tl-future">
-	<p>Tentative release date of mGBA 0.3.2, which will contain bugfixes.</p>
+<dd>
+	<p>mGBA 0.3.2 is released, containing several important bugfixes.</p>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA 13 December 2015</aside>
+	<aside class="tl-date">ETA January 2016</aside>
 	mGBA 0.4.0
 </dt>
 <dd class="tl-future">
@@ -139,7 +132,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<p>However, due to the heavy focus on ports during this cycle, many features may get delayed to 0.5.0.</p>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA April 2016</aside>
+	<aside class="tl-date">ETA mid-2016</aside>
 	mGBA 0.5.0
 </dt>
 <dd class="tl-future">
@@ -154,14 +147,14 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA mid-2016</aside>
+	<aside class="tl-date">ETA late 2016</aside>
 	mGBA 0.6.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.6.0, which will contain many features, including features delayed from 0.5.0.</p>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA late 2016</aside>
+	<aside class="tl-date">ETA early 2017</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">

@@ -5,15 +5,15 @@ permalink: /downloads.html
 nav: yes
 ---
 
-Current downloads (0.3.1)
+Current downloads (0.3.2)
 -------------------------
 
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-win32.7z)
-* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.04)](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-ubuntu64-vivid.tar.xz)
-* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.3.1/mGBA-0.3.1-ubuntu64-wily.tar.xz)
-* [Source](https://github.com/mgba-emu/mgba/archive/0.3.1.tar.gz)
+* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-win32.7z)
+* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.04)](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-ubuntu64-vivid.tar.xz)
+* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-ubuntu64-wily.tar.xz)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.3.2.tar.gz)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
