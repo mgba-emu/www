@@ -116,20 +116,18 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.3.2 is released, containing several important bugfixes.</p>
 </dd>
-<dt class="tl-future">
-	<aside class="tl-date">ETA January 2016</aside>
+<dt>
+	<aside class="tl-date">2 February 2016</aside>
 	mGBA 0.4.0
 </dt>
-<dd class="tl-future">
-	<p>Tentative release date of mGBA 0.4.0, which will contain many features, potentially including:</p>
+<dd>
+	<p>mGBA 0.4.0 is released, bringing polished support for the Nintendo 3DS, Wii and PlayStation Vita, and also contains many features, including:</p>
 	<ul>
-		<li>Online multiplayer support</li>
-		<li>Library view</li>
-		<li>More debug features</li>
-		<li>Basic TASing features</li>
-		<li>Dynamic recompiler for ARM</li>
+		<li>Customizable paths</li>
+		<li>Shaders and filters</li>
+		<li>Controller hotplugging and key autofire</li>
+		<li>OpenEmu core for OS X users and various improvements to the Libretro core</li>
 	</ul>
-	<p>However, due to the heavy focus on ports during this cycle, many features may get delayed to 0.5.0.</p>
 </dd>
 <dt class="tl-future">
 	<aside class="tl-date">ETA mid-2016</aside>
@@ -138,12 +136,12 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.5.0, which will contain many features, including features delayed from 0.4.0 and potentially including:</p>
 	<ul>
-		<li>Basic e-Reader support</li>
+		<li>Online multiplayer support</li>
+		<li>Library view</li>
 		<li>More debug features</li>
+		<li>Dynamic recompiler for ARM</li>
+		<li>e-Reader support</li>
 		<li>Wireless adapter support</li>
-		<li>Lua scripting</li>
-		<li>Improved TASing features</li>
-		<li>Dynamic recompiler for MIPS</li>
 	</ul>
 </dd>
 <dt class="tl-future">
@@ -151,7 +149,12 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	mGBA 0.6.0
 </dt>
 <dd class="tl-future">
-	<p>Tentative release date of mGBA 0.6.0, which will contain many features, including features delayed from 0.5.0.</p>
+	<p>Tentative release date of mGBA 0.6.0, which will contain many features, including features delayed from 0.5.0 and potentially including:</p>
+	<ul>
+		<li>TASing features</li>
+		<li>Dynamic recompiler for MIPS</li>
+		<li>Lua scripting</li>
+	</ul>
 </dd>
 <dt class="tl-future">
 	<aside class="tl-date">ETA early 2017</aside>

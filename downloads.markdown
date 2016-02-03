@@ -5,22 +5,30 @@ permalink: /downloads.html
 nav: yes
 ---
 
-Current downloads (0.3.2)
+Current downloads (0.4.0)
 -------------------------
 
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-win32.7z)
-* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.04)](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-ubuntu64-vivid.tar.xz)
-* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.3.2/mGBA-0.3.2-ubuntu64-wily.tar.xz)
-* [Source](https://github.com/mgba-emu/mgba/archive/0.3.2.tar.gz)
+### Desktop OS
+* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-win32.7z)
+* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.04)](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-ubuntu64-vivid.tar.xz)
+* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-ubuntu64-wily.tar.xz)
+
+### Homebrew
+* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-3ds.7z)
+* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-wii.7z)
+* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-vita.7z)
+
+### Other
+* [Source](https://github.com/mgba-emu/mgba/archive/0.4.0.tar.gz)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
 Development downloads
 ---------------------
 
-Nightly builds are available for Windows, OS X, Ubuntu, and as homebrew for the Nintendo 3DS and Wii. The nightlies are updated every day at midnight UTC, and contain a CHANGES file that lists all of the visible changes since the previous release.
+Nightly builds are available for Windows, OS X, Ubuntu, and as homebrew for the Nintendo 3DS and Wii. The nightlies are updated every day at 13:00 UTC, and contain a CHANGES file that lists all of the visible changes since the previous release.
 
 ### Desktop OS
 * [Windows](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-win32.7z)
