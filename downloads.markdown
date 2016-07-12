@@ -5,23 +5,23 @@ permalink: /downloads.html
 nav: yes
 ---
 
-Current downloads (0.4.0)
+Current downloads (0.4.1)
 -------------------------
 
 ### Desktop OS
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-win32.7z)
-* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.04)](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-ubuntu64-vivid.tar.xz)
-* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-ubuntu64-wily.tar.xz)
+* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.4.1/mGBA-0.4.1-win32.7z)
+* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.4.1/mGBA-0.4.1-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.4.1/mGBA-0.4.1-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.4.1/mGBA-0.4.1-ubuntu64-wily.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.4.1/mGBA-0.4.1-ubuntu64-xenial.tar.xz)
 
 ### Homebrew
-* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-3ds.7z)
-* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-wii.7z)
-* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.4.0/mGBA-0.4.0-vita.7z)
+* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.4.1/mGBA-0.4.1-3ds.7z)
+* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.4.1/mGBA-0.4.1-wii.7z)
+* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.4.1/mGBA-0.4.1-vita.7z)
 
 ### Other
-* [Source](https://github.com/mgba-emu/mgba/archive/0.4.0.tar.gz)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.4.1.tar.gz)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
@@ -34,8 +34,8 @@ Nightly builds are available for Windows, OS X, Ubuntu, and as homebrew for the 
 * [Windows](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-win32.7z)
 * [OS X](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-osx.tar.xz)
 * [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-vivid.tar.xz)
 * [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-wily.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-xenial.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-3ds.7z)
