@@ -4,11 +4,13 @@ module Jekyll
             super
             image, @alt = text.split(/ /, 2)
 			@image = image.gsub(/\.\.\//, '')
+			@type = tag_name.gsub(/_/, '-')
         end
 
         def render(context)
             baseurl = context.registers[:site].config['baseurl']
-            "<img class=\"hero\" src=\"#{baseurl}/resources/post-assets/#{@image}\" alt=\"#{@alt}\">"
+			classid = @type
+            "<img class=\"#{classid}\" src=\"#{baseurl}/resources/post-assets/#{@image}\" alt=\"#{@alt}\">"
         end
     end
 
@@ -26,4 +28,5 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('hero', Jekyll::HeroTag)
+Liquid::Template.register_tag('hero_big', Jekyll::HeroTag)
 Liquid::Template.register_tag('bug', Jekyll::BugTag)
