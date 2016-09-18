@@ -2,8 +2,8 @@
 layout: default
 ---
 
+<h1 class="site-title">mGBA</h1>
 <div class="home">
-  <img id="front-logo" src="{{ site.baseurl }}/resources/mgba-512-cropped.png" height="192" width="256">
   <ul class="posts">
     {% for post in site.posts %}
       <li>
@@ -18,19 +18,4 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-  <section id="donate">
-    <p>Please consider donating to help fund the future of this project.<p>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHJwYJKoZIhvcNAQcEoIIHGDCCBxQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYAey24lvTSQFGzaGoTV11UMYyNtlJxjBLevVuWKUUxcu2GAxPXPi/aOSJXnG+L8Mp3dV129GX7Z1oGKhNgy+wckWiDDrcmEqC1SQ+O01dguQp1jx7CyktlwUAAZV8KuqKZjTEFftma0qNAEXeuYjZItdLa/yZQA3aFpdNbWV8BEezELMAkGBSsOAwIaBQAwgaQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQI9ia9RBQSTe2AgYDsdwM+eHSzm556gbFhMXqf3xPDypCOAGDkPB9OE/Rq0NyZ5ikKu4mRs4XqdAtnjgpPwvsQTvNPShUpqZAIZzMKD7SD2voHXNba0m6kxxAdVS3pdjNxj/YlhZEgmHQGK01r8PhTonI85zYrWV/qWJPRGn89KhZlHGk/K85DUZhe+aCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE0MTIwOTIxMjMzMlowIwYJKoZIhvcNAQkEMRYEFEnNFVMSL+knOPGM9oHALY1WmVULMA0GCSqGSIb3DQEBAQUABIGAKlaFjCnNR3ThX/1qwO3IoiXt49w8cbXojONkpXuKhi5x+q6Hzrp7hkmmD2vLVsC65YgTpL5fx+JHp3pxdAj4EuFh1PjIY+9vOW61H6UHuMXV2LARWDyeFjoqp7KpBQXgzEIEit9puv4B0gKweoKYlZufUKJT3sZcMceXBENTrpA=-----END PKCS7-----
-	">
-      <p class="donate-links">
-	    Bitcoin: <a href="bitcoin:1DsVAASGdTURWnprWkWhwMfBbAePQviC1b?label=mGBA">1DsVAASGdTURWnprWkWhwMfBbAePQviC1b</a> &bullet; PayPal:
-        <input id="donate-paypal" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-	  </p>
-    </form>
-    <p>Please also consider <a href="http://problemkaputt.de/donate.htm">donating to Martin Korth</a>, without whom this project would not have been possible.<p>
-  </section>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bug Tracker
+title: Bugs
 permalink: /bugs.html
 nav: yes
 ---

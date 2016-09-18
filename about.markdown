@@ -4,9 +4,7 @@ title: About
 permalink: /about.html
 nav: yes
 ---
-mGBA is a new Game Boy Advance emulator written in C.
-
-The project started in April 2013 with the goal of being fast enough to run on lower end hardware than other emulators support, without sacrificing accuracy or portability. Even in the initial version, games generally play without problems. It is loosely based on the previous [GBA.js](https://endrift.github.io/gbajs/) emulator, although very little of GBA.js can still be seen in mGBA.
+mGBA is a new generation of Game Boy Advance emulator. The project started in April 2013 with the goal of being fast enough to run on lower end hardware than other emulators support, without sacrificing accuracy or portability. Even in the initial version, games generally played without problems. mGBA has only gotten better since then, and now boasts being the most accurate GBA emulator around.
 
 Other goals include accurate enough emulation to provide a development environment for homebrew software, a good workflow for tool-assist runners, and a modern feature set for emulators that older emulators may not support.
 
