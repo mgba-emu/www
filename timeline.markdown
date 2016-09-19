@@ -136,19 +136,20 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.4.1 is released, containing several important bugfixes.</p>
 </dd>
-<dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA September 2016</aside>
+<dt>
+	<aside class="tl-date">19 September 2016</aside>
 	mGBA 0.5.0
 </dt>
-<dd class="tl-future">
-	<p>Tentative release date of mGBA 0.5.0, which will contain many features, including:</p>
+<dd>
+	<p>mGBA 0.5.0 is released, with Game Boy and Game Boy Color support, and other features, including:</p>
 	<ul>
-		<li>Game Boy/Game Boy Color support</li>
 		<li>Vastly improved homebrew ports, particularly for the PlayStation Vita</li>
+		<li>Emulation of Vast Fame protected GBA cartridges</li>
 		<li>Improved cheat code support</li>
+		<li>Loading a temporary savegame</li>
 	</ul>
 </dd>
-<dt class="tl-future">
+<dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA early 2017</aside>
 	mGBA 0.6.0
 </dt>
