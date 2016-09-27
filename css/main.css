@@ -213,6 +213,13 @@ a:visited { color: #6d58a2; }
   color: #818181;
 }
 
+.pagination {
+  text-align: center;
+}
+
+.pagination span, .pagination a {
+  margin: 0 20px;
+}
 
 /* Post styles */
 /* ----------------------------------------------------------*/
