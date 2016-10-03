@@ -25,8 +25,8 @@ Current downloads (0.5.0)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
-Development downloads
----------------------
+Development downloads ("nightlies")
+-----------------------------------
 
 Nightly builds are available for Windows, OS X, Ubuntu, and as homebrew for the Nintendo 3DS and Wii. The nightlies are updated every day at 13:00 UTC, and contain a CHANGES file that lists all of the visible changes since the previous release.
 
