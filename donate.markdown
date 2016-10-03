@@ -12,6 +12,12 @@ Please keep in mind that none of these are required for keeping mGBA free and op
 
 mGBA hosts a [Patreon page](https://www.patreon.com/mgba) that you can use to pledge a monthly donation. Any amount is welcome, even as low as $1 per month.
 
+We would like to thank following patrons from Patreon:
+
+{% for patron in site.data.patrons %}
+ - {{ patron }}
+{% endfor %}
+
 ## More hardware
 
 There are several games and accessories for the GBA that are either not emulated properly or would be emulated better with additional research. More information is available [on the forums](https://forums.mgba.io/showthread.php?tid=466).
