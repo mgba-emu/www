@@ -5,23 +5,23 @@ permalink: /downloads.html
 nav: yes
 ---
 
-Current downloads (0.5.1)
+Current downloads (0.5.2)
 -------------------------
 
 ### Desktop OS
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.5.1/mGBA-0.5.1-win32.7z)
-* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.5.1/mGBA-0.5.1-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.5.1/mGBA-0.5.1-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.5.1/mGBA-0.5.1-ubuntu64-wily.tar.xz)
-* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.5.1/mGBA-0.5.1-ubuntu64-xenial.tar.xz)
+* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.5.2/mGBA-0.5.2-win32.7z)
+* [OS X](https://github.com/mgba-emu/mgba/releases/download/0.5.2/mGBA-0.5.2-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.5.2/mGBA-0.5.2-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.10)](https://github.com/mgba-emu/mgba/releases/download/0.5.2/mGBA-0.5.2-ubuntu64-wily.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.5.2/mGBA-0.5.2-ubuntu64-xenial.tar.xz)
 
 ### Homebrew
-* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.5.1/mGBA-0.5.1-3ds.7z)
-* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.5.1/mGBA-0.5.1-wii.7z)
-* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.5.1/mGBA-0.5.1-vita.7z)
+* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.5.2/mGBA-0.5.2-3ds.7z)
+* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.5.2/mGBA-0.5.2-wii.7z)
+* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.5.2/mGBA-0.5.2-vita.7z)
 
 ### Other
-* [Source](https://github.com/mgba-emu/mgba/archive/0.5.1.tar.gz)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.5.2.tar.gz)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 

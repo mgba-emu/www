@@ -149,6 +149,20 @@ While mGBA has only been out for a relatively short time, it has a long history.
 		<li>Loading a temporary savegame</li>
 	</ul>
 </dd>
+<dt>
+	<aside class="tl-date">5 October 2016</aside>
+	mGBA 0.5.1
+</dt>
+<dd>
+	<p>mGBA 0.5.1 is released, containing several important bugfixes.</p>
+</dd>
+<dt>
+	<aside class="tl-date">31 December 2016</aside>
+	mGBA 0.5.2
+</dt>
+<dd>
+	<p>mGBA 0.5.2 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA early 2017</aside>
 	mGBA 0.6.0
