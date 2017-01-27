@@ -173,9 +173,8 @@ While mGBA has only been out for a relatively short time, it has a long history.
 		<li>Online multiplayer support</li>
 		<li>Game Boy multiplayer support</li>
 		<li>Library view</li>
-		<li>Dynamic recompiler for ARM</li>
-		<li>e-Reader support</li>
 		<li>Wireless adapter support</li>
+		<li>Partial Super Game Boy support</li>
 		<li>More debug features</li>
 	</ul>
 </dd>
@@ -186,11 +185,11 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.7.0, which will contain many features, including features delayed from 0.6.0 and potentially including:</p>
 	<ul>
-		<li>Partial Super Game Boy support</li>
-		<li>TASing features</li>
-		<li>Dynamic recompiler for MIPS</li>
 		<li>Lua scripting</li>
+		<li>e-Reader support</li>
 		<li>Support for several Game Boy peripherals</li>
+		<li>Dynamic recompiler for ARM</li>
+		<li>BGB/NO$GBA-style interactive debugger</li>
 	</ul>
 </dd>
 <dt class="tl-future">
@@ -199,6 +198,19 @@ While mGBA has only been out for a relatively short time, it has a long history.
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 1.0.0, which will be feature complete GBA support with many additional features.</p>
+</dd>
+<dt class="tl-future">
+	<aside class="tl-date">ETA Late 2017?</aside>
+	mGBA 1.1.0
+</dt>
+<dd class="tl-future">
+	<p>Potential exploration of more additional features and improved Game Boy compatibility:</p>
+	<ul>
+		<li>TASing features</li>
+		<li>Dynamic recompiler for MIPS and PSP support</li>
+		<li>Support for Game Boy Camera</li>
+		<li>Possibly more</li>
+	</ul>
 </dd>
 <dt class="tl-future">
 	<aside class="tl-date">???</aside>
