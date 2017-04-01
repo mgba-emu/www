@@ -281,6 +281,15 @@ a:visited { color: #6d58a2; }
   margin: 30px 0;
 }
 
+.post-content dd {
+	padding: 1px 10px 8px 20px;
+}
+
+.post-content dt {
+	font-weight: 600;
+	padding: 0px 10px 2px 0px;
+}
+
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
@@ -375,6 +384,14 @@ a:visited { color: #6d58a2; }
 .tags {
   display: inline-block;
   margin-left: 0 !important; /* grumble */
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery img, .gallery picture {
+  padding: 2px 4px;
 }
 
 .hero, .hero-big {
