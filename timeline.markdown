@@ -163,8 +163,15 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.5.2 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">7 April 2017</aside>
+	medusa alpha 1
+</dt>
+<dd>
+	<p>medusa alpha 1 is released, containing the first proof of concept of DS support, and announcing the plans for 2.0.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA early 2017</aside>
+	<aside class="tl-date">ETA May 2017</aside>
 	mGBA 0.6.0
 </dt>
 <dd class="tl-future">
@@ -173,18 +180,18 @@ While mGBA has only been out for a relatively short time, it has a long history.
 		<li>Online multiplayer support</li>
 		<li>Game Boy multiplayer support</li>
 		<li>Library view</li>
-		<li>Wireless adapter support</li>
-		<li>Partial Super Game Boy support</li>
 		<li>More debug features</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA April 2017</aside>
+	<aside class="tl-date">ETA July 2017</aside>
 	mGBA 0.7.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.7.0, which will contain many features, including features delayed from 0.6.0 and potentially including:</p>
 	<ul>
+		<li>Wireless adapter support</li>
+		<li>Partial Super Game Boy support</li>
 		<li>Lua scripting</li>
 		<li>e-Reader support</li>
 		<li>Support for several Game Boy peripherals</li>
@@ -193,14 +200,14 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA July 2017</aside>
+	<aside class="tl-date">ETA Late 2017</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 1.0.0, which will be feature complete GBA support with many additional features.</p>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2017?</aside>
+	<aside class="tl-date">ETA Early 2018?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">
@@ -213,11 +220,11 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">???</aside>
-	mGBA 2.0.0?
+	<aside class="tl-date">ETA 2018</aside>
+	medusa 2.0.0
 </dt>
 <dd class="tl-future">
-	<p>Who knows what's next?</p>
+	<p>Full Nintendo DS support</p>
 </dd>
 </dl>
 
