@@ -1,5 +1,5 @@
 <ol class="downloads">
-{% for nightly in site.data.nightlies %}
+{% for nightly in site.data.nightlies[{{include.product}}] %}
 	<li>
 		<span class="download-name">
 		{{ nightly.nightly }}
