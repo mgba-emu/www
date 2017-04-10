@@ -470,6 +470,7 @@ a:visited { color: #6d58a2; }
 .downloads > li {
   padding: 3px 10px;
   border-bottom: 1px solid #bbb9c5;
+  margin-right: 30px;
 }
 
 .downloads ul {
