@@ -25,17 +25,14 @@ Current downloads (0.5.2)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
-Preview downloads for medusa (alpha 1)
+Preview downloads for medusa (alpha 2)
 --------------------------------------
 
-These are preview builds for medusa, the in-development DS emulator. They are 64-bit only.
+These are preview builds for medusa, the in-development DS emulator. They are 64-bit only. Note that due to issues with the automated build system, there is not currently an alpha 2 build for Ubuntu. Please use a nightly instead (see below).
 
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/medusa-a1/medusa-a1-win64.7z)
-* [macOS](https://github.com/mgba-emu/mgba/releases/download/medusa-a1/medusa-a1-osx.tar.xz)
-* [Ubuntu (14.04)](https://github.com/mgba-emu/mgba/releases/download/medusa-a1/medusa-a1-ubuntu64-trusty.tar.xz)
-* [Ubuntu (15.10)](https://github.com/mgba-emu/mgba/releases/download/medusa-a1/medusa-a1-ubuntu64-wily.tar.xz)
-* [Ubuntu (16.04)](https://github.com/mgba-emu/mgba/releases/download/medusa-a1/medusa-a1-ubuntu64-xenial.tar.xz)
-* [Source](https://github.com/mgba-emu/mgba/archive/medusa-a1.tar.gz)
+* [Windows](https://github.com/mgba-emu/mgba/releases/download/medusa-a2/medusa-a2-win64.7z)
+* [macOS](https://github.com/mgba-emu/mgba/releases/download/medusa-a2/medusa-a2-osx.tar.xz)
+* [Source](https://github.com/mgba-emu/mgba/archive/medusa-a2.tar.gz)
 
 Development downloads ("nightlies")
 -----------------------------------
