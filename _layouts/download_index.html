@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<header class="post-header">
+  <h1 class="post-title">{{ page.product }} Nightlies</h1>
+</header>
+<article class="post-content">
+<ol class="downloads">
+{% for nightly in page.data %}
+	<li>
+		<span class="download-name">
+		{{ nightly.nightly }}
+		</span>
+		<ul>
+		{% for platform in site.data.platforms %}
+		{% if nightly.platforms[platform.name] %}
+            <li class="download-platform">
+				<a href="https://s3.amazonaws.com/mgba/{{ nightly.platforms[platform.name].name }}" rel="nofollow">{{ platform.readable }}</a> <span class="download-size">({{ nightly.platforms[platform.name].size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
+            </li>
+		{% endif %}
+		{% endfor %}
+		</ul>
+	</li>
+{% endfor %}
+</ol>
+</article>
+
+{% include paginate.html %}
