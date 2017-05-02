@@ -58,7 +58,7 @@ Nightly builds are available for Windows, macOS, Ubuntu, and as homebrew for the
 * [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/medusa-nightly-latest-ubuntu64-wily.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/medusa-nightly-latest-ubuntu64-xenial.tar.xz)
 
-Older nightly builds are [also available]({{ site.baseurl }}/nightlies.html).
+Older nightly builds are [also available]({{ site.baseurl }}/nightlies/1/).
 
 Get the source code by cloning the official git repository:
 
