@@ -12,12 +12,8 @@ paginate: 10
 paginate_path: "/page/:num/"
 
 gems:
- - jekyll-tagging
+ - jekyll-paginate
  - jekyll-youtube
-
-# jekyll-tagging
-tag_page_layout: tag_index
-tag_page_dir: tag
 
 # Build settings
 markdown: kramdown
