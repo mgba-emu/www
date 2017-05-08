@@ -234,10 +234,12 @@ a:visited { color: #9070e2; }
   font-weight: 300;
 }
 
-.post-header .meta {
+.post-header .meta, #patreon-footer {
   font-size: 15px;
   color: #ad9fa3;
-  margin-top: 5px;
+  margin-top: 10px;
+  padding: 0 20px;
+  font-style: italic;
 }
 
 .post-footer {
