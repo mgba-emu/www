@@ -171,6 +171,7 @@ a:visited { color: #9070e2; }
   max-width: 800px;
   width: 60%;
   margin: auto;
+  margin-top: 0;
   -webkit-order: 1;
   order: 1;
   background-color: #231a2b;
