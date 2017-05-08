@@ -13,7 +13,18 @@ module Jekyll
         safe true
         def generate(site)
             @site = site
-            site.tags.each { |tag, posts| generate_tag(tag, posts) }
+            tags = {}
+            site.pages.each { |page|
+                (page["tags"] || []).each { |tag|
+                    tags[tag] ||= []
+                    tags[tag] << page
+                }
+            }
+            site.tags.each { |tag, posts|
+                tags[tag] ||= []
+                tags[tag] += posts
+            }
+            tags.each { |tag, posts| generate_tag(tag, posts) }
         end
 
         def generate_tag(tag, posts)

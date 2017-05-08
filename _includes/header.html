@@ -13,10 +13,15 @@
   <h2>Tags</h2>
   {% capture rawtags %}
     {% for tag in site.tags %}
-	  {{ tag[0] | replace:' ','-' }}
+      {{ tag[0] | replace:' ','-' }}
+    {% endfor %}
+    {% for page in site.pages %}
+      {% for tag in page.tags %}
+        {{ tag | replace:' ','-' }}
+      {% endfor %}
     {% endfor %}
   {% endcapture %}
-  {% assign tags = rawtags | split:' ' | sort %}
+  {% assign tags = rawtags | split:' ' | sort | uniq %}
 
   <ul>
   {% for tag in tags %}
