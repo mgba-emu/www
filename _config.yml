@@ -13,6 +13,7 @@ paginate_path: "/page/:num/"
 
 gems:
  - jekyll-paginate
+ - jekyll-toc
  - jekyll-youtube
  - jekyll-redirect-from
 

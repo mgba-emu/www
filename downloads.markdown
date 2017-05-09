@@ -3,6 +3,7 @@ layout: page
 title: Downloads
 permalink: /downloads.html
 nav: yes
+toc: true
 ---
 
 Current downloads (0.5.2)

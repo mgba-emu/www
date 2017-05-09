@@ -144,6 +144,7 @@ a:visited { color: #9070e2; }
   flex: 0 auto;
   -webkit-order: 2;
   order: 2;
+  width: 15%;
 }
 
 #sub-nav li {
@@ -159,6 +160,18 @@ a:visited { color: #9070e2; }
 #sub-nav a {
   font-size: 14px;
   line-height: 16px;
+}
+
+#sub-nav .toc-h3::before {
+  content: "›";
+  float: left;
+  padding-left: 10px;
+  margin-top: -1px;
+}
+
+#sub-nav .toc-h3 {
+  margin-left: 10px;
+  font-size: 90%;
 }
 
 /* Page Content styles */

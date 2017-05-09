@@ -9,7 +9,13 @@
   </nav>
 
 </header>
+
 <nav id="sub-nav">
+  {% if page.toc %}
+  <h2>Table of Contents</h2>
+	{{ content | toc_only }}
+  {% endif %}
+
   <h2>Tags</h2>
   {% capture rawtags %}
     {% for tag in site.tags %}
