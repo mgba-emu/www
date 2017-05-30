@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: 600;
   margin: 10px 0;
+  clear: both;
 }
 
 h2 {
@@ -117,6 +118,7 @@ a:visited { color: #9070e2; }
 #footer-links {
   float: right;
   margin: 0 20px;
+  clear: both;
 }
 
 #description {
@@ -171,7 +173,7 @@ a:visited { color: #9070e2; }
 
 #sub-nav .toc-h3 {
   margin-left: 10px;
-  font-size: 90%;
+  font-size: 12px;
 }
 
 /* Page Content styles */
@@ -247,7 +249,7 @@ a:visited { color: #9070e2; }
   font-weight: 300;
 }
 
-.post-header .meta, #patreon-footer {
+.post-header .meta, #patreon-footer, .note {
   font-size: 15px;
   color: #ad9fa3;
   margin-top: 10px;
@@ -410,7 +412,7 @@ a:visited { color: #9070e2; }
   padding: 2px 4px;
 }
 
-.hero, .hero-big, .superhero {
+.hero, .hero-big, .superhero, .article-aside {
   display: block;
   margin: auto;
   margin-bottom: 10px;
@@ -428,7 +430,24 @@ a:visited { color: #9070e2; }
 .home .hero-big {
   margin-right: 30px;
   float: left;
+  clear: left;
   max-width: 280px;
+}
+
+.article-aside {
+  margin-left: 30px;
+  float: right;
+  clear: right;
+  max-width: 35%;
+  font-size: 13px;
+  display: block table;
+}
+
+.article-aside img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 8px;
 }
 
 .youtube {
@@ -463,6 +482,10 @@ a:visited { color: #9070e2; }
 .readmore::before {
   content: "\203A";
   padding: 0 4px 0 6px;
+}
+
+.footnotes, .post-footer, #patreon-footer {
+  clear: both;
 }
 
 .downloads {
@@ -601,9 +624,14 @@ a:visited { color: #9070e2; }
 	font-size: 60px;
 }
 
-.home .hero-big {
+.home .hero-big, .article-aside {
   float: none;
   margin-right: auto;
+  margin-left: auto;
+}
+
+.article-aside {
+  max-width: 80%;
 }
 
 @media print {
