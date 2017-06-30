@@ -26,6 +26,25 @@ Current downloads (0.5.2)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
+Preview downloads (0.6 beta 1)
+----------------------------------------------
+
+### Desktop OS
+* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-win32.7z)
+* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-ubuntu64-xenial.tar.xz)
+* [Ubuntu (64-bit, 17.10)](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-ubuntu64-yakkety.tar.xz)
+* [Ubuntu (64-bit, 17.04)](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-ubuntu64-zesty.tar.xz)
+
+### Homebrew
+* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-3ds.7z)
+* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-wii.7z)
+* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-vita.7z)
+
+### Other
+* [Source](https://github.com/mgba-emu/mgba/archive/0.6-b1.tar.gz)
+
 Preview downloads for medusa (alpha 2)
 --------------------------------------
 
