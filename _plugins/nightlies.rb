@@ -1,6 +1,6 @@
 module Jekyll
     class DownloadIndex < Page
-        def initialize(site, base, dir, index, max_index, product, data)
+        def initialize(site, base, dir, index, max_index, product, data, extra)
             @data = {
                 'layout' => 'download_index',
                 'data' => data,
@@ -12,6 +12,7 @@ module Jekyll
                 'next_page' => index < max_index,
                 'next_page_path' => File.join(site.baseurl, dir, "#{index + 1}")
             }
+            @data.merge!(extra)
             super(site, base, File.join(dir, "#{index}"), 'index.html')
         end
 
@@ -19,9 +20,30 @@ module Jekyll
             # No YAML to be read
         end
     end
+    class BuildGenerator < Generator
+        safe true
+        @@page_size = 20
+        @@extra = {
+            'title' => 'Builds'
+        }
+
+        def generate(site)
+            @site = site
+            (0..site.data['builds']['mGBA'].length / @@page_size).each { |i|
+                generate_page(i + 1, 'builds', 'mGBA', site.data['builds']['mGBA'][i * @@page_size, @@page_size])
+            }
+        end
+
+        def generate_page(index, dir, product, data)
+            @site.pages << DownloadIndex.new(@site, @site.source, dir, index, @site.data['builds']['mGBA'].length / @@page_size + 1, product, data, @@extra)
+        end
+    end
     class NightlyGenerator < Generator
         safe true
         @@page_size = 20
+        @@extra = {
+            'title' => 'Nightlies'
+        }
 
         def generate(site)
             @site = site
@@ -31,7 +53,7 @@ module Jekyll
         end
 
         def generate_page(index, dir, product, data)
-            @site.pages << DownloadIndex.new(@site, @site.source, dir, index, @site.data['nightlies']['mGBA'].length / @@page_size + 1, product, data)
+            @site.pages << DownloadIndex.new(@site, @site.source, dir, index, @site.data['nightlies']['mGBA'].length / @@page_size + 1, product, data, @@extra)
         end
     end
 end

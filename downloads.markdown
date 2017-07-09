@@ -54,22 +54,23 @@ These are preview builds for medusa, the in-development DS emulator. They are 64
 * [macOS](https://github.com/mgba-emu/mgba/releases/download/medusa-a2/medusa-a2-osx.tar.xz)
 * [Source](https://github.com/mgba-emu/mgba/archive/medusa-a2.tar.gz)
 
-Development downloads ("nightlies")
------------------------------------
+Development downloads
+---------------------
 
-Nightly builds are available for Windows, macOS, Ubuntu, and as homebrew for the Nintendo 3DS and Wii. The nightlies are updated every day at 13:00 UTC, and contain a CHANGES file that lists all of the visible changes since the previous release.
+Debelopment builds are available for Windows, macOS, Ubuntu, and as homebrew for the Nintendo 3DS and Wii. The nightlies are updated every day at 13:00 UTC, and contain a CHANGES file that lists all of the visible changes since the previous release.
 
 ### Desktop OS
-* [Windows](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-win32.7z)
-* [macOS](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-wily.tar.xz)
-* [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-ubuntu64-xenial.tar.xz)
+* [Windows](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
+* [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
+* [Ubuntu (64-bit, 17.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-yakkety.tar.xz)
+* [Ubuntu (64-bit, 17.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-zesty.tar.xz)
 
 ### Homebrew
-* [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-3ds.7z)
-* [Wii](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-wii.7z)
-* [PlayStation Vita](https://s3.amazonaws.com/mgba/mGBA-nightly-latest-vita.7z)
+* [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z)
+* [Wii](https://s3.amazonaws.com/mgba/mGBA-build-latest-wii.7z)
+* [PlayStation Vita](https://s3.amazonaws.com/mgba/mGBA-build-latest-vita.7z)
 
 ### medusa
 * [Windows](https://s3.amazonaws.com/mgba/medusa-nightly-latest-win64.7z)
@@ -78,7 +79,8 @@ Nightly builds are available for Windows, macOS, Ubuntu, and as homebrew for the
 * [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/medusa-nightly-latest-ubuntu64-wily.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/medusa-nightly-latest-ubuntu64-xenial.tar.xz)
 
-Older nightly builds are [also available]({{ site.baseurl }}/nightlies/1/).
+Older builds are [also available]({{ site.baseurl }}/builds/1/).
+Previously, only [nightly builds]({{ site.baseurl }}/nightlies/1/) were provided.
 
 Get the source code by cloning the official git repository:
 
