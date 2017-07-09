@@ -12,6 +12,8 @@
   readable: "Ubuntu (16.04, 64-bit)"
 - name: ubuntu64-yakkety
   readable: "Ubuntu (16.10, 64-bit)"
+- name: ubuntu64-zesty
+  readable: "Ubuntu (17.04, 64-bit)"
 - name: osx
   readable: "macOS"
 - name: 3ds
