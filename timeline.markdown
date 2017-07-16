@@ -184,12 +184,12 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.6 is almost ready, but not quite. A beta is released with most of the new features, but it's still a little raw.</p>
 </dd>
-<dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA July 2017</aside>
+<dt>
+	<aside class="tl-date">16 July 2017</aside>
 	mGBA 0.6.0
 </dt>
-<dd class="tl-future">
-	<p>Tentative release date of mGBA 0.6.0, which will contain many features, including features delayed from 0.5.0 and potentially including:</p>
+<dd>
+	<p>mGBA 0.6.0 is released after long delays. It contains many new features, including:</p>
 	<ul>
 		<li>Game Boy multiplayer support</li>
 		<li>Library view</li>
@@ -197,8 +197,8 @@ While mGBA has only been out for a relatively short time, it has a long history.
 		<li>Partial scripting support</li>
 	</ul>
 </dd>
-<dt class="tl-future">
-	<aside class="tl-date">ETA July 2017</aside>
+<dt class="tl-future" id="IN+THE+FUTURE">
+	<aside class="tl-date">ETA Late 2017</aside>
 	mGBA 0.7.0
 </dt>
 <dd class="tl-future">
@@ -215,14 +215,14 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2017</aside>
+	<aside class="tl-date">ETA Early/Mid 2018</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 1.0.0, which will be feature complete GBA support with many additional features.</p>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Early 2018?</aside>
+	<aside class="tl-date">ETA Mid-2018?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">
@@ -235,7 +235,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA 2018</aside>
+	<aside class="tl-date">ETA Late 2018</aside>
 	medusa 2.0.0
 </dt>
 <dd class="tl-future">
