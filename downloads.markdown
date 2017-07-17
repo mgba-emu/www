@@ -27,29 +27,12 @@ Current downloads (0.6.0)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
-Preview downloads (0.6 beta 1)
-----------------------------------------------
-
-### Desktop OS
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-win32.7z)
-* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-ubuntu64-xenial.tar.xz)
-* [Ubuntu (64-bit, 17.10)](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-ubuntu64-yakkety.tar.xz)
-* [Ubuntu (64-bit, 17.04)](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-ubuntu64-zesty.tar.xz)
-
-### Homebrew
-* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-3ds.7z)
-* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-wii.7z)
-* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.6-b1/mGBA-0.6-b1-vita.7z)
-
-### Other
-* [Source](https://github.com/mgba-emu/mgba/archive/0.6-b1.tar.gz)
-
 Preview downloads for medusa (alpha 2)
 --------------------------------------
 
-These are preview builds for medusa, the in-development DS emulator. They are 64-bit only. Note that due to issues with the automated build system, there is not currently an alpha 2 build for Ubuntu. Please use a nightly instead (see below).
+These are preview builds for medusa, the in-development DS emulator. They are 64-bit only.
+Note that due to issues with the automated build system, there is not currently an alpha 2 build for Ubuntu.
+Please use a development build instead (see below).
 
 * [Windows](https://github.com/mgba-emu/mgba/releases/download/medusa-a2/medusa-a2-win64.7z)
 * [macOS](https://github.com/mgba-emu/mgba/releases/download/medusa-a2/medusa-a2-osx.tar.xz)
@@ -58,7 +41,8 @@ These are preview builds for medusa, the in-development DS emulator. They are 64
 Development downloads
 ---------------------
 
-Debelopment builds are available for Windows, macOS, Ubuntu, and as homebrew for the Nintendo 3DS and Wii. The nightlies are updated every day at 13:00 UTC, and contain a CHANGES file that lists all of the visible changes since the previous release.
+Development builds are available for Windows, macOS, Ubuntu, and as homebrew for the Nintendo 3DS and Wii.
+The builds are updated hourly, and contain a CHANGES file that lists all of the visible changes since the previous release.
 
 ### Desktop OS
 * [Windows](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
@@ -74,13 +58,13 @@ Debelopment builds are available for Windows, macOS, Ubuntu, and as homebrew for
 * [PlayStation Vita](https://s3.amazonaws.com/mgba/mGBA-build-latest-vita.7z)
 
 ### medusa
-* [Windows](https://s3.amazonaws.com/mgba/medusa-nightly-latest-win64.7z)
-* [macOS](https://s3.amazonaws.com/mgba/medusa-nightly-latest-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/medusa-nightly-latest-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/medusa-nightly-latest-ubuntu64-wily.tar.xz)
-* [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/medusa-nightly-latest-ubuntu64-xenial.tar.xz)
+* [Windows](https://s3.amazonaws.com/mgba/medusa-build-latest-win64.7z)
+* [macOS](https://s3.amazonaws.com/mgba/medusa-build-latest-osx.tar.xz)
+* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/medusa-build-latest-ubuntu64-trusty.tar.xz)
+* [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/medusa-build-latest-ubuntu64-wily.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/medusa-build-latest-ubuntu64-xenial.tar.xz)
 
-Older builds are [also available]({{ site.baseurl }}/builds/1/).
+Older builds are also available for [mGBA]({{ site.baseurl }}/builds/1/) and [medusa]({{ site.baseurl }}/builds/medusa/1/).
 Previously, only [nightly builds]({{ site.baseurl }}/nightlies/1/) were provided.
 
 Get the source code by cloning the official git repository:

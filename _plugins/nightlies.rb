@@ -32,10 +32,13 @@ module Jekyll
             (0..site.data['builds']['mGBA'].length / @@page_size).each { |i|
                 generate_page(i + 1, 'builds', 'mGBA', site.data['builds']['mGBA'][i * @@page_size, @@page_size])
             }
+            (0..site.data['builds']['medusa'].length / @@page_size).each { |i|
+                generate_page(i + 1, 'builds/medusa', 'medusa', site.data['builds']['medusa'][i * @@page_size, @@page_size])
+            }
         end
 
         def generate_page(index, dir, product, data)
-            @site.pages << DownloadIndex.new(@site, @site.source, dir, index, @site.data['builds']['mGBA'].length / @@page_size + 1, product, data, @@extra)
+            @site.pages << DownloadIndex.new(@site, @site.source, dir, index, @site.data['builds'][product].length / @@page_size + 1, product, data, @@extra)
         end
     end
     class NightlyGenerator < Generator
@@ -50,10 +53,13 @@ module Jekyll
             (0..site.data['nightlies']['mGBA'].length / @@page_size).each { |i|
                 generate_page(i + 1, 'nightlies', 'mGBA', site.data['nightlies']['mGBA'][i * @@page_size, @@page_size])
             }
+            (0..site.data['nightlies']['medusa'].length / @@page_size).each { |i|
+                generate_page(i + 1, 'nightlies/medusa', 'medusa', site.data['nightlies']['medusa'][i * @@page_size, @@page_size])
+            }
         end
 
         def generate_page(index, dir, product, data)
-            @site.pages << DownloadIndex.new(@site, @site.source, dir, index, @site.data['nightlies']['mGBA'].length / @@page_size + 1, product, data, @@extra)
+            @site.pages << DownloadIndex.new(@site, @site.source, dir, index, @site.data['nightlies'][product].length / @@page_size + 1, product, data, @@extra)
         end
     end
 end
