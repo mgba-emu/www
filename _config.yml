@@ -11,7 +11,7 @@ exclude: ['Gemfile.lock', 'Gemfile']
 paginate: 10
 paginate_path: "/page/:num/"
 
-gems:
+plugins:
  - jekyll-paginate
  - jekyll-toc
  - jekyll-youtube
