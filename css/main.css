@@ -313,7 +313,8 @@ a:visited { color: #9070e2; }
 
 .post pre,
 .post code,
-.highlight {
+.highlight code,
+.highlight pre {
   border: 1px solid #7f75a1;
   background-color: #332249;
   padding: 8px 12px;

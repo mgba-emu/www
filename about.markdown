@@ -2,7 +2,6 @@
 layout: page
 title: About
 permalink: /about.html
-nav: yes
 ---
 mGBA is a new generation of Game Boy Advance emulator. The project started in April 2013 with the goal of being fast enough to run on lower end hardware than other emulators support, without sacrificing accuracy or portability. Even in the initial version, games generally played without problems. mGBA has only gotten better since then, and now boasts being the most accurate GBA emulator around.
 

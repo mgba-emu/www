@@ -21,3 +21,5 @@ plugins:
 markdown: kramdown
 permalink: pretty
 excerpt_separator: "<!--more-->"
+toc:
+  min_level: 2
