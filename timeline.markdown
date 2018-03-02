@@ -222,7 +222,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	mGBA 0.8.0
 </dt>
 <dd class="tl-future">
-	<p>Tentative release date of mGBA 0.7.0, which will contain many features, including features delayed from 0.6.0 and potentially including:</p>
+	<p>Tentative release date of mGBA 0.8.0, which will contain many features, including features delayed from 0.7.0 and potentially including:</p>
 	<ul>
 		<li>Online multiplayer support</li>
 		<li>Wireless adapter support</li>
