@@ -204,8 +204,15 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.6.1 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">3 April 2018</aside>
+	mGBA 0.6.2
+</dt>
+<dd>
+	<p>mGBA 0.6.2 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Early 2018</aside>
+	<aside class="tl-date">ETA Mid 2018</aside>
 	mGBA 0.7.0
 </dt>
 <dd class="tl-future">

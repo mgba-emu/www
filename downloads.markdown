@@ -6,24 +6,23 @@ nav: yes
 toc: true
 ---
 
-Current downloads (0.6.1)
+Current downloads (0.6.2)
 -------------------------
 
 ### Desktop OS
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-win32.7z)
-* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-ubuntu64-xenial.tar.xz)
-* [Ubuntu (64-bit, 16.10)](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-ubuntu64-yakkety.tar.xz)
-* [Ubuntu (64-bit, 17.04)](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-ubuntu64-zesty.tar.xz)
+* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.6.2/mGBA-0.6.2-win32.7z)
+* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.6.2/mGBA-0.6.2-osx.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.6.2/mGBA-0.6.2-ubuntu64-xenial.tar.xz)
+* [Ubuntu (64-bit, 17.10)](https://github.com/mgba-emu/mgba/releases/download/0.6.2/mGBA-0.6.2-ubuntu64-artful.tar.xz)
+* [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/0.6.2/mGBA-0.6.2-ubuntu64-bionic.tar.xz)
 
 ### Homebrew
-* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-3ds.7z)
-* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-wii.7z)
-* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.6.1/mGBA-0.6.1-vita.7z)
+* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.6.2/mGBA-0.6.2-3ds.7z)
+* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.6.2/mGBA-0.6.2-wii.7z)
+* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.6.2/mGBA-0.6.2-vita.7z)
 
 ### Other
-* [Source](https://github.com/mgba-emu/mgba/archive/0.6.1.tar.gz)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.6.2.tar.gz)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
@@ -47,10 +46,9 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 ### Desktop OS
 * [Windows](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
 * [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-trusty.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
-* [Ubuntu (64-bit, 17.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-yakkety.tar.xz)
-* [Ubuntu (64-bit, 17.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-zesty.tar.xz)
+* [Ubuntu (64-bit, 17.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-artful.tar.xz)
+* [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z)
@@ -60,8 +58,6 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 ### medusa
 * [Windows](https://s3.amazonaws.com/mgba/medusa-build-latest-win64.7z)
 * [macOS](https://s3.amazonaws.com/mgba/medusa-build-latest-osx.tar.xz)
-* [Ubuntu (64-bit, 14.04)](https://s3.amazonaws.com/mgba/medusa-build-latest-ubuntu64-trusty.tar.xz)
-* [Ubuntu (64-bit, 15.10)](https://s3.amazonaws.com/mgba/medusa-build-latest-ubuntu64-wily.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/medusa-build-latest-ubuntu64-xenial.tar.xz)
 
 Older builds are also available for [mGBA]({{ site.baseurl }}/builds/1/) and [medusa]({{ site.baseurl }}/builds/medusa/1/).
