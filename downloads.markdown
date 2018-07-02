@@ -10,7 +10,8 @@ Current downloads (0.6.3)
 -------------------------
 
 ### Desktop OS
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-win32.7z)
+* [Windows (32-Bit)](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-win32.7z)
+* [Windows (64-Bit)](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-win64.7z)
 * [macOS](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-osx.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-ubuntu64-xenial.tar.xz)
 * [Ubuntu (64-bit, 17.10)](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-ubuntu64-artful.tar.xz)
@@ -44,7 +45,8 @@ Development builds are available for Windows, macOS, Ubuntu, and as homebrew for
 The builds are updated hourly, and contain a CHANGES file that lists all of the visible changes since the previous release.
 
 ### Desktop OS
-* [Windows](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
+* [Windows (32-Bit)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
+* [Windows (64-Bit)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win64.7z)
 * [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
 * [Ubuntu (64-bit, 17.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-artful.tar.xz)
