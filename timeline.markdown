@@ -225,10 +225,10 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.7.0, which will contain many features, including features delayed from 0.6.0 and potentially including:</p>
 	<ul>
+		<li>Vastly improved Game Boy support</li>
 		<li>Partial Super Game Boy support</li>
-		<li>e-Reader support</li>
-		<li>Support for several Game Boy peripherals</li>
-		<li>BGB/NO$GBA-style interactive debugger</li>
+		<li>Support for Game Boy Camera and Printer</li>
+		<li>Nintendo Switch port</li>
 	</ul>
 </dd>
 <dt class="tl-future">
@@ -238,8 +238,10 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.8.0, which will contain many features, including features delayed from 0.7.0 and potentially including:</p>
 	<ul>
+		<li>BGB/NO$GBA-style interactive debugger</li>
 		<li>Online multiplayer support</li>
 		<li>Wireless adapter support</li>
+		<li>e-Reader support</li>
 		<li>Lua scripting</li>
 		<li>Dynamic recompiler for ARM</li>
 	</ul>

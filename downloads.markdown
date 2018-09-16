@@ -47,11 +47,11 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 * [Windows](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
 * [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
-* [Ubuntu (64-bit, 17.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-artful.tar.xz)
 * [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z)
+* [Nintendo Switch](https://s3.amazonaws.com/mgba/mGBA-build-latest-switch.7z)
 * [Wii](https://s3.amazonaws.com/mgba/mGBA-build-latest-wii.7z)
 * [PlayStation Vita](https://s3.amazonaws.com/mgba/mGBA-build-latest-vita.7z)
 
