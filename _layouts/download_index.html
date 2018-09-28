@@ -7,6 +7,7 @@ layout: default
 <article class="post-content">
 <ol class="downloads">
 {% for download in page.data %}
+	{% assign symbols = false %}
 	<li>
 		<span class="download-name">
 		{% if download.rev %}
@@ -17,11 +18,24 @@ layout: default
 		<ul>
 		{% for platform in site.data.platforms %}
 		{% if download.platforms[platform.name] %}
+			{% if download.platforms[platform.name].debug %}{% assign symbols = true %}{% endif %}
             <li class="download-platform">
 				<a href="https://s3.amazonaws.com/mgba/{{ download.platforms[platform.name].name }}" rel="nofollow">{{ platform.readable }}</a> <span class="download-size">({{ download.platforms[platform.name].size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
             </li>
 		{% endif %}
 		{% endfor %}
+		</ul>
+		{% if symbols %}
+		Debug symbols
+		<ul>
+		{% for platform in site.data.platforms %}
+		{% if download.platforms[platform.name] and download.platforms[platform.name].debug %}
+            <li class="download-platform">
+				<a href="https://s3.amazonaws.com/mgba/{{ download.platforms[platform.name].debug.name }}" rel="nofollow">{{ platform.readable }}</a> <span class="download-size">({{ download.platforms[platform.name].debug.size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
+            </li>
+		{% endif %}
+		{% endfor %}
+		{% endif %}
 		</ul>
 	</li>
 {% endfor %}
