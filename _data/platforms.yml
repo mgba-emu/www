@@ -1,7 +1,11 @@
 - name: win32
-  readable: "Windows (32-bit)"
+  readable: "Windows (32-bit archive)"
+- name: win32-installer
+  readable: "Windows (32-bit installer)"
 - name: win64
-  readable: "Windows (64-bit)"
+  readable: "Windows (64-bit archive)"
+- name: win64-installer
+  readable: "Windows (64-bit installer)"
 - name: ubuntu64-trusty
   readable: "Ubuntu (14.04, 64-bit)"
 - name: ubuntu64-vivid
