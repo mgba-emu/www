@@ -1,7 +1,7 @@
 # Site settings
 title: mGBA
-email: jeffrey@endrift.com
-description: "mGBA is an open-source Game Boy Advance emulator, copyright &copy; 2013&ndash;2017 Jeffrey Pfau. This project is not affiliated in any way with Nintendo. Game Boy Advance is a registered trademark of Nintendo Co., Ltd."
+email: vi@endrift.com
+description: "mGBA is an open-source Game Boy Advance emulator, copyright &copy; 2013&ndash;2018 Vicki Pfau. This project is not affiliated in any way with Nintendo. Game Boy Advance is a registered trademark of Nintendo Co., Ltd."
 baseurl: ""
 url: "https://mgba.io"
 twitter_username: mgba_emu
