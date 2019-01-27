@@ -9,44 +9,29 @@ toc: true
 Current downloads
 -----------------
 
-The current release of mGBA is version 0.6.3.
+The current release of mGBA is version 0.7.0.
 
 ### Desktop OS
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-win32.7z)
-* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-osx.tar.xz)
-* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-ubuntu64-xenial.tar.xz)
-* [Ubuntu (64-bit, 17.10)](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-ubuntu64-artful.tar.xz)
-* [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-ubuntu64-bionic.tar.xz)
+* [Windows (.7z archive)](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-win32.7z)
+* [Windows (installer .exe)](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-win32-installer.exe)
+* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-osx.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-ubuntu64-xenial.tar.xz)
+* [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-ubuntu64-bionic.tar.xz)
+* [Ubuntu (64-bit, 18.10)](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-ubuntu64-cosmic.tar.xz)
 
 ### Homebrew
-* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-3ds.7z)
-* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-wii.7z)
-* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.6.3/mGBA-0.6.3-vita.7z)
+* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-3ds.7z)
+* [Nintendo Switch](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-switch.7z)
+* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-wii.7z)
+* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.7.0/mGBA-0.7.0-vita.7z)
 
 ### Other
-* [Source](https://github.com/mgba-emu/mgba/archive/0.6.3.tar.gz)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.7.0.tar.gz)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
 Preview downloads
 -----------------
-
-The current preview of mGBA is version 0.7 beta 1.
-
-### Desktop OS
-* [Windows](https://github.com/mgba-emu/mgba/releases/download/0.7-b1/mGBA-0.7-b1-win32.7z)
-* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.7-b1/mGBA-0.7-b1-osx.tar.xz)
-* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.7-b1/mGBA-0.7-b1-ubuntu64-xenial.tar.xz)
-* [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/0.7-b1/mGBA-0.7-b1-ubuntu64-bionic.tar.xz)
-
-### Homebrew
-* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.7-b1/mGBA-0.7-b1-3ds.7z)
-* [Nintendo Switch](https://github.com/mgba-emu/mgba/releases/download/0.7-b1/mGBA-0.7-b1-switch.7z)
-* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.7-b1/mGBA-0.7-b1-wii.7z)
-* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.7-b1/mGBA-0.7-b1-vita.7z)
-
-### Other
-* [Source](https://github.com/mgba-emu/mgba/archive/0.7-b1.tar.gz)
 
 ### medusa
 

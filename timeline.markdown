@@ -218,21 +218,20 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.6.3 is released, patching a few major bugs introduced in 0.6.2.</p>
 </dd>
-<dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Mid 2018</aside>
+<dt>
+	<aside class="tl-date">26 January 2019</aside>
 	mGBA 0.7.0
 </dt>
-<dd class="tl-future">
-	<p>Tentative release date of mGBA 0.7.0, which will contain many features, including features delayed from 0.6.0 and potentially including:</p>
+<dd>
+	<p>mGBA 0.7.0 is released, containing major accuracy improvements, especially to Game Boy support, and features including:</p>
 	<ul>
-		<li>Vastly improved Game Boy support</li>
 		<li>Partial Super Game Boy support</li>
 		<li>Support for Game Boy Camera and Printer</li>
 		<li>Nintendo Switch port</li>
 	</ul>
 </dd>
-<dt class="tl-future">
-	<aside class="tl-date">ETA Late 2018</aside>
+<dt class="tl-future" id="IN+THE+FUTURE">
+	<aside class="tl-date">ETA Mid/Late 2019</aside>
 	mGBA 0.8.0
 </dt>
 <dd class="tl-future">
@@ -243,30 +242,28 @@ While mGBA has only been out for a relatively short time, it has a long history.
 		<li>Wireless adapter support</li>
 		<li>e-Reader support</li>
 		<li>Lua scripting</li>
-		<li>Dynamic recompiler for ARM</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Early 2019</aside>
+	<aside class="tl-date">ETA Late 2019/Early 2020</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 1.0.0, which will be feature complete GBA support with many additional features.</p>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Mid 2019?</aside>
+	<aside class="tl-date">ETA Mid 2020?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">
 	<p>Potential exploration of more additional features and improved Game Boy compatibility:</p>
 	<ul>
 		<li>TASing features</li>
-		<li>Dynamic recompiler for MIPS and PSP support</li>
 		<li>Possibly more</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2019</aside>
+	<aside class="tl-date">ETA Late 2020</aside>
 	medusa 2.0.0
 </dt>
 <dd class="tl-future">
