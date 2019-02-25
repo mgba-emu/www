@@ -230,6 +230,13 @@ While mGBA has only been out for a relatively short time, it has a long history.
 		<li>Nintendo Switch port</li>
 	</ul>
 </dd>
+<dt>
+	<aside class="tl-date">24 February 2019</aside>
+	mGBA 0.7.1
+</dt>
+<dd>
+	<p>mGBA 0.7.1 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA Mid/Late 2019</aside>
 	mGBA 0.8.0
