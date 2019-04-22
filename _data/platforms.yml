@@ -24,6 +24,8 @@
   readable: "Ubuntu (18.04, 64-bit)"
 - name: ubuntu64-cosmic
   readable: "Ubuntu (18.10, 64-bit)"
+- name: ubuntu64-disco
+  readable: "Ubuntu (19.04, 64-bit)"
 - name: osx
   readable: "macOS"
 - name: 3ds
