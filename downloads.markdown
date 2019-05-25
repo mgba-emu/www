@@ -18,6 +18,7 @@ The current release of mGBA is version 0.7.2.
 * [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.7.2/mGBA-0.7.2-ubuntu64-xenial.tar.xz)
 * [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/0.7.2/mGBA-0.7.2-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 18.10)](https://github.com/mgba-emu/mgba/releases/download/0.7.2/mGBA-0.7.2-ubuntu64-cosmic.tar.xz)
+* [Ubuntu (64-bit, 19.04)](https://github.com/mgba-emu/mgba/releases/download/0.7.2/mGBA-0.7.2-ubuntu64-disco.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.7.2/mGBA-0.7.2-3ds.7z)
