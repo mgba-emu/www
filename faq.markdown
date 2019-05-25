@@ -22,6 +22,7 @@ mGBA will run on mostly any computer from the last decade, as well as several ad
 - Linux
 - \*BSD
 - Nintendo 3DS
+- Nintendo Switch
 - Wii
 - PlayStation Vita
 
@@ -46,8 +47,8 @@ Please see the [README](https://github.com/mgba-emu/mgba/blob/master/README.md) 
 mGBA emulates two platforms currently, with the work-in-progress medusa version supporting a third:
 
 - Game Boy Advance emulation is currently very good. There are known bugs and a small handful of games that don't boot.
-- Game Boy/Game Boy Color emulation is rather rough. Many games work but many games also don't. Please file a bug if you find a game that doesn't boot.
-- DS support is very early and only available in the medusa branch, which is not under active development at the moment. 
+- Game Boy/Game Boy Color emulation is good. Most games work but there are still plenty of bugs. Please file a bug if you find a game that doesn't boot.
+- DS support is very early and only available in the medusa branch, which is not under active development at the moment.
 
 Current bugs can be found on GitHub for [GBA](https://github.com/mgba-emu/mgba/issues?q=is%3Aissue+is%3Aopen+label%3Aplatform%3AGBA), [GB/C](https://github.com/mgba-emu/mgba/issues?q=is%3Aissue+is%3Aopen+label%3Aplatform%3AGB%2FGBC) and [DS](https://github.com/mgba-emu/mgba/issues?q=is%3Aissue+is%3Aopen+label%3Aplatform%3ADS)
 
@@ -60,30 +61,27 @@ Please see the [README](https://github.com/mgba-emu/mgba/blob/master/README.md) 
 - Solar sensor (for Boktai)
 - Realtime clock
 - Link cable (partial support)
+- BattleChip Gate (for Mega Man Battle Network, only in development versions)
 
 And some GB peripherals and special cartridge types are supported:
 
 - Rumble
 - Tilt (MBC7)
 - Realtime clock
-- Game Boy Printer (only in development versions)
-- Game Boy Camera (partial support, only in development versions)
-- Super Game Boy (partial support, only in development version)
+- Game Boy Printer
+- Game Boy Camera (partial support)
+- Super Game Boy (partial support)
+- MBC6 (partial support)
+- MMM01 (partial support)
 - TAMA5 (partial support)
+- HuC-1 (partial support)
 - HuC-3 (partial support)
 
 The following are not supported at the time:
 
 - Wireless Adapter
 - IR Adapter (for Zoids: Cyberdrive)
-- Battle Chip Gate (for Mega Man Battle Net)
 - Soul Adapter (for Legendz)
-
-The following GB mappers are not supported at this time:
-
-- MBC6
-- MMM01
-- HuC-1
 
 ## Troubleshooting
 
