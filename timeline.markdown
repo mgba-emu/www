@@ -237,6 +237,13 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.7.1 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">25 May 2019</aside>
+	mGBA 0.7.2
+</dt>
+<dd>
+	<p>mGBA 0.7.2 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA Mid/Late 2019</aside>
 	mGBA 0.8.0
@@ -244,15 +251,26 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.8.0, which will contain many features, including features delayed from 0.7.0 and potentially including:</p>
 	<ul>
+		<li>Game Boy Advance enhancements including hi-res video and XQ audio emulation</li>
+		<li>Support for BattleChip Gate and related accessories</li>
 		<li>BGB/NO$GBA-style interactive debugger</li>
-		<li>Online multiplayer support</li>
-		<li>Wireless adapter support</li>
-		<li>e-Reader support</li>
 		<li>Lua scripting</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2019/Early 2020</aside>
+	<aside class="tl-date">ETA Late 2019</aside>
+	mGBA 0.9.0
+</dt>
+<dd class="tl-future">
+	<p>Tentative release date of mGBA 0.9.0, which will contain many features, including features delayed from 0.8.0 and potentially including:</p>
+	<ul>
+		<li>Online multiplayer support</li>
+		<li>Wireless adapter support</li>
+		<li>e-Reader support</li>
+	</ul>
+</dd>
+<dt class="tl-future">
+	<aside class="tl-date">Early 2020</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
