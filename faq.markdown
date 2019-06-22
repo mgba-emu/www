@@ -96,3 +96,19 @@ Change the display driver from _OpenGL_ to _OpenGL (Force 1.x)_ or _Software_.
 ### mGBA has issues with my controller
 
 At this time mGBA's controller support is lackluster. Improvements are planned but if using a controller is your utmost concern you may want to use the libretro core instead.
+
+### I did something and now the game always runs too fast!
+
+Make sure Fast forward is unchecked under emulation and at least one of Sync to audio or Sync to video is checked. I recommend Sync to audio only.
+
+## Glossary
+
+mGBA's development uses some project-specific names for things that may be confusing. Here's a list of the most common ones:
+
+- Input revamp: Upcoming rewrite of the input and controller mapping, meant to improve many of the fundamental issues present
+- medusa: mGBA's upcoming DS support
+- mGUI: The UI used on all the homebrew ports
+- mGUI2: mGBA's upcoming enhanced homebrew UI
+- mNP: mGBA's upcoming netplay support and link cable rewrite
+- Orca: Upcoming mGBA/Dolphin integration for GBA link and GB Player
+- XQ audio: High-level mixing of the MP2k (a.k.a. M4A or Sappy) audio engine for higher quality audio
