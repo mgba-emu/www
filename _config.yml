@@ -8,6 +8,12 @@ twitter_username: mgba_emu
 github_username:  mgba-emu
 exclude: ['Gemfile.lock', 'Gemfile']
 
+nav:
+ - title: Downloads
+   url: /downloads.html
+ - title: FAQs
+   url: /faq.html
+
 paginate: 10
 paginate_path: "/page/:num/"
 

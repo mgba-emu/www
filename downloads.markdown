@@ -2,7 +2,6 @@
 layout: page
 title: Downloads
 permalink: /downloads.html
-nav: yes
 toc: true
 ---
 

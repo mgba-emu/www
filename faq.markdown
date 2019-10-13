@@ -2,7 +2,6 @@
 layout: page
 title: FAQs
 permalink: /faq.html
-nav: yes
 toc: yes
 ---
 ## General
@@ -21,7 +20,7 @@ mGBA will run on mostly any computer from the last decade, as well as several ad
 - macOS
 - Linux
 - \*BSD
-- Nintendo 3DS
+- Nintendo 3DS (New 3DS is required for GBA games)
 - Nintendo Switch
 - Wii
 - PlayStation Vita
@@ -30,7 +29,11 @@ If you wish to run mGBA on Windows XP or other systems that RetroArch runs on pl
 
 ### What does the m stand for?
 
-It doesn't. mGBA was originally going to be named miniGBA but as the project grew the mini became less accurate. The name was intended to be temporary, but as the original release crept closer I couldn't think of any better names. Other working names for mGBA included GBAc and Gerboa, but nothing else stuck.
+It doesn't. mGBA was originally going to be named miniGBA but as the project grew the "mini" appellation became less accurate. The name was intended to be temporary, but as the original release crept closer I couldn't think of any better names. Other working names for mGBA included GBAc and Gerboa, but nothing else stuck.
+
+### How do I file a bug?
+
+The best way is to sign up an account on GitHub and post on the [issue tracker](https://github.com/mgba-emu/mgba/issues). Please include the version you're using (including the numbers and letters, if you're using a development build), what OS you're running on, and the names of games affected.
 
 ### What is the license for mGBA?
 
@@ -100,6 +103,10 @@ At this time mGBA's controller support is lackluster. Improvements are planned b
 ### I did something and now the game always runs too fast!
 
 Make sure Fast forward is unchecked under emulation and at least one of Sync to audio or Sync to video is checked. I recommend Sync to audio only.
+
+### Gameplay or audio is stuttery
+
+Try adjusting your sync settings (Sync to audio only is recommended) or your audio buffer settings. Sometimes switching the audio driver also helps.
 
 ## Glossary
 

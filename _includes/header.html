@@ -2,15 +2,24 @@
   <a id="site-title" href="{{ site.baseurl }}/">Home</a>
 
   <nav id="site-nav">
-  {% for page in site.pages %}
-    {% if page.title and page.nav %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+    <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+  {% for page in site.nav %}
+    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
   {% endfor %}
+    <a class="page-link" href="https://github.com/{{ site.github_username }}">GitHub</a>
     <a class="page-link" href="https://forums.mgba.io/">Forums</a>
   </nav>
 
 </header>
 
 <nav id="sub-nav">
+  <h2>Pages</h2>
+  <ul>
+  {% for page in site.pages %}
+    {% if page.title and page.nav %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}
+  {% endfor %}
+  </ul>
+
   {% if page.toc %}
   <h2>Table of Contents</h2>
 	{{ content | toc_only }}
@@ -31,7 +40,15 @@
 
   <ul>
   {% for tag in tags %}
-    <li id="tag-{{ tag }}"><a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag | replace:'-',' ' }}</a></h3>
+    <li id="tag-{{ tag }}"><a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag | replace:'-',' ' }}</a></li>
   {% endfor %}
+  </ul>
+
+  <h2>Links</h2>
+  <ul id="nav-social">
+    <li><a href="https://github.com/{{ site.github_username }}/mgba/issues">Issue Tracker</a></li>
+    <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+	<li><a href="https://discord.gg/3sSvGt3">Discord</a></li>
+	<li><a href="irc://freenode.net/mgba-emu">FreeNode: #mgba-emu</a></li>
   </ul>
 </nav>
