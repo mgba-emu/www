@@ -35,6 +35,25 @@ Older releases are [also available]({{ site.baseurl }}/old.html).
 Preview downloads
 -----------------
 
+### mGBA
+
+The current preview release of mGBA is version 0.8 beta 1.
+
+* [Windows (.7z archive)](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-win32.7z)
+* [Windows (installer .exe)](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-win32-installer.exe)
+* [Windows (64-bit, .7z archive)](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-win64.7z)
+* [Windows (64-bit, installer .exe)](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-win64-installer.exe)
+* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-osx.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-ubuntu64-xenial.tar.xz)
+* [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-ubuntu64-bionic.tar.xz)
+* [Ubuntu (64-bit, 19.04)](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-ubuntu64-disco.tar.xz)
+* [Ubuntu (64-bit, 19.10)](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-ubuntu64-eoan.tar.xz)
+* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-3ds.7z)
+* [Nintendo Switch](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-switch.7z)
+* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-wii.7z)
+* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.8-b1/mGBA-0.8-b1-vita.7z)
+* [Source](https://github.com/mgba-emu/mgba/archive/0.8-b1.tar.gz)
+
 ### medusa
 
 These are preview builds for medusa, the in-development DS emulator. They are 64-bit only. The current preview build is alpha 2.
