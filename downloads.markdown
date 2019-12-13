@@ -73,9 +73,9 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 
 ### Desktop OS
 * [Windows (.7z archive)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
-* [Windows (installer .exe)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.exe)
+* [Windows (installer .exe)](https://s3.amazonaws.com/mgba/mGBA-build-installer-latest-win32.exe)
 * [Windows (64-bit, .7z archive)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win64.7z)
-* [Windows (64-bit, installer .exe)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win64.exe)
+* [Windows (64-bit, installer .exe)](https://s3.amazonaws.com/mgba/mGBA-build-installer-latest-win64.exe)
 * [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
 * [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
