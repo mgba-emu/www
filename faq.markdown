@@ -108,6 +108,10 @@ Make sure Fast forward is unchecked under emulation and at least one of Sync to 
 
 Try adjusting your sync settings (Sync to audio only is recommended) or your audio buffer settings. Sometimes switching the audio driver also helps.
 
+### Audio isn't working in the 3DS version
+
+Current versions of mGBA for 3DS require the DSP blob to be dumped for audio to work. There are various utilities available online to do this, such as [Cruel's DspDump utility](https://github.com/Cruel/DspDump/releases).
+
 ## Glossary
 
 mGBA's development uses some project-specific names for things that may be confusing. Here's a list of the most common ones:
