@@ -18,6 +18,9 @@
   {% for page in site.pages %}
     {% if page.title and page.nav %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}
   {% endfor %}
+  {% for page in site.nav %}
+    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+  {% endfor %}
   </ul>
 
   {% if page.toc %}
@@ -46,10 +49,11 @@
 
   <h2>Links</h2>
   <ul id="nav-social">
-    <li><a href="https://github.com/{{ site.github_username }}/mgba/issues">Issue Tracker</a></li>
     <li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
 	<li><a href="https://discord.gg/3sSvGt3">Discord</a></li>
 	<li><a href="https://patreon.com/mgba">Patreon</a></li>
 	<li><a href="irc://freenode.net/mgba">FreeNode: #mgba</a></li>
+    <li><a href="https://github.com/{{ site.github_username }}/mgba/issues">Issue Tracker</a></li>
+    <li><a href="https://buildbot.mgba.io/">Buildbot</a></li>
   </ul>
 </nav>

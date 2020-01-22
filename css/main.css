@@ -458,6 +458,7 @@ a:visited { color: #9070e2; }
 
 .gallery img, .gallery picture {
   padding: 2px 4px;
+  max-width: 720px;
 }
 
 .hero, .hero-big, .superhero, .article-aside {
@@ -673,8 +674,8 @@ a:visited { color: #9070e2; }
 }
 
 #site-nav .page-link {
-  padding: 11px 8px;
-  font-size: 15px;
+  padding: 11px 5px;
+  font-size: 20px;
   height: 22px;
 }
 
@@ -688,8 +689,17 @@ a:visited { color: #9070e2; }
   margin-left: auto;
 }
 
+.gallery img, .gallery picture {
+  padding: 2px 4px;
+  max-width: 480px;
+}
+
 .article-aside {
   max-width: 80%;
+}
+
+body {
+  font-size: 20px;
 }
 
 @media print {
