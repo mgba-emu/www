@@ -64,8 +64,8 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 * [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.tar.xz)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
 * [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
-* [Ubuntu (64-bit, 19.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-disco.tar.xz)
 * [Ubuntu (64-bit, 19.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-eoan.tar.xz)
+* [Ubuntu (64-bit, 20.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-focal.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z)
