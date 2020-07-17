@@ -116,6 +116,7 @@ Current versions of mGBA for 3DS require the DSP blob to be dumped for audio to 
 
 mGBA's development uses some project-specific names for things that may be confusing. Here's a list of the most common ones:
 
+- CInema: A suite of automated regression tests of video output, akin to Dolphin's fifoci
 - Input revamp: Upcoming rewrite of the input and controller mapping, meant to improve many of the fundamental issues present
 - medusa: mGBA's upcoming DS support
 - mGUI: The UI used on all the homebrew ports
