@@ -2,13 +2,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="og:site_name" content="{{ site.title }}">
-    <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
     <meta name="og:type" content="website">
-    <meta name="og:image" content="/favicon-96x96.png">
+    <meta name="og:image" content="/mgba-256.png">
     <meta name="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta name="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
+    <meta name="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | escape }}{% else %}{{ site.description | strip_html | escape }}{% endif %}">
     <meta name="viewport" content="width=600">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | escape }}{% else %}{{ site.description | strip_html | escape }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml"/>
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
