@@ -278,6 +278,13 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.8.2 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">3 August 2020</aside>
+	mGBA 0.8.3
+</dt>
+<dd>
+	<p>mGBA 0.8.3 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA Late 2020</aside>
 	mGBA 0.9.0
@@ -285,10 +292,10 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.9.0, which will contain many features, including features delayed from 0.8.0 and potentially including:</p>
 	<ul>
-		<li>BGB/NO$GBA-style interactive debugger</li>
-		<li>Lua scripting</li>
 		<li>e-Reader support</li>
 		<li>Custom borders</li>
+		<li>Lua scripting</li>
+		<li>BGB/NO$GBA-style interactive debugger</li>
 	</ul>
 </dd>
 <dt class="tl-future">
@@ -310,6 +317,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<p>Potential exploration of more additional features and improved Game Boy compatibility:</p>
 	<ul>
 		<li>TASing features</li>
+		<li>Additional enhancement features</li>
 		<li>Possibly more</li>
 	</ul>
 </dd>
