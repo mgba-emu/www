@@ -79,7 +79,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	mGBA 0.2.1
 </dt>
 <dd>
-	<p>0.2.1 contains another large slew of bugfixes a month after 0.2.0 came out. 0.2.2 was intended to be released another month later, but got scraped due to the difficulty of backporting fixes from the upcoming 0.3 branch.</p>
+	<p>0.2.1 contains another large slew of bugfixes a month after 0.2.0 came out. 0.2.2 was intended to be released another month later, but got scrapped due to the difficulty of backporting fixes from the upcoming 0.3 branch.</p>
 </dd>
 <dt>
 	<aside class="tl-date">August 2015</aside>
