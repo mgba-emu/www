@@ -20,6 +20,36 @@ module Jekyll
             # No YAML to be read
         end
     end
+    class LatestGenerator < Generator
+        safe true
+        def generate(site)
+            @site = site
+            @build_types = @site.config['build_types']
+            @site.data['latest'] ||= {}
+            @site.data['platforms'].each { |platform|
+                platname = platform['name']
+                platinfo = {}
+                @build_types.each { |name, path|
+                    path = path.split('.')
+                    builds = @site.data
+                    path.each { |elem|
+                        builds = builds[elem]
+                    }
+                    if not name.include? 'dev'
+                        builds = builds.reverse
+                    end
+                    builds.each { |build|
+                        buildplat = build['platforms'][platname]
+                        if buildplat
+                            platinfo[name] = buildplat
+                            break
+                        end
+                    }
+                }
+                @site.data['latest'][platname] = platinfo
+            }
+        end
+    end
     class BuildGenerator < Generator
         safe true
         @@page_size = 20

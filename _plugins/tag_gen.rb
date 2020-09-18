@@ -15,7 +15,7 @@ module Jekyll
             @site = site
             tags = {}
             site.pages.each { |page|
-                (page["tags"] || []).each { |tag|
+                (page['tags'] || []).each { |tag|
                     tags[tag] ||= []
                     tags[tag] << page
                 }
@@ -24,7 +24,11 @@ module Jekyll
                 tags[tag] ||= []
                 tags[tag] += posts
             }
-            tags.each { |tag, posts| generate_tag(tag, posts) }
+			@site.data['tags'] ||= []
+            tags.each { |tag, posts|
+				@site.data['tags'] << tag
+				generate_tag(tag, posts)
+			}
         end
 
         def generate_tag(tag, posts)

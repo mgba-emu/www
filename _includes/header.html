@@ -15,8 +15,8 @@
 <nav id="sub-nav">
   <h2>Pages</h2>
   <ul>
-  {% for page in site.pages %}
-    {% if page.title and page.nav %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}
+  {% for page in site.data.nav %}
+    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
   {% endfor %}
   {% for page in site.nav %}
     <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
@@ -29,21 +29,9 @@
   {% endif %}
 
   <h2>Tags</h2>
-  {% capture rawtags %}
-    {% for tag in site.tags %}
-      {{ tag[0] | replace:' ','-' }}
-    {% endfor %}
-    {% for page in site.pages %}
-      {% for tag in page.tags %}
-        {{ tag | replace:' ','-' }}
-      {% endfor %}
-    {% endfor %}
-  {% endcapture %}
-  {% assign tags = rawtags | split:' ' | sort | uniq %}
-
   <ul>
-  {% for tag in tags %}
-    <li id="tag-{{ tag }}"><a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag | replace:'-',' ' }}</a></li>
+  {% for tag in site.data.tags %}
+    <li id="tag-{{ tag | replace:' ','-' }}"><a href="{{ site.baseurl }}/tag/{{ tag | replace:' ','-' }}">{{ tag }}</a></li>
   {% endfor %}
   </ul>
 
