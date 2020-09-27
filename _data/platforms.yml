@@ -30,6 +30,8 @@
   readable: "Ubuntu (19.10, 64-bit)"
 - name: ubuntu64-focal
   readable: "Ubuntu (20.04, 64-bit)"
+- name: ubuntu64-groovy
+  readable: "Ubuntu (20.10, 64-bit)"
 - name: osx
   readable: "macOS"
 - name: 3ds
