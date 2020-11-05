@@ -110,7 +110,7 @@ Try adjusting your sync settings (Sync to audio only is recommended) or your aud
 
 ### Audio isn't working in the 3DS version
 
-Current versions of mGBA for 3DS require the DSP blob to be dumped for audio to work. There are various utilities available online to do this, such as [Cruel's DspDump utility](https://github.com/Cruel/DspDump/releases).
+Current versions of mGBA for 3DS require the DSP blob to be dumped for audio to work. There are various utilities available online to do this, such as [DSP1](https://github.com/zoogie/DSP1/releases/latest) or [DspDump](https://github.com/Cruel/DspDump/releases/latest).
 
 ## Glossary
 
