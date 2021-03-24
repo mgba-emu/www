@@ -32,6 +32,8 @@
   readable: "Ubuntu (20.04, 64-bit)"
 - name: ubuntu64-groovy
   readable: "Ubuntu (20.10, 64-bit)"
+- name: ubuntu64-hirsute
+  readable: "Ubuntu (21.04, 64-bit)"
 - name: osx
   readable: "macOS"
 - name: 3ds
