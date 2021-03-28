@@ -152,7 +152,7 @@ a:visited { color: #9070e2; }
   width: 15%;
   max-width: 200px;
   position: relative;
-  left: -20px;
+  left: -12px;
 }
 
 #sub-nav > ul {
@@ -459,6 +459,7 @@ a:visited { color: #9070e2; }
 .gallery img, .gallery picture {
   padding: 2px 4px;
   max-width: 720px;
+  max-width: min(720px, 100% - 8px);
 }
 
 .hero, .hero-big, .superhero, .article-aside {
@@ -632,6 +633,10 @@ a:visited { color: #9070e2; }
 
 @media screen and (max-width: 680px) {
 
+body {
+  min-width: 560px;
+}
+
 .page-content {
   border-radius: 0;
   padding-right: 25px;
@@ -667,8 +672,8 @@ a:visited { color: #9070e2; }
 }
 
 #site-nav {
-  max-width: 56%;
   max-width: calc(100vw - 140px);
+  max-width: calc(max(100vw, 600px) - 140px);
   background-color: rgba(106, 53, 188, 0.85);
   min-height: 48px;
 }
