@@ -292,33 +292,34 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.8.4 is released, containing several important bugfixes.</p>
 </dd>
-<dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Late 2020</aside>
+<dt>
+	<aside class="tl-date">28 March 2021</aside>
 	mGBA 0.9.0
 </dt>
-<dd class="tl-future">
-	<p>Tentative release date of mGBA 0.9.0, which will contain many features, including features delayed from 0.8.0 and potentially including:</p>
+<dd>
+	<p>mGBA 0.9.0 is released, containing many features such as:</p>
 	<ul>
 		<li>e-Reader support</li>
-		<li>Custom borders</li>
-		<li>BGB/NO$GBA-style interactive debugger</li>
-		<li>WebAssembly port</li>
+		<li>Improved user tools such as a save converter and a bug reporter</li>
+		<li>Dolphin integration</li>
 	</ul>
 </dd>
-<dt class="tl-future">
-	<aside class="tl-date">ETA Mid 2021</aside>
+<dt class="tl-future" id="IN+THE+FUTURE">
+	<aside class="tl-date">ETA Late 2021</aside>
 	mGBA 0.10.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.10.0, which will contain many features, including features delayed from 0.9.0 and potentially including:</p>
 	<ul>
+		<li>BGB/NO$GBA-style interactive debugger</li>
+		<li>WebAssembly port</li>
+		<li>Custom borders</li>
 		<li>Lua scripting</li>
 		<li>Python scripting</li>
-		<li>Refreshed UI for homebrew ports</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Early 2022</aside>
+	<aside class="tl-date">ETA Mid 2022</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
@@ -326,10 +327,11 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<ul>
 		<li>Online multiplayer support</li>
 		<li>Wireless adapter support</li>
+		<li>Refreshed UI for homebrew ports</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2022?</aside>
+	<aside class="tl-date">ETA Mid 2023?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">
@@ -341,7 +343,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA 2023</aside>
+	<aside class="tl-date">ETA 2024</aside>
 	medusa 2.0.0
 </dt>
 <dd class="tl-future">
