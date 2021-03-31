@@ -33,7 +33,7 @@ It doesn't. mGBA was originally going to be named miniGBA but as the project gre
 
 ### How do I file a bug?
 
-The best way is to sign up an account on GitHub and post on the [issue tracker](https://github.com/mgba-emu/mgba/issues). Please include the version you're using (including the numbers and letters, if you're using a development build), what OS you're running on, and the names of games affected.
+The best way is to sign up an account on GitHub and post on the [issue tracker](https://github.com/mgba-emu/mgba/issues). If you're using 0.9.0 or newer on PC please use the built-in bug report tool to generate a zip file to attach to the report. Otherwise, please include the version you're using (including the numbers and letters, if you're using a development build), what OS you're running on, and the names of games affected.
 
 ### What is the license for mGBA?
 
@@ -64,7 +64,7 @@ Please see the [README](https://github.com/mgba-emu/mgba/blob/master/README.md) 
 - Solar sensor (for Boktai)
 - Realtime clock
 - Link cable (partial support)
-- BattleChip Gate (for Mega Man Battle Network, only in development versions)
+- BattleChip Gate (for Mega Man Battle Network)
 
 And some GB peripherals and special cartridge types are supported:
 
@@ -123,4 +123,4 @@ mGBA's development uses some project-specific names for things that may be confu
 - mGUI2: mGBA's upcoming enhanced homebrew UI
 - mNP: mGBA's upcoming netplay support and link cable rewrite
 - Orca: Upcoming mGBA/Dolphin integration for GBA link and GB Player
-- XQ audio: High-level mixing of the MP2k (a.k.a. M4A or Sappy) audio engine for higher quality audio
+- XQ audio: High-level mixing of the MP2k (Music Player 2000, sometimes erroneously called M4A or Sappy) audio engine for higher quality audio
