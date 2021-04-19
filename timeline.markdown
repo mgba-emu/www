@@ -304,6 +304,13 @@ While mGBA has only been out for a relatively short time, it has a long history.
 		<li>Dolphin integration</li>
 	</ul>
 </dd>
+<dt>
+	<aside class="tl-date">18 April 2021</aside>
+	mGBA 0.9.1
+</dt>
+<dd>
+	<p>mGBA 0.9.1 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA Late 2021</aside>
 	mGBA 0.10.0
