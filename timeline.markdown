@@ -311,6 +311,13 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.9.1 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">10 July 2021</aside>
+	mGBA 0.9.2
+</dt>
+<dd>
+	<p>mGBA 0.9.2 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA Late 2021</aside>
 	mGBA 0.10.0
@@ -318,11 +325,10 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.10.0, which will contain many features, including features delayed from 0.9.0 and potentially including:</p>
 	<ul>
-		<li>BGB/NO$GBA-style interactive debugger</li>
 		<li>WebAssembly port</li>
 		<li>Custom borders</li>
-		<li>Lua scripting</li>
-		<li>Python scripting</li>
+		<li>Preliminary scripting support with Lua and Python support</li>
+		<li>BGB/NO$GBA-style interactive debugger</li>
 	</ul>
 </dd>
 <dt class="tl-future">
