@@ -8,28 +8,29 @@ toc: true
 Current downloads
 -----------------
 
-The current release of mGBA is version 0.9.2.
+{% assign tag = "0.9.2" -%}
+The current release of mGBA is version {{tag}}.
 
 ### Desktop OS
-* [Windows (.7z archive)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-win32.7z)
-* [Windows (installer .exe)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-win32-installer.exe)
-* [Windows (64-bit, .7z archive)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-win64.7z)
-* [Windows (64-bit, installer .exe)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-win64-installer.exe)
-* [macOS](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-osx.tar.xz)
-* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-ubuntu64-xenial.tar.xz)
-* [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-ubuntu64-bionic.tar.xz)
-* [Ubuntu (64-bit, 20.04)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-ubuntu64-focal.tar.xz)
-* [Ubuntu (64-bit, 20.10)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-ubuntu64-groovy.tar.xz)
-* [Ubuntu (64-bit, 21.04)](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-ubuntu64-hirsute.tar.xz)
+* [Windows (.7z archive)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win32.7z)
+* [Windows (installer .exe)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win32-installer.exe)
+* [Windows (64-bit, .7z archive)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win64.7z)
+* [Windows (64-bit, installer .exe)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win64-installer.exe)
+* [macOS](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-osx.tar.xz)
+* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-xenial.tar.xz)
+* [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-bionic.tar.xz)
+* [Ubuntu (64-bit, 20.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-focal.tar.xz)
+* [Ubuntu (64-bit, 20.10)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-groovy.tar.xz)
+* [Ubuntu (64-bit, 21.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-hirsute.tar.xz)
 
 ### Homebrew
-* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-3ds.7z)
-* [Nintendo Switch](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-switch.7z)
-* [Wii](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-wii.7z)
-* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-vita.7z)
+* [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-3ds.7z)
+* [Nintendo Switch](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-switch.7z)
+* [Wii](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-wii.7z)
+* [PlayStation Vita](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-vita.7z)
 
 ### Other
-* [Source](https://github.com/mgba-emu/mgba/archive/0.9.2.tar.gz)
+* [Source](https://github.com/mgba-emu/mgba/archive/{{tag}}.tar.gz)
 
 Older releases are [also available]({{ site.baseurl }}/old.html).
 
@@ -62,7 +63,7 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 * [Windows (installer .exe)](https://s3.amazonaws.com/mgba/mGBA-build-installer-latest-win32.exe)
 * [Windows (64-bit, .7z archive)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win64.7z)
 * [Windows (64-bit, installer .exe)](https://s3.amazonaws.com/mgba/mGBA-build-installer-latest-win64.exe)
-* [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.tar.xz)
+* [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.dmg)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
 * [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 20.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-focal.tar.xz)

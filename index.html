@@ -6,7 +6,7 @@ layout: default
 <div class="home">
   <p class="big-info">Latest Release: <a href="{% link downloads.markdown %}">{{ site.data.releases["mGBA"][-1].release }}</a></p>
   {% assign newbuild = site.data.builds["mGBA"][0] %}
-  <p class="big-info">Latest Development Version: <a href="{% link downloads.markdown %}#development-downloads">{{ newbuild.rev }}-{{ newbuild.hash | slice: 0, 7 }}</a></p>
+  <p class="big-info">Latest Development Version: <a href="{% link downloads.markdown %}#development-downloads">{{ newbuild.rev }}-{{ newbuild.hash | slice: 0, 9 }}</a></p>
   <ul class="posts">
     {% for post in paginator.posts %}
       <li>
