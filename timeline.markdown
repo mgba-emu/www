@@ -318,8 +318,15 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.9.2 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">17 December 2021</aside>
+	mGBA 0.9.3
+</dt>
+<dd>
+	<p>mGBA 0.9.3 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Late 2021</aside>
+	<aside class="tl-date">ETA Early 2022</aside>
 	mGBA 0.10.0
 </dt>
 <dd class="tl-future">
@@ -332,7 +339,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Mid 2022</aside>
+	<aside class="tl-date">ETA Late 2022</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
