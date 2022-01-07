@@ -1,3 +1,6 @@
 User-agent: *
 Disallow: /builds/
 Disallow: /nightlies/
+
+User-agent: Bingbot
+Allow: /

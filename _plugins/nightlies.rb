@@ -54,7 +54,8 @@ module Jekyll
         safe true
         @@page_size = 20
         @@extra = {
-            'title' => 'Builds'
+            'title' => 'Builds',
+            'robots' => 'noindex, nofollow'
         }
 
         def generate(site)
@@ -75,7 +76,8 @@ module Jekyll
         safe true
         @@page_size = 20
         @@extra = {
-            'title' => 'Nightlies'
+            'title' => 'Nightlies',
+            'robots' => 'nofollow'
         }
 
         def generate(site)

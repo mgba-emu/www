@@ -1,6 +1,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
     <meta name="og:site_name" content="{{ site.title }}">
     <meta name="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title }}{% endif %}">
     <meta name="og:type" content="website">
