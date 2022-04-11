@@ -36,8 +36,12 @@
   readable: "Ubuntu (21.04, 64-bit)"
 - name: ubuntu64-impish
   readable: "Ubuntu (21.10, 64-bit)"
+- name: ubuntu64-jammy
+  readable: "Ubuntu (22.04, 64-bit)"
 - name: osx
   readable: "macOS"
+- name: macos
+  readable: "macOS (modern)"
 - name: 3ds
   readable: "3DS"
 - name: wii
@@ -46,3 +50,11 @@
   readable: "Switch"
 - name: vita
   readable: "PS Vita"
+- name: appimage-x86
+  readable: "Linux (AppImage, 32-bit)"
+- name: appimage-x64
+  readable: "Linux (AppImage, 64-bit)"
+- name: appimage-arm64
+  readable: "Linux (AppImage, ARM64)"
+- name: wasm
+  readable: "WebAssembly"
