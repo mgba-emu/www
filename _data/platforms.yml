@@ -6,6 +6,12 @@
   readable: "Windows (64-bit archive)"
 - name: win64-installer
   readable: "Windows (64-bit installer)"
+- name: appimage-x86
+  readable: "Linux (AppImage, 32-bit)"
+- name: appimage-x64
+  readable: "Linux (AppImage, 64-bit)"
+- name: appimage-arm64
+  readable: "Linux (AppImage, ARM64)"
 - name: ubuntu64-trusty
   readable: "Ubuntu (14.04, 64-bit)"
 - name: ubuntu64-vivid
@@ -50,11 +56,5 @@
   readable: "Switch"
 - name: vita
   readable: "PS Vita"
-- name: appimage-x86
-  readable: "Linux (AppImage, 32-bit)"
-- name: appimage-x64
-  readable: "Linux (AppImage, 64-bit)"
-- name: appimage-arm64
-  readable: "Linux (AppImage, ARM64)"
 - name: wasm
   readable: "WebAssembly"
