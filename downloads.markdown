@@ -12,9 +12,9 @@ Current downloads
 The current release of mGBA is version {{tag}}.
 
 ### Desktop OS
-* [Windows (.7z archive)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win32.7z)
+* [Windows (portable .7z archive)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win32.7z)
 * [Windows (installer .exe)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win32-installer.exe)
-* [Windows (64-bit, .7z archive)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win64.7z)
+* [Windows (64-bit, portable .7z archive)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win64.7z)
 * [Windows (64-bit, installer .exe)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win64-installer.exe)
 * [macOS](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-osx.dmg)
 * [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-xenial.tar.xz)
@@ -59,16 +59,17 @@ Development builds are available for Windows, macOS, Ubuntu, and as homebrew for
 The builds are updated hourly, and contain a CHANGES file that lists all of the user-facing changes since the previous release.
 
 ### Desktop OS
-* [Windows (.7z archive)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
+* [Windows (portable .7z archive)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
 * [Windows (installer .exe)](https://s3.amazonaws.com/mgba/mGBA-build-installer-latest-win32.exe)
-* [Windows (64-bit, .7z archive)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win64.7z)
+* [Windows (64-bit, portable .7z archive)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win64.7z)
 * [Windows (64-bit, installer .exe)](https://s3.amazonaws.com/mgba/mGBA-build-installer-latest-win64.exe)
 * [macOS](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.dmg)
+* [Linux (AppImage, 64-bit)](https://s3.amazonaws.com/mgba/mGBA-build-latest-appimage-x64.appimage)
 * [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
 * [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 20.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-focal.tar.xz)
-* [Ubuntu (64-bit, 20.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-groovy.tar.xz)
-* [Ubuntu (64-bit, 21.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-hirsute.tar.xz)
+* [Ubuntu (64-bit, 21.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-impish.tar.xz)
+* [Ubuntu (64-bit, 22.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-jammy.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z)

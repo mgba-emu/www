@@ -1,60 +1,109 @@
-- name: win32
-  readable: "Windows (32-bit archive)"
-- name: win32-installer
-  readable: "Windows (32-bit installer)"
-- name: win64
-  readable: "Windows (64-bit archive)"
-- name: win64-installer
-  readable: "Windows (64-bit installer)"
-- name: appimage-x86
-  readable: "Linux (AppImage, 32-bit)"
-- name: appimage-x64
-  readable: "Linux (AppImage, 64-bit)"
-- name: appimage-arm64
-  readable: "Linux (AppImage, ARM64)"
-- name: ubuntu64-trusty
-  readable: "Ubuntu (14.04, 64-bit)"
-- name: ubuntu64-vivid
-  readable: "Ubuntu (15.04, 64-bit)"
-- name: ubuntu64-wily
-  readable: "Ubuntu (15.10, 64-bit)"
-- name: ubuntu64-xenial
-  readable: "Ubuntu (16.04, 64-bit)"
-- name: ubuntu64-yakkety
-  readable: "Ubuntu (16.10, 64-bit)"
-- name: ubuntu64-zesty
-  readable: "Ubuntu (17.04, 64-bit)"
-- name: ubuntu64-artful
-  readable: "Ubuntu (17.10, 64-bit)"
-- name: ubuntu64-bionic
-  readable: "Ubuntu (18.04, 64-bit)"
-- name: ubuntu64-cosmic
-  readable: "Ubuntu (18.10, 64-bit)"
-- name: ubuntu64-disco
-  readable: "Ubuntu (19.04, 64-bit)"
-- name: ubuntu64-eoan
-  readable: "Ubuntu (19.10, 64-bit)"
-- name: ubuntu64-focal
-  readable: "Ubuntu (20.04, 64-bit)"
-- name: ubuntu64-groovy
-  readable: "Ubuntu (20.10, 64-bit)"
-- name: ubuntu64-hirsute
-  readable: "Ubuntu (21.04, 64-bit)"
-- name: ubuntu64-impish
-  readable: "Ubuntu (21.10, 64-bit)"
-- name: ubuntu64-jammy
-  readable: "Ubuntu (22.04, 64-bit)"
-- name: osx
-  readable: "macOS"
-- name: macos
-  readable: "macOS (modern)"
-- name: 3ds
-  readable: "3DS"
-- name: wii
-  readable: "Wii"
-- name: switch
-  readable: "Switch"
-- name: vita
-  readable: "PS Vita"
-- name: wasm
-  readable: "WebAssembly"
+platforms:
+  win32:
+    readable: "Windows (32-bit portable archive)"
+    active: True
+  win32-installer:
+    readable: "Windows (32-bit installer)"
+    active: True
+  win64:
+    readable: "Windows (64-bit portable archive)"
+    active: True
+  win64-installer:
+    readable: "Windows (64-bit installer)"
+    active: True
+  osx:
+    readable: "macOS"
+    active: True
+  macos:
+    readable: "macOS (modern)"
+  appimage-x86:
+    readable: "Linux (AppImage, 32-bit)"
+  appimage-x64:
+    readable: "Linux (AppImage, 64-bit)"
+    active: True
+  appimage-arm64:
+    readable: "Linux (AppImage, ARM64)"
+  ubuntu64-trusty:
+    readable: "Ubuntu (14.04, 64-bit)"
+  ubuntu64-vivid:
+    readable: "Ubuntu (15.04, 64-bit)"
+  ubuntu64-wily:
+    readable: "Ubuntu (15.10, 64-bit)"
+  ubuntu64-xenial:
+    readable: "Ubuntu (16.04, 64-bit)"
+  ubuntu64-yakkety:
+    readable: "Ubuntu (16.10, 64-bit)"
+  ubuntu64-zesty:
+    readable: "Ubuntu (17.04, 64-bit)"
+  ubuntu64-artful:
+    readable: "Ubuntu (17.10, 64-bit)"
+  ubuntu64-bionic:
+    readable: "Ubuntu (18.04, 64-bit)"
+    active: True
+  ubuntu64-cosmic:
+    readable: "Ubuntu (18.10, 64-bit)"
+  ubuntu64-disco:
+    readable: "Ubuntu (19.04, 64-bit)"
+  ubuntu64-eoan:
+    readable: "Ubuntu (19.10, 64-bit)"
+  ubuntu64-focal:
+    readable: "Ubuntu (20.04, 64-bit)"
+    active: True
+  ubuntu64-groovy:
+    readable: "Ubuntu (20.10, 64-bit)"
+  ubuntu64-hirsute:
+    readable: "Ubuntu (21.04, 64-bit)"
+  ubuntu64-impish:
+    readable: "Ubuntu (21.10, 64-bit)"
+    active: True
+  ubuntu64-jammy:
+    readable: "Ubuntu (22.04, 64-bit)"
+    active: True
+  switch:
+    readable: "Switch"
+    active: True
+  3ds:
+    readable: "3DS"
+    active: True
+  vita:
+    readable: "PS Vita"
+    active: True
+  wii:
+    readable: "Wii"
+    active: True
+  wasm:
+    readable: "WebAssembly"
+categories:
+- name: "Desktop OS"
+  platforms:
+  - win32
+  - win32-installer
+  - win64
+  - win64-installer
+  - osx
+  - macos
+  - appimage-x86
+  - appimage-x64
+  - appimage-arm64
+  - ubuntu64-trusty
+  - ubuntu64-vivid
+  - ubuntu64-wily
+  - ubuntu64-xenial
+  - ubuntu64-yakkety
+  - ubuntu64-zesty
+  - ubuntu64-artful
+  - ubuntu64-bionic
+  - ubuntu64-cosmic
+  - ubuntu64-disco
+  - ubuntu64-eoan
+  - ubuntu64-focal
+  - ubuntu64-groovy
+  - ubuntu64-hirsute
+  - ubuntu64-impish
+  - ubuntu64-jammy
+- name: "Homebrew"
+  platforms:
+  - switch
+  - 3ds
+  - vita
+  - wii

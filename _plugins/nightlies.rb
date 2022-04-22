@@ -26,8 +26,7 @@ module Jekyll
             @site = site
             @build_types = @site.config['build_types']
             @site.data['latest'] ||= {}
-            @site.data['platforms'].each { |platform|
-                platname = platform['name']
+            @site.data['platforms']['platforms'].each { |platname, platform|
                 platinfo = {}
                 @build_types.each { |name, path|
                     path = path.split('.')

@@ -16,11 +16,12 @@ layout: default
 		{{ download.nightly }}
 		</span>
 		<ul>
-		{% for platform in site.data.platforms %}
-		{% if download.platforms[platform.name] %}
-			{% if download.platforms[platform.name].debug %}{% assign symbols = true %}{% endif %}
+		{% for platform in site.data.platforms.platforms -%}
+		{%- assign platname = platform[0] -%}
+		{% if download.platforms[platname] %}
+			{% if download.platforms[platname].debug %}{% assign symbols = true %}{% endif %}
             <li class="download-platform">
-				<a href="https://s3.amazonaws.com/mgba/{{ download.platforms[platform.name].name }}" rel="nofollow">{{ platform.readable }}</a> <span class="download-size">({{ download.platforms[platform.name].size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
+				<a href="https://s3.amazonaws.com/mgba/{{ download.platforms[platname].name }}" rel="nofollow">{{ platform[1].readable }}</a> <span class="download-size">({{ download.platforms[platname].size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
             </li>
 		{% endif %}
 		{% endfor %}
@@ -28,10 +29,11 @@ layout: default
 		{% if symbols %}
 		Debug symbols
 		<ul>
-		{% for platform in site.data.platforms %}
-		{% if download.platforms[platform.name] and download.platforms[platform.name].debug %}
+		{% for platform in site.data.platforms.platforms -%}
+		{%- assign platname = platform[0] -%}
+		{% if download.platforms[platname] and download.platforms[platname].debug %}
             <li class="download-platform">
-				<a href="https://s3.amazonaws.com/mgba/{{ download.platforms[platform.name].debug.name }}" rel="nofollow">{{ platform.readable }}</a> <span class="download-size">({{ download.platforms[platform.name].debug.size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
+				<a href="https://s3.amazonaws.com/mgba/{{ download.platforms[platname].debug.name }}" rel="nofollow">{{ platform[1].readable }}</a> <span class="download-size">({{ download.platforms[platname].debug.size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
             </li>
 		{% endif %}
 		{% endfor %}
