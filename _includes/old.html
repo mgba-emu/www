@@ -6,10 +6,11 @@
 		{{ dl.release }}
 		</span>
 		<ul>
-		{% for platform in site.data.platforms %}
-		{% if dl.platforms[platform.name] %}
+		{% for platform in site.data.platforms.platforms %}
+		{%- assign platname = platform[0] -%}
+		{% if dl.platforms[platname] %}
             <li class="download-platform">
-				<a href="https://s3.amazonaws.com/mgba/{{ dl.platforms[platform.name].name }}" rel="nofollow">{{ platform.readable }}</a> <span class="download-size">({{ dl.platforms[platform.name].size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
+				<a href="https://s3.amazonaws.com/mgba/{{ dl.platforms[platname].name }}" rel="nofollow">{{ platform[1].readable }}</a> <span class="download-size">({{ dl.platforms[platname].size | divided_by: 100000 | divided_by: 10.0 }} MB)</span>
             </li>
 		{% endif %}
 		{% endfor %}
