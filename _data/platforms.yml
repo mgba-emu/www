@@ -1,15 +1,15 @@
 platforms:
   win32:
-    readable: "Windows (32-bit portable archive)"
+    readable: "Windows (portable, 32-bit)"
     active: True
   win32-installer:
-    readable: "Windows (32-bit installer)"
+    readable: "Windows (installer, 32-bit)"
     active: True
   win64:
-    readable: "Windows (64-bit portable archive)"
+    readable: "Windows (portable, 64-bit)"
     active: True
   win64-installer:
-    readable: "Windows (64-bit installer)"
+    readable: "Windows (installer, 64-bit)"
     active: True
   osx:
     readable: "macOS"
@@ -59,6 +59,8 @@ platforms:
   ubuntu64-jammy:
     readable: "Ubuntu (22.04, 64-bit)"
     active: True
+  ubuntu64-kinetic:
+    readable: "Ubuntu (22.10, 64-bit)"
   switch:
     readable: "Switch"
     active: True
@@ -101,6 +103,7 @@ categories:
   - ubuntu64-hirsute
   - ubuntu64-impish
   - ubuntu64-jammy
+  - ubuntu64-kinetic
 - name: "Homebrew"
   platforms:
   - switch
