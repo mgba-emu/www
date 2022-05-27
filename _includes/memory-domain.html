@@ -1,0 +1,31 @@
+<table class="memory-domains">
+<colgroup>
+  <col class="memdomain-key">
+  <col class="memdomain-name">
+  <col class="memdomain-base">
+</colgroup>
+<thead>
+<tr>
+  <th scope="col">Key</th>
+  <th scope="col">Name</th>
+  <th scope="col">Base</th>
+</tr>
+</thead>
+{%- capture table -%}
+{%- for value in values -%}
+{{ value[1].base | address32 }}<!--start-->
+<tr>
+  <td class="memdomain-key">{{ value[0] }}</td>
+  <td class="memdomain-name">{{ value[1].name }}</td>
+  <td class="memdomain-base">{% if word == 32 %}{{ value[1].base | address32 }}{% else %}{{ value[1].base | address16 }}{% endif %}</td>
+</tr><!--sep-->
+{%- endfor -%}
+{%- endcapture -%}
+<tbody>
+{%- assign rows = table | split: "<!--sep-->" | sort -%}
+{%- for row in rows -%}
+{%- assign rowsplit = row | split: "<!--start-->" -%}
+{{ rowsplit[1] }}
+{%- endfor -%}
+</tbody>
+</table>
