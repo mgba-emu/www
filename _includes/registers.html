@@ -1,0 +1,30 @@
+{%- assign aliases = false -%}
+{%- for value in values -%}
+{%- if value.aliases -%}
+{%- assign aliases = true -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+<table class="register-list">
+<colgroup>
+  <col class="register-name">
+  <col class="register-width">
+  {%- if aliases -%}<col class="register-alias">{%- endif -%}
+</colgroup>
+<thead>
+<tr>
+  <th scope="col">Name</th>
+  <th scope="col">Width</th>
+  {%- if aliases -%}<th scope="col">Alias</th>{%- endif -%}
+</tr>
+</thead>
+<tbody>
+{%- for value in values -%}
+<tr>
+  <td class="register-name">{{ value.name }}</td>
+  <td class="register-width">{{ value.width }}</td>
+  {%- if aliases -%}<td class="register-alias">{{ value.aliases }}</td>{%- endif -%}
+</tr>
+{%- endfor -%}
+</tbody>
+</table>

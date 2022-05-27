@@ -138,3 +138,18 @@ When a game is loaded, the `emu` object is also available, and is an instance of
 {%- include memory-domain.html -%}
 </div>
 </section>
+
+## Registers
+
+<section id="section-registers">
+<div>
+<h3>GBA</h3>
+{% assign values = site.data.scripting.emu.gba.registers -%}
+{%- include registers.html -%}
+</div>
+<div>
+<h3>GB</h3>
+{% assign values = site.data.scripting.emu.gb.registers -%}
+{%- include registers.html -%}
+</div>
+</section>

@@ -578,7 +578,12 @@ strong {
   letter-spacing: 0.2px;
 }
 
-.class-method dd, .class-member dd, .root-scope dd, table.memory-domains, table.scripting-constants {
+.class-method dd,
+.class-member dd,
+.root-scope dd,
+table.memory-domains,
+table.scripting-constants,
+table.register-list {
   padding: 8px 10px;
   border-top: none;
   -webkit-border-radius: 0 0 8px 8px;
@@ -589,11 +594,11 @@ strong {
   background-color: #2f203c;
 }
 
-table.memory-domains, table.scripting-constants {
+table.memory-domains, table.scripting-constants, table.register-list {
   width: 100%;
 }
 
-table.memory-domains th, table.scripting-constants th {
+table.memory-domains th, table.scripting-constants th, table.register-list th {
   text-align: left;
 }
 
@@ -607,7 +612,16 @@ table.memory-domains th, table.scripting-constants th {
   font-weight: bold;
 }
 
-tt, pre, code, .scripting-type, .scripting-constant, td.memdomain-base, td.memdomain-key, .root-scope dt {
+tt,
+pre,
+code,
+.scripting-type,
+.scripting-constant,
+td.memdomain-base,
+td.memdomain-key,
+td.register-name,
+td.register-alias,
+.root-scope dt {
   font-family: 'Source Code Pro', monospace;
 }
 
@@ -616,7 +630,7 @@ tt, pre, code, .scripting-type, .scripting-constant, td.memdomain-base, td.memdo
   padding-left: 0.7em;
 }
 
-#section-constants, #section-memdomains {
+#section-constants {
   column-width: 10em;
 }
 
@@ -625,18 +639,27 @@ tt, pre, code, .scripting-type, .scripting-constant, td.memdomain-base, td.memdo
   column-count: 2;
 }
 
-#section-constants > div, #section-memdomains > *, #section-memdomains ul {
+#section-registers {
+  column-width: 10em;
+  column-count: 2;
+}
+
+#section-constants > div,
+#section-memdomains > *,
+#section-memdomains ul,
+#section-register > *,
+#section-registers ul {
   break-inside: avoid-column;
 }
 
-#section-constants h3, #section-memdomains h3 {
+#section-constants h3, #section-memdomains h3, #section-registers h3 {
   font-size: 28px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0px;
 }
 
-table.memory-domains td {
+table.memory-domains td, table.register-list td {
   padding: 0.1em 0.3em;
 }
 
@@ -644,7 +667,8 @@ table.memory-domains td {
 .class-method dt,
 .class-member dt,
 #section-constants h3,
-#section-memdomains h3 {
+#section-memdomains h3,
+#section-registers h3 {
   background-color: #492d77;
   padding: 6px 12px 10px 12px;
   -webkit-border-radius: 12px 12px 0 0;
