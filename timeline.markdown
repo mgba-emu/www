@@ -326,32 +326,44 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<p>mGBA 0.9.3 is released, containing several important bugfixes.</p>
 </dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Early 2022</aside>
+	<aside class="tl-date">ETA Mid 2022</aside>
 	mGBA 0.10.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.10.0, which will contain many features, including features delayed from 0.9.0 and potentially including:</p>
 	<ul>
+		<li>Preliminary scripting support with Lua support</li>
 		<li>WebAssembly port</li>
-		<li>Custom borders</li>
-		<li>Preliminary scripting support with Lua and Python support</li>
-		<li>BGB/NO$GBA-style interactive debugger</li>
+		<li>Better support for ROM hacks and bootlegs</li>
+		<li>Lots of QoL improvements</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2022</aside>
+	<aside class="tl-date">ETA Late 2022?</aside>
+	mGBA 0.10.0
+</dt>
+<dd class="tl-future">
+	<p>Tentative release date of mGBA 0.11.0, which will contain many features, including features delayed from 0.10.0 and potentially including:</p>
+	<ul>
+		<li>Custom borders</li>
+		<li>BGB/NO$GBA-style interactive debugger</li>
+		<li>Online multiplayer support</li>
+		<li>Expanded scripting support</li>
+	</ul>
+</dd>
+<dt class="tl-future">
+	<aside class="tl-date">ETA Mid 2023</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 1.0.0, which will be feature complete GBA support with many additional features.</p>
 	<ul>
-		<li>Online multiplayer support</li>
 		<li>Wireless adapter support</li>
 		<li>Refreshed UI for homebrew ports</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Mid 2023?</aside>
+	<aside class="tl-date">ETA Early 2024?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">
