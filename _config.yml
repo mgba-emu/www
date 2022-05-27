@@ -34,3 +34,4 @@ permalink: pretty
 excerpt_separator: "<!--more-->"
 toc:
   min_level: 2
+  max_level: 3

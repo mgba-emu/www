@@ -49,6 +49,10 @@ a         { color: #bfb2ef; text-decoration: none; }
 a:hover   { text-decoration: underline; }
 a:visited { color: #9070e2; }
 
+strong {
+  font-weight: bold;
+}
+
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
@@ -152,7 +156,7 @@ a:visited { color: #9070e2; }
   width: 15%;
   max-width: 200px;
   position: relative;
-  left: -12px;
+  left: -16px;
 }
 
 #sub-nav > ul {
@@ -220,7 +224,6 @@ a:visited { color: #9070e2; }
   width: 60%;
   margin-left: auto;
   margin-top: 0;
-  padding-right: 20px;
   -webkit-order: 1;
   order: 1;
   background-color: #231a2b;
@@ -566,6 +569,88 @@ a:visited { color: #9070e2; }
   -webkit-columns: 12em;
   -moz-columns: 12em;
   columns: 12em;
+}
+
+/* Documentation styles */
+/* ----------------------------------------------------------*/
+
+.class-method dt, .class-member dd {
+  letter-spacing: 0.2px;
+}
+
+.class-method dd, .class-member dd, .root-scope dd, table.memory-domains, table.scripting-constants {
+  padding: 8px 10px;
+  border-top: none;
+  -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 1em;
+  margin-top: -3px;
+  background-color: #2f203c;
+}
+
+table.memory-domains, table.scripting-constants {
+  width: 100%;
+}
+
+table.memory-domains th, table.scripting-constants th {
+  text-align: left;
+}
+
+.class-method .function-parameters, .class-method .function-return {
+  font-weight: normal;
+  padding-left: 0.2em;
+}
+
+.scripting-constants .constant-name, a.scripting-constant, a.scripting-type {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+}
+
+tt, pre, code, .scripting-type, .scripting-constant, td.memdomain-base, td.memdomain-key, .root-scope dt {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.scripting-constants .constant-value {
+  font-size: 85%;
+  padding-left: 0.7em;
+}
+
+#section-constants, #section-memdomains {
+  column-width: 10em;
+}
+
+#section-memdomains {
+  column-width: 16em;
+  column-count: 2;
+}
+
+#section-constants > div, #section-memdomains > *, #section-memdomains ul {
+  break-inside: avoid-column;
+}
+
+#section-constants h3, #section-memdomains h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+table.memory-domains td {
+  padding: 0.1em 0.3em;
+}
+
+.root-scope dt,
+.class-method dt,
+.class-member dt,
+#section-constants h3,
+#section-memdomains h3 {
+  background-color: #492d77;
+  padding: 6px 12px 10px 12px;
+  -webkit-border-radius: 12px 12px 0 0;
+  -moz-border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 0 0;
+  font-size: 20px;
 }
 
 /* Syntax highlighting styles */
