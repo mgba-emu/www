@@ -17,6 +17,7 @@ module Jekyll
     end
     def canonicalize_type(input)
       namespace = nil
+      input.gsub!(/^wrapper /, "")
       type = input.split("::")
       if type.length == 2
         namespace = type[0].split[-1]
