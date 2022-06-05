@@ -11,20 +11,56 @@ Most of the following documentation is automatically generated from version [{{ 
 
 ## Top-level objects
 
-By default, the following objects are available at the top level:
+<section id="section-root" markdown="1">
 
-<dl class="root-scope">
-<dt>C</dt>
-<dd>A table containing the <a href="#constants">exported constants</a></dd>
-<dt>callbacks</dt>
-<dd>Singleton instance of {{ "struct::mScriptCallbackManager" | canonicalize_type }}</dd>
-<dt>console</dt>
-<dd>Singleton instance of {{ "struct::mScriptConsole" | canonicalize_type }}</dd>
+By default, the following objects are available at the top level.
+When a game is loaded, the additional `emu` object is also available, and is an instance of {{ "struct::mScriptCoreAdapter" | canonicalize_type }}.
+
+{% assign root = site.data.scripting.root | sort -%}
+{% for item in root %}
+{%- unless item[1].comment -%}{%- continue -%}{%- endunless -%}
+<h3>{{ item[0] }}</h3>
+{{ item[1].comment | linkify_docstring }}
+{%- if item[1].type == "table" -%}
+{%- assign table = item[1].value | sort: "key" -%}
+{%- assign methodcount = 0 -%}
+{%- assign membercount = 0 -%}
+{%- for member in table -%}
+	{%- assign membertype = member.type -%}
+	{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+	{%- if membertypeinfo.base == "function" -%}
+		{%- assign methodcount = methodcount | plus: 1 -%}
+	{%- else -%}
+		{%- assign membercount = membercount | plus: 1 -%}
+	{%- endif -%}
+{%- endfor -%}
+{%- if methodcount > 0 -%}
+<h4>Functions</h4>
+<dl class="class-method">
+{%- for member in table -%}
+{%- unless member.comment -%}{%- continue -%}{%- endunless -%}
+{%- assign scope = item[0] -%}
+{%- assign membertype = member.type -%}
+{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+{%- assign membername = member.key -%}
+{%- if membertypeinfo.base != "function" -%}
+{{ membername }}
+{%- else -%}
+{%- include class-method.html minparams=0 -%}
+{%- endif -%}
+<dd>
+{{ member.comment | linkify_docstring }}
+</dd>
+{%- endfor -%}
 </dl>
+{%- endif -%}
+{%- endif -%}
+{% endfor %}
 
-When a game is loaded, the `emu` object is also available, and is an instance of {{ "struct::mScriptCoreAdapter" | canonicalize_type }}.
+</section>
 
 ## Classes
+
 <section id="section-classes">
 {%- assign types = site.data.scripting.types | sort -%}
 {% for type in types %}
@@ -50,34 +86,15 @@ When a game is loaded, the `emu` object is also available, and is an instance of
 	{%- endif -%}
 {%- endfor -%}
 {%- if methodcount > 0 %}
+{%- assign scope = name[1] -%}
 <h4>Methods</h4>
 <dl class="class-method">
 {%- for member in members -%}
 	{%- assign membertype = member[1].type -%}
 	{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+	{%- assign membername = member[0] -%}
 	{%- if membertypeinfo.base != "function" -%}{%- continue -%}{%- endif -%}
-<dt id="method-{{ name[1] | canonicalize_class}}.{{ member[0] }}">
-	{%- assign paramcount = membertypeinfo.parameters.list | size -%}
-	{%- assign returncount = membertypeinfo.return.list | size -%}
-	{{ member[0] }}<span class="function-parameters">(
-	{%- if paramcount > 1 -%}
-		{%- assign count = 0 -%}
-		{%- for param in membertypeinfo.parameters.list -%}
-			{%- if count == 0 -%}
-				{%- assign count = 1 -%}
-				{%- continue -%}
-			{%- elsif count == 1 %}
-				{%- assign count = 2 -%}
-			{%- else -%},&nbsp;
-			{%- endif -%}
-	<span class="function-parameter">{{ param.name }} : {{ param.type | canonicalize_type }}{% if param contains 'default' %} = {% if param.default == nil %}nil{% else %}{{ param.default }}{% endif %}{% endif %}</span>
-		{%- endfor -%}
-	{%- endif -%}
-	)</span>
-	{%- if returncount == 1 -%}
-	<span class="function-return">: {{ membertypeinfo.return.list[0].type | canonicalize_type }}</span>
-	{%- endif -%}
-</dt>
+	{%- include class-method.html minparams=1 -%}
 <dd>
 {{ member[1].comment | linkify_docstring }}
 </dd>
