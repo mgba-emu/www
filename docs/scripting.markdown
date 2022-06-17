@@ -19,7 +19,7 @@ When a game is loaded, the additional `emu` object is also available, and is an 
 {% assign root = site.data.scripting.root | sort -%}
 {% for item in root %}
 {%- unless item[1].comment -%}{%- continue -%}{%- endunless -%}
-<h3>{{ item[0] }}</h3>
+<h3 id="root-{{ item[0] }}">{{ item[0] }}</h3>
 {{ item[1].comment | linkify_docstring }}
 {%- if item[1].type == "table" -%}
 {%- assign table = item[1].value | sort: "key" -%}
