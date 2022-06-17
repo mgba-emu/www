@@ -12,10 +12,11 @@ platforms:
     readable: "Windows (installer, 64-bit)"
     active: True
   osx:
-    readable: "macOS"
+    readable: "macOS (legacy)"
     active: True
   macos:
     readable: "macOS (modern)"
+    active: True
   appimage-x86:
     readable: "Linux (AppImage, 32-bit)"
   appimage-x64:
