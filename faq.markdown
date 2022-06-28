@@ -92,17 +92,21 @@ The following are not supported at the time:
 
 Try changing the audio driver in settings. If all else fails turn on _Sync to video_ and off _Sync to audio_.
 
-### On loading a game I get a black screen or upside down image
+### I did something and now the game always runs too fast!
+
+Make sure Fast forward is unchecked under emulation and at least one of Sync to audio or Sync to video is checked. I recommend Sync to audio only.
+
+### I'm on Windows and my games won't save
+
+Make sure your ROMs are in a location that isn't write protected or requires UAC to modify files. For example, do not put them under Program Files, even if mGBA is installed there.
+
+### On loading a game I get a black screen
 
 Change the display driver from _OpenGL_ to _OpenGL (Force 1.x)_ or _Software_.
 
 ### mGBA has issues with my controller
 
 At this time mGBA's controller support is lackluster. Improvements are planned but if using a controller is your utmost concern you may want to use the libretro core instead.
-
-### I did something and now the game always runs too fast!
-
-Make sure Fast forward is unchecked under emulation and at least one of Sync to audio or Sync to video is checked. I recommend Sync to audio only.
 
 ### Gameplay or audio is stuttery
 
