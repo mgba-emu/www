@@ -66,7 +66,6 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 * [macOS (modern, 10.13+)](https://s3.amazonaws.com/mgba/mGBA-build-latest-macos.dmg)
 * [macOS (legacy, 10.9+)](https://s3.amazonaws.com/mgba/mGBA-build-latest-osx.dmg)
 * [Linux (AppImage, 64-bit)](https://s3.amazonaws.com/mgba/mGBA-build-latest-appimage-x64.appimage)
-* [Ubuntu (64-bit, 16.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-xenial.tar.xz)
 * [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 20.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-focal.tar.xz)
 * [Ubuntu (64-bit, 21.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-impish.tar.xz)
