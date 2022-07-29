@@ -339,8 +339,8 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2022?</aside>
-	mGBA 0.10.0
+	<aside class="tl-date">ETA Early 2023?</aside>
+	mGBA 0.11.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.11.0, which will contain many features, including features delayed from 0.10.0 and potentially including:</p>
@@ -352,7 +352,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Mid 2023</aside>
+	<aside class="tl-date">ETA Late 2023</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
