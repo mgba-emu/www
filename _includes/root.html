@@ -21,6 +21,9 @@
 	{%- else -%}
 		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
 	{%- endif -%}
+	{%- unless member.comment -%}{%- continue -%}{%- endunless -%}
+	{%- assign nameprefix = member.name | slice: 0 -%}
+	{%- if nameprefix == "_" -%}{%- continue -%}{%- endif -%}
 	{%- if membertypeinfo.base == "function" -%}
 		{%- assign methodcount = methodcount | plus: 1 -%}
 	{%- else -%}
