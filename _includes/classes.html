@@ -1,0 +1,82 @@
+{% assign prefixlen = prefix | size | plus: 2 -%}
+{%- assign scoped = prefix | append: "::" -%}
+{%- if prefix -%}{%- assign prefixd = prefix | append: "-" %}{%- endif %}
+
+<section id="section-{{ prefixd }}classes">
+
+{%- for type in types %}
+{%- if type[1].base != 'object' -%}{%- continue -%}{%- endif -%}
+{%- assign name = type[0] | split: '::' -%}
+{%- assign namebase = 0 -%}
+{%- if prefix and name[namebase] == prefix -%}
+	{%- assign namebase = 1 -%}
+{%- endif -%}
+{%- if name[namebase] != 'struct' -%}{%- continue -%}{%- endif -%}
+{%- assign namebase = namebase | plus: 1 -%}
+{%- assign nameprefix = name[namebase] | slice: 0 -%}
+{%- if nameprefix == "_" -%}{%- continue -%}{%- endif -%}
+{%- if type[1].internal -%}{%- continue -%}{%- endif -%}
+{%- assign info = type[1] -%}
+<h{{ include.h }} id="class-{{ type[0] | canonicalize_class }}">{{ name[namebase] | canonicalize_class }}</h{{ include.h }}>
+{{ info.comment | linkify_docstring }}
+{% if info.parent -%}
+<p>Parent class: {{ info.parent }}</p>
+{%- endif %}
+{%- assign members = info.members | sort -%}
+{%- assign methodcount = 0 -%}
+{%- assign membercount = 0 -%}
+{%- for member in members -%}
+	{%- assign membertype = member[1].type -%}
+	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
+		{%- assign membertypeinfo = prefixtypes[membertype] -%}
+	{%- else -%}
+		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+	{%- endif -%}
+	{%- if membertypeinfo.base == "function" -%}
+		{%- assign methodcount = methodcount | plus: 1 -%}
+	{%- else -%}
+		{%- assign membercount = membercount | plus: 1 -%}
+	{%- endif -%}
+{%- endfor -%}
+{%- if methodcount > 0 %}
+{%- assign scope = type[0] -%}
+<h{{ include.h | plus: 1 }}>Methods</h{{ include.h | plus: 1 }}>
+<dl class="class-method">
+{%- for member in members -%}
+	{%- assign membertype = member[1].type -%}
+	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
+		{%- assign membertypeinfo = prefixtypes[membertype] -%}
+	{%- else -%}
+		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+	{%- endif -%}
+	{%- assign membername = member[0] -%}
+	{%- if membertypeinfo.base != "function" -%}{%- continue -%}{%- endif -%}
+	{%- include class-method.html minparams=1 -%}
+<dd>
+{{ member[1].comment | linkify_docstring }}
+</dd>
+{%- endfor -%}
+</dl>
+{%- endif -%}
+{%- if membercount > 0 -%}
+<h{{ include.h | plus: 1 }}>Members</h{{ include.h | plus: 1 }}>
+<dl class="class-member">
+{%- for member in members -%}
+	{%- assign membertype = member[1].type -%}
+	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
+		{%- assign membertypeinfo = prefixtypes[membertype] -%}
+	{%- else -%}
+		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+	{%- endif -%}
+	{%- if membertypeinfo.base == "function" -%}{%- continue -%}{%- endif -%}
+	{%- assign memberprefix = member[0] | slice: 0 -%}
+	{%- if memberprefix == "_" -%}{%- continue -%}{%- endif -%}
+	<dt id="member-{{ prefixd }}{{ name[1] | canonicalize_class}}.{{ member[0] }}">{{ member[0] }} : {{ member[1].type }}</dt>
+	<dd>
+	{{ member[1].comment | linkify_docstring}}
+	</dd>
+{%- endfor -%}
+</dl>
+{%- endif -%}
+{% endfor %}
+</section>

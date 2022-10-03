@@ -17,108 +17,38 @@ By default, the following objects are available at the top level.
 When a game is loaded, the additional `emu` object is also available, and is an instance of {{ "struct::mScriptCoreAdapter" | canonicalize_type }}.
 
 {% assign root = site.data.scripting.root | sort -%}
-{% for item in root %}
-{%- unless item[1].comment -%}{%- continue -%}{%- endunless -%}
-<h3 id="root-{{ item[0] }}">{{ item[0] }}</h3>
-{{ item[1].comment | linkify_docstring }}
-{%- if item[1].type == "table" -%}
-{%- assign table = item[1].value | sort: "key" -%}
-{%- assign methodcount = 0 -%}
-{%- assign membercount = 0 -%}
-{%- for member in table -%}
-	{%- assign membertype = member.type -%}
-	{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
-	{%- if membertypeinfo.base == "function" -%}
-		{%- assign methodcount = methodcount | plus: 1 -%}
-	{%- else -%}
-		{%- assign membercount = membercount | plus: 1 -%}
-	{%- endif -%}
-{%- endfor -%}
-{%- if methodcount > 0 -%}
-<h4>Functions</h4>
-<dl class="class-method">
-{%- for member in table -%}
-{%- unless member.comment -%}{%- continue -%}{%- endunless -%}
-{%- assign scope = item[0] -%}
-{%- assign membertype = member.type -%}
-{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
-{%- assign membername = member.key -%}
-{%- if membertypeinfo.base != "function" -%}
-{{ membername }}
-{%- else -%}
-{%- include class-method.html minparams=0 -%}
-{%- endif -%}
-<dd>
-{{ member.comment | linkify_docstring }}
-</dd>
-{%- endfor -%}
-</dl>
-{%- endif -%}
-{%- endif -%}
-{% endfor %}
+{% include root.html h=3 %}
 
 </section>
 
 ## Classes
 
-<section id="section-classes">
 {%- assign types = site.data.scripting.types | sort -%}
-{% for type in types %}
-{%- if type[1].base != 'object' -%}{%- continue -%}{%- endif -%}
-{%- assign name = type[0] | split: '::' -%}
-{%- if name[0] != 'struct' -%}{%- continue -%}{%- endif -%}
-{%- assign info = type[1] -%}
-<h3 id="class-{{ name[1] | canonicalize_class }}">{{ name[1] | canonicalize_class }}</h3>
-{{ info.comment | linkify_docstring }}
-{% if info.parent -%}
-<p>Parent class: {{ info.parent }}</p>
-{%- endif %}
-{%- assign members = info.members | sort -%}
-{%- assign methodcount = 0 -%}
-{%- assign membercount = 0 -%}
-{%- for member in members -%}
-	{%- assign membertype = member[1].type -%}
-	{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
-	{%- if membertypeinfo.base == "function" -%}
-		{%- assign methodcount = methodcount | plus: 1 -%}
-	{%- else -%}
-		{%- assign membercount = membercount | plus: 1 -%}
-	{%- endif -%}
-{%- endfor -%}
-{%- if methodcount > 0 %}
-{%- assign scope = name[1] -%}
-<h4>Methods</h4>
-<dl class="class-method">
-{%- for member in members -%}
-	{%- assign membertype = member[1].type -%}
-	{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
-	{%- assign membername = member[0] -%}
-	{%- if membertypeinfo.base != "function" -%}{%- continue -%}{%- endif -%}
-	{%- include class-method.html minparams=1 -%}
-<dd>
-{{ member[1].comment | linkify_docstring }}
-</dd>
-{%- endfor -%}
-</dl>
-{%- endif -%}
-{%- if membercount > 0 -%}
-<h4>Members</h4>
-<dl class="class-member">
-{%- for member in members -%}
-{%- assign membertype = member[1].type -%}
-{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
-{%- if membertypeinfo.base == "function" -%}{%- continue -%}{%- endif -%}
-{%- assign memberprefix = member[0] | slice: 0 -%}
-{%- if memberprefix == "_" -%}{%- continue -%}{%- endif -%}
-<dt id="member-{{ name[1] | canonicalize_class}}.{{ member[0] }}">{{ member[0] }} : {{ member[1].type }}</dt>
-<dd>
-{{ member[1].comment | linkify_docstring}}
-</dd>
-{%- endfor -%}
-</dl>
-{%- endif -%}
-{% endfor %}
+{% include classes.html h=3 %}
+
+{% assign engines = site.data.scripting.engines | sort -%}
+{%- for engine in engines -%}
+{% assign prefix = engine[0] %}
+{% assign prefixtypes = engine[1].types %}
+<h2 id="engine-{{ prefix }}">{{ prefix | capitalize }}-specific features</h2>
+
+<section id="section-engine-{{prefix}}">
+
+These objects and classes are designed to be used exclusively with the {{ prefix | capitalize }} bindings to provide a more natural interface for the language.
+
+<h3 id="section-{{prefix}}-root">Top-level objects</h3>
+
+{% assign root = engine[1].root | sort -%}
+{% include root.html h=4 %}
+
+<h3 id="section-{{prefix}}-classes">Classes</h3>
+
+{%- assign types = engine[1].types | sort -%}
+{% include classes.html h=4 %}
+
 </section>
+
+{%- endfor %}
 
 ## Constants
 

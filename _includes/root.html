@@ -1,0 +1,75 @@
+{%- assign prefixlen = prefix | size | plus: 2 -%}
+{%- if prefix -%}
+	{%- assign scoped = prefix | append: "::" -%}
+	{%- assign prefixd = prefix | append: "-" %}
+{%- endif -%}
+
+{% for item in root %}
+{%- assign nameprefix = item[0] | slice: 0 -%}
+{%- if nameprefix == "_" -%}{%- continue -%}{%- endif -%}
+{%- unless item[1].comment -%}{%- continue -%}{%- endunless -%}
+<h{{ include.h }} id="{{ prefixd }}root-{{ item[0] }}">{{ item[0] }}</h{{ include.h }}>
+{{ item[1].comment | linkify_docstring }}
+{%- if item[1].type == "table" -%}
+{%- assign table = item[1].value | sort: "key" -%}
+{%- assign methodcount = 0 -%}
+{%- assign membercount = 0 -%}
+{%- for member in table -%}
+	{%- assign membertype = member.type -%}
+	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
+		{%- assign membertypeinfo = prefixtypes[membertype] -%}
+	{%- else -%}
+		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+	{%- endif -%}
+	{%- if membertypeinfo.base == "function" -%}
+		{%- assign methodcount = methodcount | plus: 1 -%}
+	{%- else -%}
+		{%- assign membercount = membercount | plus: 1 -%}
+	{%- endif -%}
+{%- endfor -%}
+{%- if methodcount > 0 -%}
+<h{{ include.h | plus: 1}}>Functions</h{{ include.h | plus: 1 }}>
+<dl class="class-method">
+{%- for member in table -%}
+	{%- unless member.comment -%}{%- continue -%}{%- endunless -%}
+	{%- assign scope = scoped | append: item[0] -%}
+	{%- assign membertype = member.type -%}
+	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
+		{%- assign membertypeinfo = prefixtypes[membertype] -%}
+	{%- else -%}
+		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+	{%- endif -%}
+	{%- assign membername = member.key -%}
+	{%- if membertypeinfo.base != "function" -%}{%- continue -%}{%- endif -%}
+	{%- include class-method.html minparams=0 -%}
+	<dd>
+	{{ member.comment | linkify_docstring }}
+	</dd>
+{%- endfor -%}
+</dl>
+{%- endif -%}
+{%- if membercount > 0 -%}
+<h{{ include.h | plus: 1}}>Members</h{{ include.h | plus: 1 }}>
+<dl class="class-member">
+{%- for member in table -%}
+	{%- unless member.comment -%}{%- continue -%}{%- endunless -%}
+	{%- assign scope = scoped | append: item[0] -%}
+	{%- assign membertype = member.type -%}
+	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
+		{%- assign membertypeinfo = prefixtypes[membertype] -%}
+	{%- else -%}
+		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+	{%- endif -%}
+	{%- assign membername = member.key -%}
+	{%- if membertypeinfo.base == "function" -%}{%- continue -%}{%- endif -%}
+	{%- assign memberprefix = membername | slice: 0 -%}
+	{%- if memberprefix == "_" -%}{%- continue -%}{%- endif -%}
+	<dt id="member-{{ prefix }}.{{ membername }}">{{ membername }} : {{ membertype }}</dt>
+	<dd>
+	{{ member.comment | linkify_docstring }}
+	</dd>
+{%- endfor -%}
+</dl>
+{%- endif -%}
+{%- endif -%}
+{% endfor %}

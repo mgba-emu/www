@@ -375,7 +375,10 @@ strong {
   overflow: auto;
 }
 
-.post code { padding: 1px 5px; }
+.post code {
+  border-color: #493d71;
+  padding: 1px 3px;
+}
 
 .post ul,
 .post ol { margin-left: 1.35em; }
@@ -455,12 +458,37 @@ strong {
   margin-left: 0 !important; /* grumble */
 }
 
-.gallery {
+.gallery, .gallery-caption, .inline-gallery figcaption {
   text-align: center;
+}
+
+.inline-gallery figure, .inline-gallery figcaption {
+  break-inside: avoid-column;
 }
 
 .gallery img, .gallery picture {
   padding: 2px 4px;
+  max-width: 720px;
+  max-width: min(720px, 100% - 8px);
+}
+
+.gallery-caption {
+  display: block;
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+.inline-gallery figcaption {
+  display: block;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.inline-gallery img {
+  display: block;
+  margin: auto;
+  width: 100%;
   max-width: 720px;
   max-width: min(720px, 100% - 8px);
 }
@@ -631,7 +659,7 @@ td.register-alias,
 }
 
 #section-constants {
-  column-width: 10em;
+  column-width: 14em;
 }
 
 #section-memdomains {
@@ -670,11 +698,11 @@ table.memory-domains td, table.register-list td {
 #section-memdomains h3,
 #section-registers h3 {
   background-color: #492d77;
-  padding: 6px 12px 10px 12px;
+  padding: 6px 10px 10px 10px;
   -webkit-border-radius: 12px 12px 0 0;
   -moz-border-radius: 12px 12px 0 0;
   border-radius: 12px 12px 0 0;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 /* Syntax highlighting styles */

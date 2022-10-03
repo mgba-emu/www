@@ -3,6 +3,12 @@ module Jekyll
     include Jekyll::Filters
 
     def canonicalize_class(input)
+      type = input.split("::")
+      if type[0] == "struct"
+        input = type[1]
+      elsif type[1] == "struct"
+        input = type[0] + "::" + type[2]
+      end
       input.sub(/^m(Script)?/, "")
     end
     def linkify_docstring(input)
@@ -10,8 +16,8 @@ module Jekyll
       if not input
         return
       end
-      input.gsub!(/struct::(?:m(?:Script)?)?([A-Za-z0-9_]+\.[A-Za-z0-9_]+)/, "<a href=\"#{site.config['baseurl']}/docs/scripting.html#method-\\1\" class=\"scripting-type\">\\1</a>")
-      input.gsub!(/struct::(?:m(?:Script)?)?([A-Za-z0-9_]+)/, "<a href=\"#{site.config['baseurl']}/docs/scripting.html#class-\\1\" class=\"scripting-type\">\\1</a>")
+      input.gsub!(/([A-Za-z0-9_]+::)?struct::(?:m(?:Script)?)?([A-Za-z0-9_]+\.[A-Za-z0-9_]+)/, "<a href=\"#{site.config['baseurl']}/docs/scripting.html#method-\\1\\2\" class=\"scripting-type\">\\1\\2</a>")
+      input.gsub!(/([A-Za-z0-9_]+::)?struct::(?:m(?:Script)?)?([A-Za-z0-9_]+)/, "<a href=\"#{site.config['baseurl']}/docs/scripting.html#class-\\1\\2\" class=\"scripting-type\">\\1\\2</a>")
       input.gsub!(/(?<!>)\bC\.([A-Z0-9_]+)/, "<a href=\"#{site.config['baseurl']}/docs/scripting.html#constant-\\1\" class=\"scripting-constant\">C.\\1</a>")
       markdownify("#{input}\n{: .docstring}")
     end
@@ -19,9 +25,15 @@ module Jekyll
       namespace = nil
       input.gsub!(/^wrapper /, "")
       type = input.split("::")
+      scope = nil
       if type.length == 2
         namespace = type[0].split[-1]
         input = canonicalize_class(type[1])
+      elsif type.length == 3
+        namespace = type[1].split[-1]
+        input = canonicalize_class(type[2])
+        scope = type[0]
+        input = scope + "::" + input
       end
       if input == "charptr"
         input = "string"
