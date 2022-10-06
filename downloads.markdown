@@ -68,8 +68,8 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 * [Linux (AppImage, 64-bit)](https://s3.amazonaws.com/mgba/mGBA-build-latest-appimage-x64.appimage)
 * [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 20.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-focal.tar.xz)
-* [Ubuntu (64-bit, 21.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-impish.tar.xz)
 * [Ubuntu (64-bit, 22.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-jammy.tar.xz)
+* [Ubuntu (64-bit, 22.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-kinetic.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z)
