@@ -8,7 +8,7 @@ toc: true
 Current downloads
 -----------------
 
-{% assign tag = "0.9.3" -%}
+{% assign tag = "0.10.0" -%}
 The current release of mGBA is version {{tag}}.
 
 ### Desktop OS
@@ -16,12 +16,12 @@ The current release of mGBA is version {{tag}}.
 * [Windows (installer .exe)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win32-installer.exe)
 * [Windows (64-bit, portable .7z archive)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win64.7z)
 * [Windows (64-bit, installer .exe)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win64-installer.exe)
-* [macOS](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-osx.dmg)
-* [Ubuntu (64-bit, 16.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-xenial.tar.xz)
+* [macOS (modern, 10.13+)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-macos.dmg)
+* [macOS (legacy, 10.9+)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-osx.dmg)
 * [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 20.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-focal.tar.xz)
-* [Ubuntu (64-bit, 21.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-hirsute.tar.xz)
-* [Ubuntu (64-bit, 21.10)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-impish.tar.xz)
+* [Ubuntu (64-bit, 22.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-jammy.tar.xz)
+* [Ubuntu (64-bit, 21.10)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-kinetic.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-3ds.7z)
