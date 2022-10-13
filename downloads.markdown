@@ -18,6 +18,7 @@ The current release of mGBA is version {{tag}}.
 * [Windows (64-bit, installer .exe)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-win64-installer.exe)
 * [macOS (modern, 10.13+)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-macos.dmg)
 * [macOS (legacy, 10.9+)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-osx.dmg)
+* [Linux (AppImage, 64-bit)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-appimage-x64.appimage)
 * [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 20.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-focal.tar.xz)
 * [Ubuntu (64-bit, 22.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-jammy.tar.xz)
