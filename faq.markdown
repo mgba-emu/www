@@ -27,6 +27,12 @@ mGBA will run on mostly any computer from the last decade, as well as several ad
 
 If you wish to run mGBA on Windows XP or other systems that RetroArch runs on please use the libretro core instead. Please note that the libretro core is not always in sync with the standalone version and may have issues no longer present upstream.
 
+### Will there be an Android version?
+
+We hope so! But as it stands no one who works on mGBA is an Android developer, which makes creating a quality port difficult. There have been several attempts towards making an Android version before, to varying degrees of success and quality, but none of these ports ever really got off the ground.
+
+If you're an Android developer and want to help work on an official Android port of mGBA, please talk to us in #development on the mGBA Discord! There's an invite link to the Discord on the sidebar, if you're not there already.
+
 ### What does the m stand for?
 
 It doesn't. mGBA was originally going to be named miniGBA but as the project grew the "mini" appellation became less accurate. The name was intended to be temporary, but as the original release crept closer I couldn't think of any better names. Other working names for mGBA included GBAc and Gerboa, but nothing else stuck.
