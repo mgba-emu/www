@@ -16,7 +16,7 @@ Further along in development mGBA gained Game Boy support and eventually is plan
 
 mGBA will run on mostly any computer from the last decade, as well as several additional platforms:
 
-- Windows (Vista or newer)
+- Windows (7 or newer)
 - macOS
 - Linux
 - \*BSD
@@ -25,7 +25,7 @@ mGBA will run on mostly any computer from the last decade, as well as several ad
 - Wii
 - PlayStation Vita
 
-If you wish to run mGBA on Windows XP or other systems that RetroArch runs on please use the libretro core instead. Please note that the libretro core is not always in sync with the standalone version and may have issues no longer present upstream.
+If you wish to run mGBA on other systems that RetroArch runs on please use the libretro core instead. Please note that the libretro core is not always in sync with the standalone version and may have issues no longer present upstream.
 
 ### Will there be an Android version?
 
