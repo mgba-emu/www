@@ -122,10 +122,6 @@ Try adjusting your sync settings (Sync to audio only is recommended) or your aud
 
 Current versions of mGBA for 3DS require the DSP blob to be dumped for audio to work. There are various utilities available online to do this, such as [DSP1](https://github.com/zoogie/DSP1/releases/latest) or [DspDump](https://github.com/Cruel/DspDump/releases/latest).
 
-### Will there be an Android version?
-
-Maybe! The biggest reason there isn't one already is that mGBA is mostly developed by a single person who doesn't have experience developing Android apps. There are some half-baked attempts but none were ever released because they weren't particularly polished.
-
 ## Glossary
 
 mGBA's development uses some project-specific names for things that may be confusing. Here's a list of the most common ones:
