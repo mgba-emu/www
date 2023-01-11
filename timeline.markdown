@@ -333,26 +333,33 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<p>mGBA 0.10.0 is released, which will contain many features such as:</p>
 	<ul>
 		<li>Preliminary scripting support with Lua support</li>
-		<li>WebAssembly port</li>
 		<li>Better support for ROM hacks and bootlegs</li>
 		<li>Lots of QoL improvements</li>
 	</ul>
 </dd>
+<dt>
+	<aside class="tl-date">10 January 2023</aside>
+	mGBA 0.10.1
+</dt>
+<dd>
+	<p>mGBA 0.10.1 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Early 2023?</aside>
+	<aside class="tl-date">ETA Late 2023?</aside>
 	mGBA 0.11.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 0.11.0, which will contain many features, including features delayed from 0.10.0 and potentially including:</p>
 	<ul>
 		<li>Custom borders</li>
+		<li>Expanded scripting support</li>
+		<li>WebAssembly port</li>
 		<li>BGB/NO$GBA-style interactive debugger</li>
 		<li>Online multiplayer support</li>
-		<li>Expanded scripting support</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2023</aside>
+	<aside class="tl-date">ETA Early 2024?</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
@@ -363,7 +370,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Early 2024?</aside>
+	<aside class="tl-date">ETA Late 2024?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">
@@ -375,7 +382,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA 2024</aside>
+	<aside class="tl-date">ETA 2025</aside>
 	medusa 2.0.0
 </dt>
 <dd class="tl-future">

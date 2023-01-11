@@ -8,7 +8,7 @@ toc: true
 Current downloads
 -----------------
 
-{% assign tag = "0.10.0" -%}
+{% assign tag = "0.10.1" -%}
 The current release of mGBA is version {{tag}}.
 
 ### Desktop OS
