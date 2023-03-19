@@ -74,13 +74,13 @@ These objects and classes are designed to be used exclusively with the {{ prefix
 
 <section id="section-memdomains">
 <div>
-<h3>GBA</h3>
+<h3 id="memdomain-GBA">GBA</h3>
 {% assign values = site.data.scripting.emu.gba.memory -%}
 {%- assign word = 32 -%}
 {%- include memory-domain.html -%}
 </div>
 <div>
-<h3>GB</h3>
+<h3 id="memdomain-GB">GB</h3>
 {% assign values = site.data.scripting.emu.gb.memory -%}
 {%- assign word = 16 -%}
 {%- include memory-domain.html -%}
@@ -91,12 +91,12 @@ These objects and classes are designed to be used exclusively with the {{ prefix
 
 <section id="section-registers">
 <div>
-<h3>GBA</h3>
+<h3 id="registers-GBA">GBA</h3>
 {% assign values = site.data.scripting.emu.gba.registers -%}
 {%- include registers.html -%}
 </div>
 <div>
-<h3>GB</h3>
+<h3 id="registers-GB">GB</h3>
 {% assign values = site.data.scripting.emu.gb.registers -%}
 {%- include registers.html -%}
 </div>

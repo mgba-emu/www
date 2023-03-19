@@ -31,7 +31,7 @@
 	{%- endif -%}
 {%- endfor -%}
 {%- if methodcount > 0 -%}
-<h{{ include.h | plus: 1}}>Functions</h{{ include.h | plus: 1 }}>
+<h{{ include.h | plus: 1}} id="functions-{{ scoped | append: item[0] }}">Functions</h{{ include.h | plus: 1 }}>
 <dl class="class-method">
 {%- for member in table -%}
 	{%- unless member.comment -%}{%- continue -%}{%- endunless -%}
@@ -52,7 +52,7 @@
 </dl>
 {%- endif -%}
 {%- if membercount > 0 -%}
-<h{{ include.h | plus: 1}}>Members</h{{ include.h | plus: 1 }}>
+<h{{ include.h | plus: 1}} id="members-{{ scoped | append: item[0] }}">Members</h{{ include.h | plus: 1 }}>
 <dl class="class-member">
 {%- for member in table -%}
 	{%- unless member.comment -%}{%- continue -%}{%- endunless -%}
@@ -67,7 +67,10 @@
 	{%- if membertypeinfo.base == "function" -%}{%- continue -%}{%- endif -%}
 	{%- assign memberprefix = membername | slice: 0 -%}
 	{%- if memberprefix == "_" -%}{%- continue -%}{%- endif -%}
-	<dt id="member-{{ prefix }}.{{ membername }}">{{ membername }} : {{ membertype }}</dt>
+	<dt id="member-{{ prefix }}.{{ membername }}">
+		{{ membername }} : {{ membertype }}
+		<a href="#member-{{ prefix }}.{{ membername }}" class="header-anchor">⬨</a>
+	</dt>
 	<dd>
 	{{ member.comment | linkify_docstring }}
 	</dd>

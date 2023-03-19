@@ -599,6 +599,16 @@ strong {
   columns: 12em;
 }
 
+*:not(:hover) > .header-anchor {
+  opacity: 0;
+}
+
+.header-anchor {
+  margin-left: 0.5ch;
+  transition-duration: 0.1s;
+  transition-property: opacity;
+}
+
 /* Documentation styles */
 /* ----------------------------------------------------------*/
 

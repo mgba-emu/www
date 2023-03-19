@@ -19,4 +19,5 @@
 	{%- if returncount == 1 -%}
 	<span class="function-return">: {{ membertypeinfo.return.list[0].type | canonicalize_type }}</span>
 	{%- endif -%}
+	<a href="#method-{{ scope | canonicalize_class }}.{{ membername }}" class="header-anchor">⬨</a>
 </dt>

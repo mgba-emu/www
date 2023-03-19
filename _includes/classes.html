@@ -43,7 +43,7 @@
 {%- endfor -%}
 {%- if methodcount > 0 %}
 {%- assign scope = type[0] -%}
-<h{{ include.h | plus: 1 }}>Methods</h{{ include.h | plus: 1 }}>
+<h{{ include.h | plus: 1 }} id="methods-{{ type[0] | canonicalize_class }}">Methods</h{{ include.h | plus: 1 }}>
 <dl class="class-method">
 {%- for member in members -%}
 	{%- assign membertype = member[1].type -%}
@@ -62,7 +62,7 @@
 </dl>
 {%- endif -%}
 {%- if membercount > 0 -%}
-<h{{ include.h | plus: 1 }}>Members</h{{ include.h | plus: 1 }}>
+<h{{ include.h | plus: 1 }} id="members-{{ type[0] | canonicalize_class }}">Members</h{{ include.h | plus: 1 }}>
 <dl class="class-member">
 {%- for member in members -%}
 	{%- assign membertype = member[1].type -%}
@@ -74,7 +74,10 @@
 	{%- if membertypeinfo.base == "function" -%}{%- continue -%}{%- endif -%}
 	{%- assign memberprefix = member[0] | slice: 0 -%}
 	{%- if memberprefix == "_" -%}{%- continue -%}{%- endif -%}
-	<dt id="member-{{ prefixd }}{{ name[1] | canonicalize_class}}.{{ member[0] }}">{{ member[0] }} : {{ member[1].type }}</dt>
+	<dt id="member-{{ prefixd }}{{ name[1] | canonicalize_class}}.{{ member[0] }}">
+		{{ member[0] }} : {{ member[1].type }}
+		<a href="#member-{{ prefixd }}{{ name[1] | canonicalize_class}}.{{ member[0] }}" class="header-anchor">⬨</a>
+	</dt>
 	<dd>
 	{{ member[1].comment | linkify_docstring}}
 	</dd>
