@@ -352,25 +352,36 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<p>Tentative release date of mGBA 0.11.0, which will contain many features, including features delayed from 0.10.0 and potentially including:</p>
 	<ul>
 		<li>Custom borders</li>
-		<li>Expanded scripting support</li>
+		<li>Expanded scripting support with overlay creation capability, per-script storage APIs and more</li>
 		<li>WebAssembly port</li>
-		<li>BGB/NO$GBA-style interactive debugger</li>
-		<li>Online multiplayer support</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Early 2024?</aside>
+	<aside class="tl-date">ETA Mid 2024?</aside>
+	mGBA 0.12.0
+</dt>
+<dd class="tl-future">
+	<p>Tentative release date of mGBA 0.12.0, which will contain many features, including features delayed from 0.10.0 and potentially including:</p>
+	<ul>
+		<li>BGB/NO$GBA-style interactive debugger</li>
+		<li>Online multiplayer support</li>
+		<li>Refreshed UI for homebrew ports</li>
+		<li>Further expanded scripting support</li>
+	</ul>
+</dd>
+<dt class="tl-future">
+	<aside class="tl-date">ETA Early 2025?</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 1.0.0, which will be feature complete GBA support with many additional features.</p>
 	<ul>
 		<li>Wireless adapter support</li>
-		<li>Refreshed UI for homebrew ports</li>
+		<li>Refreshed library view with gamepad support</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2024?</aside>
+	<aside class="tl-date">ETA Late 2025?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">
@@ -382,7 +393,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA 2025</aside>
+	<aside class="tl-date">ETA 2026?</aside>
 	medusa 2.0.0
 </dt>
 <dd class="tl-future">
