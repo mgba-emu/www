@@ -75,7 +75,7 @@
 	{%- assign memberprefix = member[0] | slice: 0 -%}
 	{%- if memberprefix == "_" -%}{%- continue -%}{%- endif -%}
 	<dt id="member-{{ prefixd }}{{ name[1] | canonicalize_class}}.{{ member[0] }}">
-		{{ member[0] }} : {{ member[1].type }}
+		{{ member[0] }} : {% if member[1].readonly %}readonly{% endif %} {{ member[1].type | canonicalize_type }}
 		<a href="#member-{{ prefixd }}{{ name[1] | canonicalize_class}}.{{ member[0] }}" class="header-anchor">⬨</a>
 	</dt>
 	<dd>
