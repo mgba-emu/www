@@ -56,12 +56,14 @@ platforms:
     readable: "Ubuntu (21.04, 64-bit)"
   ubuntu64-impish:
     readable: "Ubuntu (21.10, 64-bit)"
-    active: True
   ubuntu64-jammy:
     readable: "Ubuntu (22.04, 64-bit)"
     active: True
   ubuntu64-kinetic:
     readable: "Ubuntu (22.10, 64-bit)"
+    active: True
+  ubuntu64-lunar:
+    readable: "Ubuntu (23.04, 64-bit)"
     active: True
   switch:
     readable: "Switch"
@@ -106,6 +108,7 @@ categories:
   - ubuntu64-impish
   - ubuntu64-jammy
   - ubuntu64-kinetic
+  - ubuntu64-lunar
 - name: "Homebrew"
   platforms:
   - switch
