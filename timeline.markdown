@@ -344,6 +344,13 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.10.1 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">23 April 2023</aside>
+	mGBA 0.10.2
+</dt>
+<dd>
+	<p>mGBA 0.10.2 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA Late 2023?</aside>
 	mGBA 0.11.0
@@ -361,7 +368,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	mGBA 0.12.0
 </dt>
 <dd class="tl-future">
-	<p>Tentative release date of mGBA 0.12.0, which will contain many features, including features delayed from 0.10.0 and potentially including:</p>
+	<p>Tentative release date of mGBA 0.12.0, which will contain many features, including features delayed from 0.11.0 and potentially including:</p>
 	<ul>
 		<li>BGB/NO$GBA-style interactive debugger</li>
 		<li>Online multiplayer support</li>

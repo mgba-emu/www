@@ -8,7 +8,7 @@ toc: true
 Current downloads
 -----------------
 
-{% assign tag = "0.10.1" -%}
+{% assign tag = "0.10.2" -%}
 The current release of mGBA is version {{tag}}.
 
 ### Desktop OS
@@ -23,6 +23,7 @@ The current release of mGBA is version {{tag}}.
 * [Ubuntu (64-bit, 20.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-focal.tar.xz)
 * [Ubuntu (64-bit, 22.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-jammy.tar.xz)
 * [Ubuntu (64-bit, 22.10)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-kinetic.tar.xz)
+* [Ubuntu (64-bit, 23.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-lunar.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-3ds.7z)
@@ -71,6 +72,7 @@ The builds are updated hourly, and contain a CHANGES file that lists all of the 
 * [Ubuntu (64-bit, 20.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-focal.tar.xz)
 * [Ubuntu (64-bit, 22.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-jammy.tar.xz)
 * [Ubuntu (64-bit, 22.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-kinetic.tar.xz)
+* [Ubuntu (64-bit, 23.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-lunar.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z)
