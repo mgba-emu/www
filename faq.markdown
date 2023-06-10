@@ -116,7 +116,9 @@ At this time mGBA's controller support is lackluster. Improvements are planned b
 
 ### Gameplay or audio is stuttery
 
-Try adjusting your sync settings (Sync to audio only is recommended) or your audio buffer settings. Sometimes switching the audio driver also helps.
+If you're using the PC version, try adjusting your sync settings (Sync to audio only is recommended) or your audio buffer settings. Sometimes switching the audio driver also helps.
+However, if you're using either the 3DS or Vita versions, you're basically out of luck. Both devices are underpowered and just barely too slow to run mGBA at full speed in all circumstances.
+We're aware of the problem and are trying to fix it, but there's no guarantee it's fixable.
 
 ### Audio isn't working in the 3DS version
 

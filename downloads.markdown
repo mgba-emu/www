@@ -58,7 +58,7 @@ Development downloads
 ---------------------
 
 Development builds are available for Windows, macOS, Ubuntu, and as homebrew for the Nintendo 3DS, Switch, Wii, and PlayStation Vita.
-The builds are updated hourly, and contain a CHANGES file that lists all of the user-facing changes since the previous release.
+The list of builds is updated regularly, and contain a CHANGES file that lists all of the user-facing changes since the previous release.
 
 ### Desktop OS
 * [Windows (portable .7z archive)](https://s3.amazonaws.com/mgba/mGBA-build-latest-win32.7z)
