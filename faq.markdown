@@ -27,11 +27,11 @@ mGBA will run on mostly any computer from the last decade, as well as several ad
 
 If you wish to run mGBA on other systems that RetroArch runs on please use the libretro core instead. Please note that the libretro core is not always in sync with the standalone version and may have issues no longer present upstream.
 
-### Will there be an Android version?
+### Will there be an Android or iOS version?
 
-We hope so! But as it stands no one who works on mGBA is an Android developer, which makes creating a quality port difficult. There have been several attempts towards making an Android version before, to varying degrees of success and quality, but none of these ports ever really got off the ground.
+We hope so! But as it stands no one who works on mGBA is an Android or iOS developer, which makes creating a quality port difficult. There have been several attempts towards making an Android version before, to varying degrees of success and quality, but none of these ports ever really got off the ground.
 
-If you're an Android developer and want to help work on an official Android port of mGBA, please talk to us in #development on the mGBA Discord! There's an invite link to the Discord on the sidebar, if you're not there already.
+If you're an Android or iOS developer and want to help work on an official Android port of mGBA, please talk to us in #development on the mGBA Discord! There's an invite link to the Discord on the sidebar, if you're not there already.
 
 ### What does the m stand for?
 
@@ -55,9 +55,9 @@ Please see the [README](https://github.com/mgba-emu/mgba/blob/master/README.md) 
 
 mGBA emulates two platforms currently, with the work-in-progress medusa version supporting a third:
 
-- Game Boy Advance emulation is currently very good. There are known bugs and a small handful of games that don't boot.
+- Game Boy Advance emulation is currently very good. There are known bugs with some games, but there are no games that don't boot.
 - Game Boy/Game Boy Color emulation is good. Most games work but there are still plenty of bugs. Please file a bug if you find a game that doesn't boot.
-- DS support is very early and only available in the medusa branch, which is not under active development at the moment.
+- DS support is very early with poor compatibility at the moment, and only available in the medusa branch, which is not currently under active development.
 
 Current bugs can be found on GitHub for [GBA](https://github.com/mgba-emu/mgba/issues?q=is%3Aissue+is%3Aopen+label%3Aplatform%3AGBA), [GB/C](https://github.com/mgba-emu/mgba/issues?q=is%3Aissue+is%3Aopen+label%3Aplatform%3AGB%2FGBC) and [DS](https://github.com/mgba-emu/mgba/issues?q=is%3Aissue+is%3Aopen+label%3Aplatform%3ADS)
 
@@ -108,11 +108,26 @@ Make sure your ROMs are in a location that isn't write protected or requires UAC
 
 ### On loading a game I get a black screen
 
-Change the display driver from _OpenGL_ to _OpenGL (Force 1.x)_ or _Software_.
+Try changing the display driver from _OpenGL_ to _OpenGL (Force 1.x)_ or _Software_.
 
 ### mGBA has issues with my controller
 
 At this time mGBA's controller support is lackluster. Improvements are planned but if using a controller is your utmost concern you may want to use the libretro core instead.
+
+### Directional input is stuck even when I'm not pressing any keys
+
+Try seeing if a game controller is detected in Settings > Controllers. Things that aren't controllers are sometimes mis-detected, and may cause issues like this.
+If one does show up, you should try clicking on the text boxes for the D-Pad buttons and hitting both clear analog and clear button to prevent any erroneous inputs from being detected.
+
+### Where are setting stored?
+
+For the portable version, settings are stored in config.ini and qt.ini in the same directory as the emulator executable itself.
+For the installer version and homebrew platforms, it depends on the OS:
+
+- Windows: %APPDATA%/mGBA
+- macOS and \*nix: ~/.config/mgba (or $XDG\_CONFIG\_HOME/mgba if set)
+- 3DS, Switch, Wii: /mGBA
+- Vita: ux0:/data/mGBA
 
 ### Gameplay or audio is stuttery
 
