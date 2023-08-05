@@ -30,7 +30,7 @@
 	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
 		{%- assign membertypeinfo = prefixtypes[membertype] -%}
 	{%- else -%}
-		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+		{%- assign membertypeinfo = docs.types[membertype] -%}
 	{%- endif -%}
 	{%- unless member[1].comment -%}{%- continue -%}{%- endunless -%}
 	{%- assign nameprefix = member[0] | slice: 0 -%}
@@ -50,7 +50,7 @@
 	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
 		{%- assign membertypeinfo = prefixtypes[membertype] -%}
 	{%- else -%}
-		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+		{%- assign membertypeinfo = docs.types[membertype] -%}
 	{%- endif -%}
 	{%- assign membername = member[0] -%}
 	{%- if membertypeinfo.base != "function" -%}{%- continue -%}{%- endif -%}
@@ -69,7 +69,7 @@
 	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
 		{%- assign membertypeinfo = prefixtypes[membertype] -%}
 	{%- else -%}
-		{%- assign membertypeinfo = site.data.scripting.types[membertype] -%}
+		{%- assign membertypeinfo = docs.types[membertype] -%}
 	{%- endif -%}
 	{%- if membertypeinfo.base == "function" -%}{%- continue -%}{%- endif -%}
 	{%- assign memberprefix = member[0] | slice: 0 -%}
