@@ -16,9 +16,9 @@ module Jekyll
       if not input
         return
       end
-      input.gsub!(/([A-Za-z0-9_]+::)?struct::(?:m(?:Script)?)?([A-Za-z0-9_]+\.[A-Za-z0-9_]+)/, "<a href=\"#{site.config['baseurl']}/docs/scripting.html#method-\\1\\2\" class=\"scripting-type\">\\1\\2</a>")
-      input.gsub!(/([A-Za-z0-9_]+::)?struct::(?:m(?:Script)?)?([A-Za-z0-9_]+)/, "<a href=\"#{site.config['baseurl']}/docs/scripting.html#class-\\1\\2\" class=\"scripting-type\">\\1\\2</a>")
-      input.gsub!(/(?<!>)\bC\.([A-Z0-9_]+)/, "<a href=\"#{site.config['baseurl']}/docs/scripting.html#constant-\\1\" class=\"scripting-constant\">C.\\1</a>")
+      input.gsub!(/([A-Za-z0-9_]+::)?struct::(?:m(?:Script)?)?([A-Za-z0-9_]+\.[A-Za-z0-9_]+)/, "<a href=\"#method-\\1\\2\" class=\"scripting-type\">\\1\\2</a>")
+      input.gsub!(/([A-Za-z0-9_]+::)?struct::(?:m(?:Script)?)?([A-Za-z0-9_]+)/, "<a href=\"#class-\\1\\2\" class=\"scripting-type\">\\1\\2</a>")
+      input.gsub!(/(?<!>)\bC\.([A-Z0-9_]+)/, "<a href=\"#constant-\\1\" class=\"scripting-constant\">C.\\1</a>")
       markdownify("#{input}\n{: .docstring}")
     end
     def canonicalize_type(input)
@@ -40,7 +40,7 @@ module Jekyll
       end
       if namespace == "struct"
         site = @context.registers[:site]
-        "<a href=\"#{site.config['baseurl']}/docs/scripting.html#class-#{input}\" class=\"scripting-type\">#{input}</a>"
+        "<a href=\"#class-#{input}\" class=\"scripting-type\">#{input}</a>"
       else
         "<span class=\"scripting-type\">#{input}</span>"
       end
