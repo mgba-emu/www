@@ -18,10 +18,10 @@
 {%- if type[1].internal -%}{%- continue -%}{%- endif -%}
 {%- assign info = type[1] -%}
 <h{{ include.h }} id="class-{{ type[0] | canonicalize_class }}">{{ name[namebase] | canonicalize_class }}</h{{ include.h }}>
-{{ info.comment | linkify_docstring }}
 {% if info.parent -%}
-<p>Parent class: {{ info.parent }}</p>
+<p class="parent-class">Inherits from {{ info.parent | canonicalize_type }}</p>
 {%- endif %}
+{{ info.comment | linkify_docstring }}
 {%- assign members = info.members | sort -%}
 {%- assign methodcount = 0 -%}
 {%- assign membercount = 0 -%}

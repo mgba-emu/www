@@ -632,6 +632,20 @@ table.register-list {
   background-color: #2f203c;
 }
 
+.parent-class {
+  margin-bottom: 1em;
+  margin-top: -1em;
+  font-style: italic;
+}
+
+.parent-class::before {
+  content: "\2BA1";
+  font-style: normal;
+  padding: 0.3em;
+  position: relative;
+  top: 0.1em;
+}
+
 table.memory-domains, table.scripting-constants, table.register-list {
   width: 100%;
 }
