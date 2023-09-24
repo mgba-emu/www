@@ -61,9 +61,11 @@ platforms:
     active: True
   ubuntu64-kinetic:
     readable: "Ubuntu (22.10, 64-bit)"
-    active: True
   ubuntu64-lunar:
     readable: "Ubuntu (23.04, 64-bit)"
+    active: True
+  ubuntu64-mantic:
+    readable: "Ubuntu (23.10, 64-bit)"
     active: True
   switch:
     readable: "Switch"
