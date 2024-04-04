@@ -106,6 +106,10 @@ Make sure Fast forward is unchecked under emulation and at least one of Sync to 
 
 Make sure your ROMs are in a location that isn't write protected or requires UAC to modify files. For example, do not put them under Program Files, even if mGBA is installed there.
 
+### I put games in Program Files and now I can't find my saves
+
+If your save games do end up working while the ROMs are in Program Files, you will probably have trouble finding where the save files wind up. Due to some questionable design choices made back in Windows Vista, your save files have probably wound up in the obscure directory `%LocalAppData%\VirtualStore`.
+
 ### On loading a game I get a black screen
 
 Try changing the display driver from _OpenGL_ to _OpenGL (Force 1.x)_ or _Software_.
