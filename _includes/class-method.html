@@ -1,23 +1,17 @@
 <dt id="method-{{ scope | canonicalize_class }}.{{ membername }}">
-	{%- assign paramcount = membertypeinfo.parameters.list | size -%}
-	{%- assign returncount = membertypeinfo.return.list | size -%}
-	{{ membername }}<span class="function-parameters">(
-	{%- if paramcount > include.minparams -%}
-		{%- assign count = 0 -%}
-		{%- for param in membertypeinfo.parameters.list -%}
-			{%- if count < include.minparams -%}
-				{%- assign count = count | plus: 1 -%}
-				{%- continue -%}
-			{%- elsif count == include.minparams %}
-				{%- assign count = count | plus: 1 -%}
-			{%- else -%},&nbsp;
-			{%- endif -%}
-	<span class="function-parameter">{{ param.name }} : {{ param.type | canonicalize_type }}{% if param contains 'default' %} = {% if param.default == nil %}nil{% else %}{{ param.default }}{% endif %}{% endif %}</span>
-		{%- endfor -%}
-	{%- endif -%}
-	)</span>
-	{%- if returncount == 1 -%}
-	<span class="function-return">: {{ membertypeinfo.return.list[0].type | canonicalize_type }}</span>
-	{%- endif -%}
+	<span class="function-name">{{ membername }}</span>
+	{%- if memberoverloads -%}
 	<a href="#method-{{ scope | canonicalize_class }}.{{ membername }}" class="header-anchor">⬨</a>
+		{%- for membertype in memberoverloads -%}
+			{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
+				{%- assign membertypeinfo = prefixtypes[membertype] -%}
+			{%- else -%}
+				{%- assign membertypeinfo = docs.types[membertype] -%}
+			{%- endif -%}
+	<span class="function-overload">{%- include signature.html minparams=include.minparams -%}</span>
+		{%- endfor -%}
+	{%- else -%}
+		{%- include signature.html minparams=include.minparams -%}
+	<a href="#method-{{ scope | canonicalize_class }}.{{ membername }}" class="header-anchor">⬨</a>
+	{%- endif %}
 </dt>

@@ -729,6 +729,11 @@ table.memory-domains td, table.register-list td {
   font-size: 17px;
 }
 
+.function-overload {
+	display: block;
+	margin-left: 1.5em;
+}
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 

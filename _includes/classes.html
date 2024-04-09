@@ -47,6 +47,7 @@
 <dl class="class-method">
 {%- for member in members -%}
 	{%- assign membertype = member[1].type -%}
+	{%- assign memberoverloads = member[1].overloads -%}
 	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
 		{%- assign membertypeinfo = prefixtypes[membertype] -%}
 	{%- else -%}
