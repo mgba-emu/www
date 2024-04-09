@@ -46,6 +46,7 @@
 <h{{ include.h | plus: 1 }} id="methods-{{ type[0] | canonicalize_class }}">Methods</h{{ include.h | plus: 1 }}>
 <dl class="class-method">
 {%- for member in members -%}
+	{%- unless member[1].comment -%}{%- continue -%}{%- endunless -%}
 	{%- assign membertype = member[1].type -%}
 	{%- assign memberoverloads = member[1].overloads -%}
 	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
@@ -66,6 +67,7 @@
 <h{{ include.h | plus: 1 }} id="members-{{ type[0] | canonicalize_class }}">Members</h{{ include.h | plus: 1 }}>
 <dl class="class-member">
 {%- for member in members -%}
+	{%- unless member[1].comment -%}{%- continue -%}{%- endunless -%}
 	{%- assign membertype = member[1].type -%}
 	{%- if prefix and membertype | slice: 0, prefixlen == scoped -%}
 		{%- assign membertypeinfo = prefixtypes[membertype] -%}
