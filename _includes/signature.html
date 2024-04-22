@@ -1,0 +1,21 @@
+{%- assign paramcount = membertypeinfo.parameters.list | size -%}
+{%- assign returncount = membertypeinfo.return.list | size -%}
+<span class="function-parameters">(
+{%- if paramcount > include.minparams -%}
+	{%- assign count = 0 -%}
+	{%- for param in membertypeinfo.parameters.list -%}
+		{%- if count < include.minparams -%}
+			{%- assign count = count | plus: 1 -%}
+			{%- continue -%}
+		{%- elsif count == include.minparams %}
+			{%- assign count = count | plus: 1 -%}
+		{%- else -%},&nbsp;
+		{%- endif -%}
+<span class="function-parameter">{{ param.name }} : {{ param.type | canonicalize_type }}{% if param contains 'default' %} = {% if param.default == nil %}nil{% else %}{{ param.default }}{% endif %}{% endif %}</span>
+	{%- endfor -%}
+{%- endif -%}
+)</span>
+{%- if returncount == 1 -%}
+<span class="function-return">: {{ membertypeinfo.return.list[0].type | canonicalize_type }}</span>
+{%- endif -%}
+
