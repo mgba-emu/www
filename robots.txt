@@ -4,3 +4,9 @@ Disallow: /nightlies/
 
 User-agent: Bingbot
 Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
