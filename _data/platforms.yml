@@ -24,6 +24,7 @@ platforms:
     active: True
   appimage-arm64:
     readable: "Linux (AppImage, ARM64)"
+    active: True
   ubuntu64-trusty:
     readable: "Ubuntu (14.04, 64-bit)"
   ubuntu64-vivid:
