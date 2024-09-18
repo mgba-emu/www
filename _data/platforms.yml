@@ -66,9 +66,11 @@ platforms:
     readable: "Ubuntu (23.04, 64-bit)"
   ubuntu64-mantic:
     readable: "Ubuntu (23.10, 64-bit)"
-    active: True
   ubuntu64-noble:
     readable: "Ubuntu (24.04, 64-bit)"
+    active: True
+  ubuntu64-oracular:
+    readable: "Ubuntu (24.10, 64-bit)"
     active: True
   switch:
     readable: "Switch"
@@ -114,6 +116,9 @@ categories:
   - ubuntu64-jammy
   - ubuntu64-kinetic
   - ubuntu64-lunar
+  - ubuntu64-mantic
+  - ubuntu64-noble
+  - ubuntu64-oracular
 - name: "Homebrew"
   platforms:
   - switch
