@@ -351,8 +351,15 @@ While mGBA has only been out for a relatively short time, it has a long history.
 <dd>
 	<p>mGBA 0.10.2 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">10 January 2024</aside>
+	mGBA 0.10.3
+</dt>
+<dd>
+	<p>mGBA 0.10.3 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Late 2023?</aside>
+	<aside class="tl-date">ETA Late 2024</aside>
 	mGBA 0.11.0
 </dt>
 <dd class="tl-future">
@@ -360,11 +367,12 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<ul>
 		<li>Custom borders</li>
 		<li>Expanded scripting support with overlay creation capability, per-script storage APIs and more</li>
-		<li>WebAssembly port</li>
+		<li>Forwarder support for 3DS and Vita ports</li>
+		<li>Lots of internal cleanup for making future maintenance easier</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Mid 2024?</aside>
+	<aside class="tl-date">ETA Mid 2025?</aside>
 	mGBA 0.12.0
 </dt>
 <dd class="tl-future">
@@ -372,23 +380,24 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<ul>
 		<li>BGB/NO$GBA-style interactive debugger</li>
 		<li>Online multiplayer support</li>
-		<li>Refreshed UI for homebrew ports</li>
+		<li>Refreshed library view with gamepad support</li>
 		<li>Further expanded scripting support</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Early 2025?</aside>
+	<aside class="tl-date">ETA Early 2026?</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
 	<p>Tentative release date of mGBA 1.0.0, which will be feature complete GBA support with many additional features.</p>
 	<ul>
+		<li>Refreshed UI for homebrew ports</li>
 		<li>Wireless adapter support</li>
-		<li>Refreshed library view with gamepad support</li>
+		<li>WebAssembly port</li>
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2025?</aside>
+	<aside class="tl-date">ETA Late 2026?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">
@@ -400,7 +409,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA 2026?</aside>
+	<aside class="tl-date">ETA 2028?</aside>
 	medusa 2.0.0
 </dt>
 <dd class="tl-future">
@@ -414,5 +423,3 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<p>Nintendo DSi support</p>
 </dd>
 </dl>
-
-For a more comprehensive set of tasks and features for upcoming releases, please refer to [the thread on the forums](https://forums.mgba.io/showthread.php?tid=3).
