@@ -72,8 +72,8 @@ The list of builds is updated regularly, and contain a CHANGES file that lists a
 * [Ubuntu (64-bit, 18.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 20.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-focal.tar.xz)
 * [Ubuntu (64-bit, 22.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-jammy.tar.xz)
-* [Ubuntu (64-bit, 23.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-mantic.tar.xz)
 * [Ubuntu (64-bit, 24.04)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-noble.tar.xz)
+* [Ubuntu (64-bit, 24.10)](https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-oracular.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z)
