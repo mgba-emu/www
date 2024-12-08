@@ -352,14 +352,21 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<p>mGBA 0.10.2 is released, containing several important bugfixes.</p>
 </dd>
 <dt>
-	<aside class="tl-date">10 January 2024</aside>
+	<aside class="tl-date">7 January 2024</aside>
 	mGBA 0.10.3
 </dt>
 <dd>
 	<p>mGBA 0.10.3 is released, containing several important bugfixes.</p>
 </dd>
+<dt>
+	<aside class="tl-date">7 December 2024</aside>
+	mGBA 0.10.4
+</dt>
+<dd>
+	<p>mGBA 0.10.4 is released, containing several important bugfixes.</p>
+</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Late 2024</aside>
+	<aside class="tl-date">ETA Early 2025</aside>
 	mGBA 0.11.0
 </dt>
 <dd class="tl-future">
@@ -372,7 +379,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Mid 2025?</aside>
+	<aside class="tl-date">ETA Late 2025?</aside>
 	mGBA 0.12.0
 </dt>
 <dd class="tl-future">
@@ -385,7 +392,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Early 2026?</aside>
+	<aside class="tl-date">ETA Mid 2026?</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
@@ -397,7 +404,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2026?</aside>
+	<aside class="tl-date">ETA Early 2027?</aside>
 	mGBA 1.1.0
 </dt>
 <dd class="tl-future">

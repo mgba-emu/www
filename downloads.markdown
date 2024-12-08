@@ -8,7 +8,7 @@ toc: true
 Current downloads
 -----------------
 
-{% assign tag = "0.10.3" -%}
+{% assign tag = "0.10.4" -%}
 The current release of mGBA is version {{tag}}.
 
 ### Desktop OS
@@ -19,11 +19,12 @@ The current release of mGBA is version {{tag}}.
 * [macOS (modern, 10.13+)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-macos.dmg)
 * [macOS (legacy, 10.9+)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-osx.dmg)
 * [Linux (AppImage, 64-bit)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-appimage-x64.appimage)
+* [Linux (AppImage, ARM64)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-appimage-arm64.appimage)
 * [Ubuntu (64-bit, 18.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-bionic.tar.xz)
 * [Ubuntu (64-bit, 20.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-focal.tar.xz)
 * [Ubuntu (64-bit, 22.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-jammy.tar.xz)
-* [Ubuntu (64-bit, 23.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-lunar.tar.xz)
-* [Ubuntu (64-bit, 23.10)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-mantic.tar.xz)
+* [Ubuntu (64-bit, 24.04)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-noble.tar.xz)
+* [Ubuntu (64-bit, 24.10)](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-ubuntu64-oracular.tar.xz)
 
 ### Homebrew
 * [Nintendo 3DS](https://github.com/mgba-emu/mgba/releases/download/{{tag}}/mGBA-{{tag}}-3ds.7z)
