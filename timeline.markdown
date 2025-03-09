@@ -106,16 +106,10 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<aside class="tl-date">24 October 2015</aside>
 	mGBA 0.3.1
 </dt>
-<dd>
-	<p>mGBA 0.3.1 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">16 December 2015</aside>
 	mGBA 0.3.2
 </dt>
-<dd>
-	<p>mGBA 0.3.2 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">2 February 2016</aside>
 	mGBA 0.4.0
@@ -133,9 +127,6 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<aside class="tl-date">11 July 2016</aside>
 	mGBA 0.4.1
 </dt>
-<dd>
-	<p>mGBA 0.4.1 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">19 September 2016</aside>
 	mGBA 0.5.0
@@ -153,16 +144,10 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<aside class="tl-date">5 October 2016</aside>
 	mGBA 0.5.1
 </dt>
-<dd>
-	<p>mGBA 0.5.1 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">31 December 2016</aside>
 	mGBA 0.5.2
 </dt>
-<dd>
-	<p>mGBA 0.5.2 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">7 April 2017</aside>
 	medusa alpha 1
@@ -201,23 +186,14 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<aside class="tl-date">1 October 2017</aside>
 	mGBA 0.6.1
 </dt>
-<dd>
-	<p>mGBA 0.6.1 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">3 April 2018</aside>
 	mGBA 0.6.2
 </dt>
-<dd>
-	<p>mGBA 0.6.2 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">14 April 2018</aside>
 	mGBA 0.6.3
 </dt>
-<dd>
-	<p>mGBA 0.6.3 is released, patching a few major bugs introduced in 0.6.2.</p>
-</dd>
 <dt>
 	<aside class="tl-date">26 January 2019</aside>
 	mGBA 0.7.0
@@ -234,23 +210,14 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<aside class="tl-date">24 February 2019</aside>
 	mGBA 0.7.1
 </dt>
-<dd>
-	<p>mGBA 0.7.1 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">25 May 2019</aside>
 	mGBA 0.7.2
 </dt>
-<dd>
-	<p>mGBA 0.7.2 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">15 September 2019</aside>
 	mGBA 0.7.3
 </dt>
-<dd>
-	<p>mGBA 0.7.3 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">21 January 2020</aside>
 	mGBA 0.8.0
@@ -268,30 +235,18 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<aside class="tl-date">16 February 2020</aside>
 	mGBA 0.8.1
 </dt>
-<dd>
-	<p>mGBA 0.8.1 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">14 June 2020</aside>
 	mGBA 0.8.2
 </dt>
-<dd>
-	<p>mGBA 0.8.2 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">3 August 2020</aside>
 	mGBA 0.8.3
 </dt>
-<dd>
-	<p>mGBA 0.8.3 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">29 October 2020</aside>
 	mGBA 0.8.4
 </dt>
-<dd>
-	<p>mGBA 0.8.4 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">28 March 2021</aside>
 	mGBA 0.9.0
@@ -308,23 +263,14 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<aside class="tl-date">18 April 2021</aside>
 	mGBA 0.9.1
 </dt>
-<dd>
-	<p>mGBA 0.9.1 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">10 July 2021</aside>
 	mGBA 0.9.2
 </dt>
-<dd>
-	<p>mGBA 0.9.2 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">17 December 2021</aside>
 	mGBA 0.9.3
 </dt>
-<dd>
-	<p>mGBA 0.9.3 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">11 October 2022</aside>
 	mGBA 0.10.0
@@ -341,37 +287,22 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	<aside class="tl-date">10 January 2023</aside>
 	mGBA 0.10.1
 </dt>
-<dd>
-	<p>mGBA 0.10.1 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">23 April 2023</aside>
 	mGBA 0.10.2
 </dt>
-<dd>
-	<p>mGBA 0.10.2 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">7 January 2024</aside>
 	mGBA 0.10.3
 </dt>
-<dd>
-	<p>mGBA 0.10.3 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">7 December 2024</aside>
 	mGBA 0.10.4
 </dt>
-<dd>
-	<p>mGBA 0.10.4 is released, containing several important bugfixes.</p>
-</dd>
 <dt>
 	<aside class="tl-date">8 March 2025</aside>
 	mGBA 0.10.5
 </dt>
-<dd>
-	<p>mGBA 0.10.5 is released, containing several important bugfixes.</p>
-</dd>
 <dt class="tl-future" id="IN+THE+FUTURE">
 	<aside class="tl-date">ETA Early 2025</aside>
 	mGBA 0.11.0

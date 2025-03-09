@@ -413,6 +413,10 @@ strong {
 	padding: 1px 10px 2px 9px;
 }
 
+.timeline dt + dt {
+	margin-top: 1px;
+}
+
 .timeline .tl-prehistory {
 	border-left-color: rgba(255, 255, 255, 0.2);
 }
