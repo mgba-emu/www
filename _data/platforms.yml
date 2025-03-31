@@ -72,6 +72,9 @@ platforms:
   ubuntu64-oracular:
     readable: "Ubuntu (24.10, 64-bit)"
     active: True
+  ubuntu64-plucky:
+    readable: "Ubuntu (25.04, 64-bit)"
+    active: True
   switch:
     readable: "Switch"
     active: True
@@ -119,6 +122,7 @@ categories:
   - ubuntu64-mantic
   - ubuntu64-noble
   - ubuntu64-oracular
+  - ubuntu64-plucky
 - name: "Homebrew"
   platforms:
   - switch
