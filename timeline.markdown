@@ -304,7 +304,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	mGBA 0.10.5
 </dt>
 <dt class="tl-future" id="IN+THE+FUTURE">
-	<aside class="tl-date">ETA Early 2025</aside>
+	<aside class="tl-date">ETA Late 2025</aside>
 	mGBA 0.11.0
 </dt>
 <dd class="tl-future">
@@ -317,7 +317,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Late 2025?</aside>
+	<aside class="tl-date">ETA Mid 2026?</aside>
 	mGBA 0.12.0
 </dt>
 <dd class="tl-future">
@@ -330,7 +330,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA Mid 2026?</aside>
+	<aside class="tl-date">ETA Mid 2027?</aside>
 	mGBA 1.0.0
 </dt>
 <dd class="tl-future">
@@ -354,7 +354,7 @@ While mGBA has only been out for a relatively short time, it has a long history.
 	</ul>
 </dd>
 <dt class="tl-future">
-	<aside class="tl-date">ETA 2028?</aside>
+	<aside class="tl-date">ETA 2029?</aside>
 	medusa 2.0.0
 </dt>
 <dd class="tl-future">
