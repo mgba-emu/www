@@ -41,7 +41,6 @@ platforms:
     readable: "Ubuntu (17.10, 64-bit)"
   ubuntu64-bionic:
     readable: "Ubuntu (18.04, 64-bit)"
-    active: True
   ubuntu64-cosmic:
     readable: "Ubuntu (18.10, 64-bit)"
   ubuntu64-disco:
